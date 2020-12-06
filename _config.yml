@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Top Python Import Shorthands
+title: import as…
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://import-as.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_text: >-
-  Statistics collected from Jupyter notebooks on GitHub
+  python import shorthands
 
 # Build settings
 theme: minima
@@ -36,7 +36,7 @@ page_gen:
   - data: 'by_target'
     template: 'target'
     name: 'target'
-    title_expr: "'import ' + record['target'] + ' as ' + record['alias']"
+    title_expr: "record['imports'][0]['import']"
     dir: 'import'
 
 # Exclude from processing.
