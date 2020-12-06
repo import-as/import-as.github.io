@@ -29,6 +29,15 @@ header_text: >-
 # Build settings
 theme: minima
 
+plugins:
+  - jekyll-datapage-generator
+
+page_gen:
+  - data: 'by_target'
+    template: 'target'
+    name: 'target'
+    dir: 'package'
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -36,15 +45,20 @@ theme: minima
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - deploy.sh
+
+keep_files:
+  - .git
+  - .nojekyll

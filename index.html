@@ -9,9 +9,13 @@ layout: home
       <code class="alias">{{ group.alias }}</code>
       <span class="count">{{ group.count }}</span>
     </span>
-    <ul>
+    <ul class="badge-list">
     {% for import in group.imports %}
-      <li><span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.target }}</code></li>
+      <li>
+	<a href="{{ import.target | datapage_url: "package" }}">
+          <span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.target }}</code>
+        </a>
+      </li>
     {% endfor %}
     </ul>
   </li>
