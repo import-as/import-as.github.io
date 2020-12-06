@@ -1,0 +1,3585 @@
+- alias: np
+  count: 12786
+  imports:
+  - alias: np
+    count: 12740
+    target: numpy
+  - alias: np
+    count: 36
+    target: autograd.numpy
+  - alias: np
+    count: 6
+    target: jax.numpy
+  - alias: np
+    count: 4
+    target: numpy.random
+- alias: plt
+  count: 12585
+  imports:
+  - alias: plt
+    count: 11950
+    target: matplotlib.pyplot
+  - alias: plt
+    count: 364
+    target: matplotlib.pylab
+  - alias: plt
+    count: 157
+    target: pylab
+  - alias: plt
+    count: 84
+    target: matplotlib
+  - alias: plt
+    count: 26
+    target: bqplot.pyplot
+  - alias: plt
+    count: 4
+    target: bokeh.plotting
+- alias: pd
+  count: 7726
+  imports:
+  - alias: pd
+    count: 7726
+    target: pandas
+- alias: sns
+  count: 2855
+  imports:
+  - alias: sns
+    count: 2832
+    target: seaborn
+  - alias: sns
+    count: 23
+    target: seaborn.apionly
+- alias: tf
+  count: 2004
+  imports:
+  - alias: tf
+    count: 1928
+    target: tensorflow
+  - alias: tf
+    count: 33
+    target: tensorflow.compat.v1
+  - alias: tf
+    count: 22
+    target: tensorflow.compat.v2
+  - alias: tf
+    count: 18
+    target: datashader.transfer_functions
+  - alias: tf
+    count: 3
+    target: tifffile
+- alias: mpl
+  count: 1050
+  imports:
+  - alias: mpl
+    count: 1029
+    target: matplotlib
+  - alias: mpl
+    count: 13
+    target: matplotlib.pyplot
+  - alias: mpl
+    count: 8
+    target: matplotlib.pylab
+- alias: sp
+  count: 683
+  imports:
+  - alias: sp
+    count: 486
+    target: scipy
+  - alias: sp
+    count: 106
+    target: sympy
+  - alias: sp
+    count: 51
+    target: scipy.sparse
+  - alias: sp
+    count: 14
+    target: scipy.stats
+  - alias: sp
+    count: 12
+    target: subprocess
+  - alias: sp
+    count: 11
+    target: scipy.special
+  - alias: sp
+    count: 3
+    target: scipy.linalg
+- alias: nx
+  count: 605
+  imports:
+  - alias: nx
+    count: 605
+    target: networkx
+- alias: sm
+  count: 530
+  imports:
+  - alias: sm
+    count: 452
+    target: statsmodels.api
+  - alias: sm
+    count: 42
+    target: statsmodels.formula.api
+  - alias: sm
+    count: 23
+    target: statsmodels
+  - alias: sm
+    count: 4
+    target: sympy
+  - alias: sm
+    count: 3
+    target: py_stringmatching
+  - alias: sm
+    count: 3
+    target: scipy.misc
+  - alias: sm
+    count: 3
+    target: sklearn.metrics
+- alias: K
+  count: 404
+  imports:
+  - alias: K
+    count: 381
+    target: keras.backend
+  - alias: K
+    count: 15
+    target: tensorflow.keras.backend
+  - alias: K
+    count: 8
+    target: tensorflow.python.keras.backend
+- alias: pl
+  count: 359
+  imports:
+  - alias: pl
+    count: 221
+    target: pylab
+  - alias: pl
+    count: 118
+    target: matplotlib.pyplot
+  - alias: pl
+    count: 16
+    target: matplotlib.pylab
+  - alias: pl
+    count: 4
+    target: plotly
+- alias: dt
+  count: 335
+  imports:
+  - alias: dt
+    count: 274
+    target: datetime
+  - alias: dt
+    count: 61
+    target: datetime.datetime
+- alias: py
+  count: 307
+  imports:
+  - alias: py
+    count: 223
+    target: plotly.plotly
+  - alias: py
+    count: 62
+    target: plotly.offline
+  - alias: py
+    count: 10
+    target: plotly
+  - alias: py
+    count: 5
+    target: pylab
+  - alias: py
+    count: 4
+    target: numpy
+  - alias: py
+    count: 3
+    target: chart_studio.plotly
+- alias: u
+  count: 280
+  imports:
+  - alias: u
+    count: 270
+    target: astropy.units
+  - alias: u
+    count: 4
+    target: simtk.unit
+  - alias: u
+    count: 3
+    target: chempy.units.default_units
+  - alias: u
+    count: 3
+    target: utils
+- alias: go
+  count: 277
+  imports:
+  - alias: go
+    count: 258
+    target: plotly.graph_objs
+  - alias: go
+    count: 19
+    target: plotly.graph_objects
+- alias: T
+  count: 232
+  imports:
+  - alias: T
+    count: 216
+    target: theano.tensor
+  - alias: T
+    count: 10
+    target: torchvision.transforms
+  - alias: T
+    count: 3
+    target: pyspark.sql.types
+  - alias: T
+    count: 3
+    target: torch
+- alias: xgb
+  count: 185
+  imports:
+  - alias: xgb
+    count: 185
+    target: xgboost
+- alias: smf
+  count: 178
+  imports:
+  - alias: smf
+    count: 178
+    target: statsmodels.formula.api
+- alias: pkl
+  count: 171
+  imports:
+  - alias: pkl
+    count: 146
+    target: pickle
+  - alias: pkl
+    count: 21
+    target: cPickle
+  - alias: pkl
+    count: 4
+    target: _pickle
+- alias: F
+  count: 169
+  imports:
+  - alias: F
+    count: 118
+    target: torch.nn.functional
+  - alias: F
+    count: 36
+    target: pyspark.sql.functions
+  - alias: F
+    count: 15
+    target: chainer.functions
+- alias: pm
+  count: 150
+  imports:
+  - alias: pm
+    count: 104
+    target: pymc3
+  - alias: pm
+    count: 37
+    target: pymc
+  - alias: pm
+    count: 5
+    target: pymongo
+  - alias: pm
+    count: 4
+    target: papermill
+- alias: gpd
+  count: 148
+  imports:
+  - alias: gpd
+    count: 148
+    target: geopandas
+- alias: ccrs
+  count: 125
+  imports:
+  - alias: ccrs
+    count: 125
+    target: cartopy.crs
+- alias: xr
+  count: 121
+  imports:
+  - alias: xr
+    count: 121
+    target: xarray
+- alias: ET
+  count: 117
+  imports:
+  - alias: ET
+    count: 92
+    target: xml.etree.ElementTree
+  - alias: ET
+    count: 19
+    target: xml.etree.cElementTree
+  - alias: ET
+    count: 6
+    target: lxml.etree
+- alias: web
+  count: 113
+  imports:
+  - alias: web
+    count: 60
+    target: pandas_datareader.data
+  - alias: web
+    count: 44
+    target: pandas.io.data
+  - alias: web
+    count: 9
+    target: pandas_datareader
+- alias: mp
+  count: 106
+  imports:
+  - alias: mp
+    count: 69
+    target: multiprocessing
+  - alias: mp
+    count: 17
+    target: matplotlib
+  - alias: mp
+    count: 8
+    target: matplotlib.pyplot
+  - alias: mp
+    count: 5
+    target: matplotlib.patches
+  - alias: mp
+    count: 4
+    target: processing
+  - alias: mp
+    count: 3
+    target: mpnum
+- alias: opt
+  count: 101
+  imports:
+  - alias: opt
+    count: 94
+    target: scipy.optimize
+  - alias: opt
+    count: 7
+    target: cvxopt
+- alias: sb
+  count: 96
+  imports:
+  - alias: sb
+    count: 90
+    target: seaborn
+  - alias: sb
+    count: 3
+    target: shablona
+  - alias: sb
+    count: 3
+    target: subprocess
+- alias: op
+  count: 91
+  imports:
+  - alias: op
+    count: 59
+    target: os.path
+  - alias: op
+    count: 23
+    target: scipy.optimize
+  - alias: op
+    count: 6
+    target: operator
+  - alias: op
+    count: 3
+    target: ophiuchus.potential
+- alias: st
+  count: 88
+  imports:
+  - alias: st
+    count: 83
+    target: scipy.stats
+  - alias: st
+    count: 5
+    target: statistics
+- alias: sio
+  count: 79
+  imports:
+  - alias: sio
+    count: 79
+    target: scipy.io
+- alias: sk
+  count: 77
+  imports:
+  - alias: sk
+    count: 70
+    target: sklearn
+  - alias: sk
+    count: 4
+    target: skimage
+  - alias: sk
+    count: 3
+    target: sklearn.ensemble
+- alias: la
+  count: 75
+  imports:
+  - alias: la
+    count: 40
+    target: numpy.linalg
+  - alias: la
+    count: 35
+    target: scipy.linalg
+- alias: pp
+  count: 67
+  imports:
+  - alias: pp
+    count: 22
+    target: pprint.pprint
+  - alias: pp
+    count: 19
+    target: pprint
+  - alias: pp
+    count: 12
+    target: matplotlib.pyplot
+  - alias: pp
+    count: 9
+    target: sklearn.preprocessing
+  - alias: pp
+    count: 5
+    target: pandas_profiling
+- alias: ss
+  count: 67
+  imports:
+  - alias: ss
+    count: 49
+    target: scipy.stats
+  - alias: ss
+    count: 7
+    target: scipy.signal
+  - alias: ss
+    count: 6
+    target: scipy.special
+  - alias: ss
+    count: 5
+    target: scipy.sparse
+- alias: vs
+  count: 66
+  imports:
+  - alias: vs
+    count: 66
+    target: visuals
+- alias: md
+  count: 64
+  imports:
+  - alias: md
+    count: 44
+    target: mdtraj
+  - alias: md
+    count: 13
+    target: matplotlib.dates
+  - alias: md
+    count: 7
+    target: IPython.display.Markdown
+- alias: it
+  count: 63
+  imports:
+  - alias: it
+    count: 63
+    target: itertools
+- alias: rnd
+  count: 61
+  imports:
+  - alias: rnd
+    count: 31
+    target: random
+  - alias: rnd
+    count: 30
+    target: numpy.random
+- alias: LA
+  count: 60
+  imports:
+  - alias: LA
+    count: 51
+    target: numpy.linalg
+  - alias: LA
+    count: 9
+    target: scipy.linalg
+- alias: tls
+  count: 60
+  imports:
+  - alias: tls
+    count: 60
+    target: plotly.tools
+- alias: nib
+  count: 59
+  imports:
+  - alias: nib
+    count: 59
+    target: nibabel
+- alias: hp
+  count: 57
+  imports:
+  - alias: hp
+    count: 47
+    target: healpy
+  - alias: hp
+    count: 4
+    target: hydropy
+  - alias: hp
+    count: 3
+    target: helper
+  - alias: hp
+    count: 3
+    target: tensorboard.plugins.hparams.api
+- alias: cf
+  count: 56
+  imports:
+  - alias: cf
+    count: 52
+    target: cufflinks
+  - alias: cf
+    count: 4
+    target: custom_funcs
+- alias: hv
+  count: 56
+  imports:
+  - alias: hv
+    count: 56
+    target: holoviews
+- alias: dd
+  count: 52
+  imports:
+  - alias: dd
+    count: 43
+    target: dask.dataframe
+  - alias: dd
+    count: 5
+    target: deepdish
+  - alias: dd
+    count: 4
+    target: collections.defaultdict
+- alias: sym
+  count: 52
+  imports:
+  - alias: sym
+    count: 52
+    target: sympy
+- alias: tt
+  count: 52
+  imports:
+  - alias: tt
+    count: 52
+    target: theano.tensor
+- alias: alt
+  count: 51
+  imports:
+  - alias: alt
+    count: 51
+    target: altair
+- alias: m
+  count: 49
+  imports:
+  - alias: m
+    count: 49
+    target: math
+- alias: cv
+  count: 48
+  imports:
+  - alias: cv
+    count: 36
+    target: sklearn.cross_validation
+  - alias: cv
+    count: 12
+    target: cv2
+- alias: plot
+  count: 48
+  imports:
+  - alias: plot
+    count: 48
+    target: matplotlib.pyplot
+- alias: sc
+  count: 48
+  imports:
+  - alias: sc
+    count: 39
+    target: scipy
+  - alias: sc
+    count: 6
+    target: scipy.constants
+  - alias: sc
+    count: 3
+    target: astropy.stats.sigma_clip
+- alias: tfds
+  count: 48
+  imports:
+  - alias: tfds
+    count: 48
+    target: tensorflow_datasets
+- alias: nb
+  count: 46
+  imports:
+  - alias: nb
+    count: 26
+    target: nibabel
+  - alias: nb
+    count: 17
+    target: numba
+  - alias: nb
+    count: 3
+    target: pysal.esda.mapclassify.Natural_Breaks
+- alias: ndi
+  count: 46
+  imports:
+  - alias: ndi
+    count: 46
+    target: scipy.ndimage
+- alias: ps
+  count: 46
+  imports:
+  - alias: ps
+    count: 32
+    target: pysal
+  - alias: ps
+    count: 4
+    target: libpysal
+  - alias: ps
+    count: 4
+    target: pyspark
+  - alias: ps
+    count: 3
+    target: pandas
+  - alias: ps
+    count: 3
+    target: pastas
+- alias: wn
+  count: 46
+  imports:
+  - alias: wn
+    count: 46
+    target: nltk.corpus.wordnet
+- alias: va
+  count: 45
+  imports:
+  - alias: va
+    count: 45
+    target: github.ellisonbg.misc.vizarray
+- alias: mx
+  count: 43
+  imports:
+  - alias: mx
+    count: 43
+    target: mxnet
+- alias: sn
+  count: 42
+  imports:
+  - alias: sn
+    count: 42
+    target: seaborn
+- alias: tqdm
+  count: 42
+  imports:
+  - alias: tqdm
+    count: 42
+    target: tqdm.tqdm_notebook
+- alias: cmx
+  count: 41
+  imports:
+  - alias: cmx
+    count: 41
+    target: matplotlib.cm
+- alias: da
+  count: 41
+  imports:
+  - alias: da
+    count: 41
+    target: dask.array
+- alias: gl
+  count: 41
+  imports:
+  - alias: gl
+    count: 41
+    target: graphlab
+- alias: hub
+  count: 41
+  imports:
+  - alias: hub
+    count: 41
+    target: tensorflow_hub
+- alias: pf
+  count: 41
+  imports:
+  - alias: pf
+    count: 23
+    target: pyfolio
+  - alias: pf
+    count: 6
+    target: astropy.io.fits
+  - alias: pf
+    count: 6
+    target: pyfits
+  - alias: pf
+    count: 6
+    target: pyflux
+- alias: df
+  count: 38
+  imports:
+  - alias: df
+    count: 20
+    target: bokeh.sampledata.autompg.autompg
+  - alias: df
+    count: 11
+    target: pandas.DataFrame
+  - alias: df
+    count: 7
+    target: bokeh.sampledata.autompg.autompg_clean
+- alias: bs
+  count: 36
+  imports:
+  - alias: bs
+    count: 31
+    target: bs4.BeautifulSoup
+  - alias: bs
+    count: 5
+    target: bs4
+- alias: LDA
+  count: 35
+  imports:
+  - alias: LDA
+    count: 32
+    target: sklearn.discriminant_analysis.LinearDiscriminantAnalysis
+  - alias: LDA
+    count: 3
+    target: sklearn.decomposition.LatentDirichletAllocation
+- alias: gp
+  count: 33
+  imports:
+  - alias: gp
+    count: 19
+    target: geopandas
+  - alias: gp
+    count: 5
+    target: sklearn.gaussian_process
+  - alias: gp
+    count: 3
+    target: gala.potential
+  - alias: gp
+    count: 3
+    target: graphparser
+  - alias: gp
+    count: 3
+    target: gseapy
+- alias: sps
+  count: 33
+  imports:
+  - alias: sps
+    count: 15
+    target: scipy.stats
+  - alias: sps
+    count: 10
+    target: scipy.sparse
+  - alias: sps
+    count: 4
+    target: scipy.signal
+  - alias: sps
+    count: 4
+    target: scipy.special
+- alias: json
+  count: 32
+  imports:
+  - alias: json
+    count: 23
+    target: ujson
+  - alias: json
+    count: 9
+    target: simplejson
+- alias: beam
+  count: 31
+  imports:
+  - alias: beam
+    count: 31
+    target: apache_beam
+- alias: bq
+  count: 31
+  imports:
+  - alias: bq
+    count: 13
+    target: google.datalab.bigquery
+  - alias: bq
+    count: 9
+    target: bqplot
+  - alias: bq
+    count: 5
+    target: datalab.bigquery
+  - alias: bq
+    count: 4
+    target: gcp.bigquery
+- alias: ff
+  count: 31
+  imports:
+  - alias: ff
+    count: 31
+    target: plotly.figure_factory
+- alias: lgb
+  count: 31
+  imports:
+  - alias: lgb
+    count: 31
+    target: lightgbm
+- alias: osp
+  count: 31
+  imports:
+  - alias: osp
+    count: 31
+    target: os.path
+- alias: cl
+  count: 29
+  imports:
+  - alias: cl
+    count: 16
+    target: colorlover
+  - alias: cl
+    count: 10
+    target: pyopencl
+  - alias: cl
+    count: 3
+    target: concise.layers
+- alias: ds
+  count: 29
+  imports:
+  - alias: ds
+    count: 24
+    target: datashader
+  - alias: ds
+    count: 5
+    target: sklearn.datasets
+- alias: P
+  count: 28
+  imports:
+  - alias: P
+    count: 12
+    target: pylab
+  - alias: P
+    count: 10
+    target: caffe.params
+  - alias: P
+    count: 6
+    target: numpy.polynomial.polynomial
+- alias: mc
+  count: 28
+  imports:
+  - alias: mc
+    count: 11
+    target: matplotlib.collections
+  - alias: mc
+    count: 7
+    target: pymc
+  - alias: mc
+    count: 4
+    target: mapclassify
+  - alias: mc
+    count: 3
+    target: emcee
+  - alias: mc
+    count: 3
+    target: matplotlib.colors
+- alias: sig
+  count: 28
+  imports:
+  - alias: sig
+    count: 28
+    target: scipy.signal
+- alias: ig
+  count: 26
+  imports:
+  - alias: ig
+    count: 26
+    target: igraph
+- alias: gv
+  count: 25
+  imports:
+  - alias: gv
+    count: 14
+    target: geoviews
+  - alias: gv
+    count: 11
+    target: graphviz
+- alias: lm
+  count: 25
+  imports:
+  - alias: lm
+    count: 25
+    target: sklearn.linear_model
+- alias: nd
+  count: 25
+  imports:
+  - alias: nd
+    count: 16
+    target: scipy.ndimage
+  - alias: nd
+    count: 5
+    target: numdifftools
+  - alias: nd
+    count: 4
+    target: mxnet.ndarray
+- alias: npr
+  count: 25
+  imports:
+  - alias: npr
+    count: 21
+    target: numpy.random
+  - alias: npr
+    count: 4
+    target: autograd.numpy.random
+- alias: sch
+  count: 25
+  imports:
+  - alias: sch
+    count: 25
+    target: scipy.cluster.hierarchy
+- alias: pq
+  count: 24
+  imports:
+  - alias: pq
+    count: 9
+    target: quantities
+  - alias: pq
+    count: 5
+    target: pyquery.PyQuery
+  - alias: pq
+    count: 4
+    target: pyarrow.parquet
+  - alias: pq
+    count: 3
+    target: pycqed
+  - alias: pq
+    count: 3
+    target: pyquil.quil
+- alias: pt
+  count: 24
+  imports:
+  - alias: pt
+    count: 13
+    target: prettytensor
+  - alias: pt
+    count: 5
+    target: matplotlib.pyplot
+  - alias: pt
+    count: 3
+    target: patsy
+  - alias: pt
+    count: 3
+    target: pytraj
+- alias: r
+  count: 24
+  imports:
+  - alias: r
+    count: 10
+    target: random
+  - alias: r
+    count: 8
+    target: requests
+  - alias: r
+    count: 6
+    target: rpy2.interactive
+- alias: rd
+  count: 24
+  imports:
+  - alias: rd
+    count: 14
+    target: random
+  - alias: rd
+    count: 10
+    target: numpy.random
+- alias: skl
+  count: 23
+  imports:
+  - alias: skl
+    count: 23
+    target: sklearn
+- alias: tfp
+  count: 23
+  imports:
+  - alias: tfp
+    count: 23
+    target: tensorflow_probability
+- alias: bp
+  count: 22
+  imports:
+  - alias: bp
+    count: 22
+    target: bokeh.plotting
+- alias: mse
+  count: 22
+  imports:
+  - alias: mse
+    count: 22
+    target: sklearn.metrics.mean_squared_error
+- alias: p
+  count: 22
+  imports:
+  - alias: p
+    count: 9
+    target: pylab
+  - alias: p
+    count: 5
+    target: pandas
+  - alias: p
+    count: 4
+    target: matplotlib.pyplot
+  - alias: p
+    count: 4
+    target: pickle
+- alias: p3
+  count: 22
+  imports:
+  - alias: p3
+    count: 8
+    target: ipyvolume.pylab
+  - alias: p3
+    count: 7
+    target: mpl_toolkits.mplot3d.axes3d
+  - alias: p3
+    count: 4
+    target: Lagrange_poly1
+  - alias: p3
+    count: 3
+    target: centered_diff
+- alias: px
+  count: 22
+  imports:
+  - alias: px
+    count: 17
+    target: plotly.express
+  - alias: px
+    count: 5
+    target: plotly_express
+- alias: gt
+  count: 21
+  imports:
+  - alias: gt
+    count: 11
+    target: graph_tool.all
+  - alias: gt
+    count: 4
+    target: graph_tool
+  - alias: gt
+    count: 3
+    target: gtfstk
+  - alias: gt
+    count: 3
+    target: quantecon.game_theory
+- alias: LR
+  count: 20
+  imports:
+  - alias: LR
+    count: 16
+    target: sklearn.linear_model.LogisticRegression
+  - alias: LR
+    count: 4
+    target: sklearn.linear_model.LinearRegression
+- alias: c
+  count: 20
+  imports:
+  - alias: c
+    count: 16
+    target: astropy.constants
+  - alias: c
+    count: 4
+    target: collections
+- alias: ed
+  count: 20
+  imports:
+  - alias: ed
+    count: 16
+    target: edward
+  - alias: ed
+    count: 4
+    target: engarde.decorators
+- alias: mt
+  count: 20
+  imports:
+  - alias: mt
+    count: 20
+    target: math
+- alias: pg
+  count: 20
+  imports:
+  - alias: pg
+    count: 9
+    target: pyqtgraph
+  - alias: pg
+    count: 7
+    target: psycopg2
+  - alias: pg
+    count: 4
+    target: pygmo
+- alias: sitk
+  count: 20
+  imports:
+  - alias: sitk
+    count: 20
+    target: SimpleITK
+- alias: stat
+  count: 20
+  imports:
+  - alias: stat
+    count: 17
+    target: scipy.stats
+  - alias: stat
+    count: 3
+    target: statistics
+- alias: ts
+  count: 20
+  imports:
+  - alias: ts
+    count: 12
+    target: tushare
+  - alias: ts
+    count: 8
+    target: statsmodels.tsa.stattools
+- alias: tts
+  count: 20
+  imports:
+  - alias: tts
+    count: 11
+    target: sklearn.model_selection.train_test_split
+  - alias: tts
+    count: 9
+    target: sklearn.cross_validation.train_test_split
+- alias: L
+  count: 19
+  imports:
+  - alias: L
+    count: 10
+    target: caffe.layers
+  - alias: L
+    count: 9
+    target: chainer.links
+- alias: az
+  count: 19
+  imports:
+  - alias: az
+    count: 19
+    target: arviz
+- alias: cvx
+  count: 19
+  imports:
+  - alias: cvx
+    count: 13
+    target: cvxpy
+  - alias: cvx
+    count: 6
+    target: cvxopt
+- alias: ipp
+  count: 19
+  imports:
+  - alias: ipp
+    count: 19
+    target: ipyparallel
+- alias: mm
+  count: 19
+  imports:
+  - alias: mm
+    count: 16
+    target: simtk.openmm
+  - alias: mm
+    count: 3
+    target: auxi.tools.chemistry.stoichiometry.molar_mass
+- alias: mpy
+  count: 19
+  imports:
+  - alias: mpy
+    count: 19
+    target: moviepy.editor
+- alias: tm
+  count: 19
+  imports:
+  - alias: tm
+    count: 11
+    target: time
+  - alias: tm
+    count: 4
+    target: pandas.util.testing
+  - alias: tm
+    count: 4
+    target: timeit
+- alias: FF
+  count: 18
+  imports:
+  - alias: FF
+    count: 12
+    target: plotly.tools.FigureFactory
+  - alias: FF
+    count: 6
+    target: plotly.figure_factory
+- alias: bk
+  count: 18
+  imports:
+  - alias: bk
+    count: 14
+    target: bokeh.plotting
+  - alias: bk
+    count: 4
+    target: bokeh
+- alias: blt
+  count: 18
+  imports:
+  - alias: blt
+    count: 18
+    target: bokeh.plotting
+- alias: ne
+  count: 18
+  imports:
+  - alias: ne
+    count: 18
+    target: numexpr
+- alias: sbn
+  count: 18
+  imports:
+  - alias: sbn
+    count: 18
+    target: seaborn
+- alias: sms
+  count: 18
+  imports:
+  - alias: sms
+    count: 18
+    target: statsmodels.stats.api
+- alias: msno
+  count: 17
+  imports:
+  - alias: msno
+    count: 17
+    target: missingno
+- alias: rand
+  count: 17
+  imports:
+  - alias: rand
+    count: 11
+    target: random
+  - alias: rand
+    count: 6
+    target: numpy.random
+- alias: sql
+  count: 17
+  imports:
+  - alias: sql
+    count: 8
+    target: sqlite3
+  - alias: sql
+    count: 5
+    target: sqlalchemy
+  - alias: sql
+    count: 4
+    target: pyspark.sql.functions
+- alias: tb
+  count: 17
+  imports:
+  - alias: tb
+    count: 6
+    target: tables
+  - alias: tb
+    count: 6
+    target: textblob.TextBlob
+  - alias: tb
+    count: 5
+    target: tensorboard
+- alias: db
+  count: 16
+  imports:
+  - alias: db
+    count: 12
+    target: dask.bag
+  - alias: db
+    count: 4
+    target: sqlite3
+- alias: dist
+  count: 16
+  imports:
+  - alias: dist
+    count: 8
+    target: scipy.spatial.distance
+  - alias: dist
+    count: 5
+    target: pyro.distributions
+  - alias: dist
+    count: 3
+    target: scipy.stats.distributions
+- alias: ipv
+  count: 16
+  imports:
+  - alias: ipv
+    count: 16
+    target: ipyvolume
+- alias: rng
+  count: 16
+  imports:
+  - alias: rng
+    count: 16
+    target: numpy.random
+- alias: sg
+  count: 16
+  imports:
+  - alias: sg
+    count: 6
+    target: shogun
+  - alias: sg
+    count: 4
+    target: shapely.geometry
+  - alias: sg
+    count: 3
+    target: scipy.signal
+  - alias: sg
+    count: 3
+    target: sklearn.datasets.samples_generator
+- alias: skm
+  count: 16
+  imports:
+  - alias: skm
+    count: 16
+    target: sklearn.metrics
+- alias: AA
+  count: 15
+  imports:
+  - alias: AA
+    count: 15
+    target: mpl_toolkits.axisartist
+- alias: cp
+  count: 15
+  imports:
+  - alias: cp
+    count: 6
+    target: copy
+  - alias: cp
+    count: 6
+    target: cvxpy
+  - alias: cp
+    count: 3
+    target: chaospy
+- alias: ipyd
+  count: 15
+  imports:
+  - alias: ipyd
+    count: 15
+    target: IPython.display
+- alias: jnp
+  count: 15
+  imports:
+  - alias: jnp
+    count: 15
+    target: jax.numpy
+- alias: nc
+  count: 15
+  imports:
+  - alias: nc
+    count: 15
+    target: netCDF4
+- alias: qplt
+  count: 15
+  imports:
+  - alias: qplt
+    count: 15
+    target: iris.quickplot
+- alias: so
+  count: 15
+  imports:
+  - alias: so
+    count: 15
+    target: scipy.optimize
+- alias: Pool
+  count: 14
+  imports:
+  - alias: Pool
+    count: 5
+    target: pathos.multiprocessing.ProcessingPool
+  - alias: Pool
+    count: 3
+    target: mystic.pools.SerialPool
+  - alias: Pool
+    count: 3
+    target: mystic.python.PythonSerial
+  - alias: Pool
+    count: 3
+    target: pathos.pools.ParallelPool
+- alias: cyjs
+  count: 14
+  imports:
+  - alias: cyjs
+    count: 6
+    target: py2cytoscape.util.cytoscapejs
+  - alias: cyjs
+    count: 5
+    target: py2cytoscape.cytoscapejs.viewer
+  - alias: cyjs
+    count: 3
+    target: py2cytoscape.cytoscapejs
+- alias: ipd
+  count: 14
+  imports:
+  - alias: ipd
+    count: 14
+    target: IPython.display
+- alias: mh
+  count: 14
+  imports:
+  - alias: mh
+    count: 14
+    target: mahotas
+- alias: ms
+  count: 14
+  imports:
+  - alias: ms
+    count: 9
+    target: matplotlib.style
+  - alias: ms
+    count: 5
+    target: sklearn.model_selection
+- alias: ro
+  count: 14
+  imports:
+  - alias: ro
+    count: 14
+    target: rpy2.robjects
+- alias: snt
+  count: 14
+  imports:
+  - alias: snt
+    count: 14
+    target: sonnet
+- alias: t
+  count: 14
+  imports:
+  - alias: t
+    count: 8
+    target: time
+  - alias: t
+    count: 6
+    target: theano.tensor
+- alias: tfma
+  count: 14
+  imports:
+  - alias: tfma
+    count: 14
+    target: tensorflow_model_analysis
+- alias: comp
+  count: 13
+  imports:
+  - alias: comp
+    count: 13
+    target: kfp.components
+- alias: h5
+  count: 13
+  imports:
+  - alias: h5
+    count: 13
+    target: h5py
+- alias: mtri
+  count: 13
+  imports:
+  - alias: mtri
+    count: 13
+    target: matplotlib.tri
+- alias: pk
+  count: 13
+  imports:
+  - alias: pk
+    count: 10
+    target: pickle
+  - alias: pk
+    count: 3
+    target: pykep
+- alias: qe
+  count: 13
+  imports:
+  - alias: qe
+    count: 13
+    target: quantecon
+- alias: req
+  count: 13
+  imports:
+  - alias: req
+    count: 13
+    target: requests
+- alias: th
+  count: 13
+  imports:
+  - alias: th
+    count: 13
+    target: theano
+- alias: viz
+  count: 13
+  imports:
+  - alias: viz
+    count: 13
+    target: astropy.visualization
+- alias: KNN
+  count: 12
+  imports:
+  - alias: KNN
+    count: 12
+    target: sklearn.neighbors.KNeighborsClassifier
+- alias: cm
+  count: 12
+  imports:
+  - alias: cm
+    count: 9
+    target: branca.colormap
+  - alias: cm
+    count: 3
+    target: caiman
+- alias: fm
+  count: 12
+  imports:
+  - alias: fm
+    count: 12
+    target: matplotlib.font_manager
+- alias: gg
+  count: 12
+  imports:
+  - alias: gg
+    count: 8
+    target: ggplot
+  - alias: gg
+    count: 4
+    target: plotnine
+- alias: iplt
+  count: 12
+  imports:
+  - alias: iplt
+    count: 12
+    target: iris.plot
+- alias: npt
+  count: 12
+  imports:
+  - alias: npt
+    count: 12
+    target: numpy.testing
+- alias: nv
+  count: 12
+  imports:
+  - alias: nv
+    count: 9
+    target: nglview
+  - alias: nv
+    count: 3
+    target: nxviz
+- alias: pa
+  count: 12
+  imports:
+  - alias: pa
+    count: 8
+    target: pandas
+  - alias: pa
+    count: 4
+    target: pyarrow
+- alias: rn
+  count: 12
+  imports:
+  - alias: rn
+    count: 9
+    target: random
+  - alias: rn
+    count: 3
+    target: numpy.random
+- alias: sw
+  count: 12
+  imports:
+  - alias: sw
+    count: 12
+    target: seawater
+- alias: sy
+  count: 12
+  imports:
+  - alias: sy
+    count: 12
+    target: sympy
+- alias: tfdv
+  count: 12
+  imports:
+  - alias: tfdv
+    count: 12
+    target: tensorflow_data_validation
+- alias: tfe
+  count: 12
+  imports:
+  - alias: tfe
+    count: 12
+    target: tensorflow.contrib.eager
+- alias: tft
+  count: 12
+  imports:
+  - alias: tft
+    count: 12
+    target: tensorflow_transform
+- alias: EC
+  count: 11
+  imports:
+  - alias: EC
+    count: 11
+    target: selenium.webdriver.support.expected_conditions
+- alias: NA
+  count: 11
+  imports:
+  - alias: NA
+    count: 11
+    target: numpy.nan
+- alias: RF
+  count: 11
+  imports:
+  - alias: RF
+    count: 11
+    target: sklearn.ensemble.RandomForestClassifier
+- alias: data
+  count: 11
+  imports:
+  - alias: data
+    count: 8
+    target: sklearn.datasets
+  - alias: data
+    count: 3
+    target: pandas_datareader
+- alias: di
+  count: 11
+  imports:
+  - alias: di
+    count: 11
+    target: IPython.core.display
+- alias: mb
+  count: 11
+  imports:
+  - alias: mb
+    count: 11
+    target: mbuild
+- alias: mio
+  count: 11
+  imports:
+  - alias: mio
+    count: 11
+    target: menpo.io
+- alias: ox
+  count: 11
+  imports:
+  - alias: ox
+    count: 11
+    target: osmnx
+- alias: pdr
+  count: 11
+  imports:
+  - alias: pdr
+    count: 8
+    target: pandas_datareader
+  - alias: pdr
+    count: 3
+    target: pandas_datareader.data
+- alias: pgv
+  count: 11
+  imports:
+  - alias: pgv
+    count: 11
+    target: pygraphviz
+- alias: pn
+  count: 11
+  imports:
+  - alias: pn
+    count: 7
+    target: panel
+  - alias: pn
+    count: 4
+    target: pandas
+- alias: rs
+  count: 11
+  imports:
+  - alias: rs
+    count: 11
+    target: renders
+- alias: sa
+  count: 11
+  imports:
+  - alias: sa
+    count: 11
+    target: sqlalchemy
+- alias: sf
+  count: 11
+  imports:
+  - alias: sf
+    count: 7
+    target: soundfile
+  - alias: sf
+    count: 4
+    target: spherical_functions
+- alias: si
+  count: 11
+  imports:
+  - alias: si
+    count: 6
+    target: scipy.interpolate
+  - alias: si
+    count: 5
+    target: scipy.integrate
+- alias: yb
+  count: 11
+  imports:
+  - alias: yb
+    count: 11
+    target: yellowbrick
+- alias: at
+  count: 10
+  imports:
+  - alias: at
+    count: 6
+    target: astropy.table
+  - alias: at
+    count: 4
+    target: astropy.time
+- alias: bkp
+  count: 10
+  imports:
+  - alias: bkp
+    count: 10
+    target: bokeh.plotting
+- alias: col
+  count: 10
+  imports:
+  - alias: col
+    count: 7
+    target: matplotlib.colors
+  - alias: col
+    count: 3
+    target: collections
+- alias: cuda
+  count: 10
+  imports:
+  - alias: cuda
+    count: 10
+    target: pycuda.driver
+- alias: dc
+  count: 10
+  imports:
+  - alias: dc
+    count: 10
+    target: deepchem
+- alias: dset
+  count: 10
+  imports:
+  - alias: dset
+    count: 10
+    target: torchvision.datasets
+- alias: ft
+  count: 10
+  imports:
+  - alias: ft
+    count: 7
+    target: functools
+  - alias: ft
+    count: 3
+    target: featuretools
+- alias: itt
+  count: 10
+  imports:
+  - alias: itt
+    count: 10
+    target: itertools
+- alias: pseg
+  count: 10
+  imports:
+  - alias: pseg
+    count: 10
+    target: jieba.posseg
+- alias: rq
+  count: 10
+  imports:
+  - alias: rq
+    count: 10
+    target: requests
+- alias: scs
+  count: 10
+  imports:
+  - alias: scs
+    count: 7
+    target: scipy.stats
+  - alias: scs
+    count: 3
+    target: scipy.spatial
+- alias: tk
+  count: 10
+  imports:
+  - alias: tk
+    count: 10
+    target: tkinter
+- alias: C
+  count: 9
+  imports:
+  - alias: C
+    count: 9
+    target: cntk
+- alias: cc
+  count: 9
+  imports:
+  - alias: cc
+    count: 5
+    target: colorcet
+  - alias: cc
+    count: 4
+    target: matplotlib.colors.ColorConverter
+- alias: hac
+  count: 9
+  imports:
+  - alias: hac
+    count: 9
+    target: scipy.cluster.hierarchy
+- alias: ru
+  count: 9
+  imports:
+  - alias: ru
+    count: 5
+    target: radical.utils
+  - alias: ru
+    count: 4
+    target: registration_utilities
+- alias: sci
+  count: 9
+  imports:
+  - alias: sci
+    count: 9
+    target: scipy
+- alias: spo
+  count: 9
+  imports:
+  - alias: spo
+    count: 9
+    target: scipy.optimize
+- alias: ssim
+  count: 9
+  imports:
+  - alias: ssim
+    count: 6
+    target: skimage.measure.compare_ssim
+  - alias: ssim
+    count: 3
+    target: skimage.measure.structural_similarity
+- alias: text
+  count: 9
+  imports:
+  - alias: text
+    count: 6
+    target: tensorflow_text
+  - alias: text
+    count: 3
+    target: builtins.str
+- alias: v
+  count: 9
+  imports:
+  - alias: v
+    count: 9
+    target: pycalphad.variables
+- alias: wav
+  count: 9
+  imports:
+  - alias: wav
+    count: 9
+    target: scipy.io.wavfile
+- alias: DV
+  count: 8
+  imports:
+  - alias: DV
+    count: 8
+    target: sklearn.feature_extraction.DictVectorizer
+- alias: clr
+  count: 8
+  imports:
+  - alias: clr
+    count: 8
+    target: matplotlib.colors
+- alias: fc
+  count: 8
+  imports:
+  - alias: fc
+    count: 8
+    target: tensorflow.feature_column
+- alias: gf
+  count: 8
+  imports:
+  - alias: gf
+    count: 8
+    target: geoviews.feature
+- alias: hs
+  count: 8
+  imports:
+  - alias: hs
+    count: 8
+    target: hyperspy.api
+- alias: ipw
+  count: 8
+  imports:
+  - alias: ipw
+    count: 8
+    target: ipywidgets
+- alias: lite
+  count: 8
+  imports:
+  - alias: lite
+    count: 8
+    target: sqlite3
+- alias: mdb
+  count: 8
+  imports:
+  - alias: mdb
+    count: 5
+    target: MySQLdb
+  - alias: mdb
+    count: 3
+    target: medleydb
+- alias: smt
+  count: 8
+  imports:
+  - alias: smt
+    count: 8
+    target: statsmodels.tsa.api
+- alias: spio
+  count: 8
+  imports:
+  - alias: spio
+    count: 8
+    target: scipy.io
+- alias: te
+  count: 8
+  imports:
+  - alias: te
+    count: 8
+    target: tellurium
+- alias: tfa
+  count: 8
+  imports:
+  - alias: tfa
+    count: 8
+    target: tensorflow_addons
+- alias: QDA
+  count: 7
+  imports:
+  - alias: QDA
+    count: 7
+    target: sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis
+- alias: SFS
+  count: 7
+  imports:
+  - alias: SFS
+    count: 7
+    target: mlxtend.feature_selection.SequentialFeatureSelector
+- alias: agg
+  count: 7
+  imports:
+  - alias: agg
+    count: 7
+    target: graphlab.aggregate
+- alias: bf
+  count: 7
+  imports:
+  - alias: bf
+    count: 7
+    target: flopy.utils.binaryfile
+- alias: bg
+  count: 7
+  imports:
+  - alias: bg
+    count: 7
+    target: IPython.lib.backgroundjobs
+- alias: bn
+  count: 7
+  imports:
+  - alias: bn
+    count: 7
+    target: bottleneck
+- alias: et
+  count: 7
+  imports:
+  - alias: et
+    count: 7
+    target: xml.etree.ElementTree
+- alias: img
+  count: 7
+  imports:
+  - alias: img
+    count: 7
+    target: matplotlib.image
+- alias: lin
+  count: 7
+  imports:
+  - alias: lin
+    count: 4
+    target: scipy.linalg
+  - alias: lin
+    count: 3
+    target: numpy.linalg
+- alias: mda
+  count: 7
+  imports:
+  - alias: mda
+    count: 7
+    target: MDAnalysis
+- alias: me
+  count: 7
+  imports:
+  - alias: me
+    count: 7
+    target: sympy.physics.mechanics
+- alias: mvn
+  count: 7
+  imports:
+  - alias: mvn
+    count: 7
+    target: scipy.stats.multivariate_normal
+- alias: p2
+  count: 7
+  imports:
+  - alias: p2
+    count: 4
+    target: midpoint_vec
+  - alias: p2
+    count: 3
+    target: sinesum1
+- alias: p4
+  count: 7
+  imports:
+  - alias: p4
+    count: 4
+    target: Lagrange_poly2
+  - alias: p4
+    count: 3
+    target: find_primes
+- alias: pb
+  count: 7
+  imports:
+  - alias: pb
+    count: 4
+    target: pybel
+  - alias: pb
+    count: 3
+    target: pylab
+- alias: rio
+  count: 7
+  imports:
+  - alias: rio
+    count: 7
+    target: rasterio
+- alias: sla
+  count: 7
+  imports:
+  - alias: sla
+    count: 4
+    target: scipy.sparse.linalg
+  - alias: sla
+    count: 3
+    target: scipy.linalg
+- alias: swn
+  count: 7
+  imports:
+  - alias: swn
+    count: 7
+    target: nltk.corpus.sentiwordnet
+- alias: tkr
+  count: 7
+  imports:
+  - alias: tkr
+    count: 7
+    target: matplotlib.ticker
+- alias: tnp
+  count: 7
+  imports:
+  - alias: tnp
+    count: 7
+    target: tensorflow.experimental.numpy
+- alias: ysq
+  count: 7
+  imports:
+  - alias: ysq
+    count: 7
+    target: ystockquote
+- alias: Tk
+  count: 6
+  imports:
+  - alias: Tk
+    count: 3
+    target: Tkinter
+  - alias: Tk
+    count: 3
+    target: tkinter
+- alias: bt
+  count: 6
+  imports:
+  - alias: bt
+    count: 3
+    target: backtrader
+  - alias: bt
+    count: 3
+    target: deap.benchmarks.tools
+- alias: bz
+  count: 6
+  imports:
+  - alias: bz
+    count: 6
+    target: blaze
+- alias: cb
+  count: 6
+  imports:
+  - alias: cb
+    count: 3
+    target: palettable.colorbrewer
+  - alias: cb
+    count: 3
+    target: pmagpy.contribution_builder
+- alias: ce
+  count: 6
+  imports:
+  - alias: ce
+    count: 6
+    target: category_encoders
+- alias: clrs
+  count: 6
+  imports:
+  - alias: clrs
+    count: 6
+    target: matplotlib.colors
+- alias: drv
+  count: 6
+  imports:
+  - alias: drv
+    count: 6
+    target: pycuda.driver
+- alias: fuzz
+  count: 6
+  imports:
+  - alias: fuzz
+    count: 6
+    target: skfuzzy
+- alias: gd
+  count: 6
+  imports:
+  - alias: gd
+    count: 3
+    target: gala.dynamics
+  - alias: gd
+    count: 3
+    target: gary.dynamics
+- alias: hl
+  count: 6
+  imports:
+  - alias: hl
+    count: 6
+    target: hail
+- alias: iaa
+  count: 6
+  imports:
+  - alias: iaa
+    count: 6
+    target: imgaug.augmenters
+- alias: ipyw
+  count: 6
+  imports:
+  - alias: ipyw
+    count: 6
+    target: ipywidgets
+- alias: k
+  count: 6
+  imports:
+  - alias: k
+    count: 3
+    target: keras
+  - alias: k
+    count: 3
+    target: keras.backend
+- alias: log
+  count: 6
+  imports:
+  - alias: log
+    count: 6
+    target: logging
+- alias: ma
+  count: 6
+  imports:
+  - alias: ma
+    count: 6
+    target: math
+- alias: mae
+  count: 6
+  imports:
+  - alias: mae
+    count: 6
+    target: sklearn.metrics.mean_absolute_error
+- alias: maps
+  count: 6
+  imports:
+  - alias: maps
+    count: 6
+    target: pysal.contrib.viz.mapping
+- alias: mplt
+  count: 6
+  imports:
+  - alias: mplt
+    count: 6
+    target: matplotlib.pyplot
+- alias: mqtt
+  count: 6
+  imports:
+  - alias: mqtt
+    count: 6
+    target: paho.mqtt.client
+- alias: msme
+  count: 6
+  imports:
+  - alias: msme
+    count: 6
+    target: msmexplorer
+- alias: onp
+  count: 6
+  imports:
+  - alias: onp
+    count: 6
+    target: numpy
+- alias: poly
+  count: 6
+  imports:
+  - alias: poly
+    count: 6
+    target: numpy.polynomial.polynomial
+- alias: psql
+  count: 6
+  imports:
+  - alias: psql
+    count: 6
+    target: pandas.io.sql
+- alias: re
+  count: 6
+  imports:
+  - alias: re
+    count: 6
+    target: regex
+- alias: sco
+  count: 6
+  imports:
+  - alias: sco
+    count: 6
+    target: scipy.optimize
+- alias: scp
+  count: 6
+  imports:
+  - alias: scp
+    count: 6
+    target: scipy
+- alias: sea
+  count: 6
+  imports:
+  - alias: sea
+    count: 6
+    target: seaborn
+- alias: shp
+  count: 6
+  imports:
+  - alias: shp
+    count: 6
+    target: shapefile
+- alias: ske
+  count: 6
+  imports:
+  - alias: ske
+    count: 6
+    target: sklearn.ensemble
+- alias: skio
+  count: 6
+  imports:
+  - alias: skio
+    count: 6
+    target: skimage.io
+- alias: spla
+  count: 6
+  imports:
+  - alias: spla
+    count: 6
+    target: scipy.sparse.linalg
+- alias: sr
+  count: 6
+  imports:
+  - alias: sr
+    count: 6
+    target: speech_recognition
+- alias: thno
+  count: 6
+  imports:
+  - alias: thno
+    count: 6
+    target: theano
+- alias: Data
+  count: 5
+  imports:
+  - alias: Data
+    count: 5
+    target: torch.utils.data
+- alias: N
+  count: 5
+  imports:
+  - alias: N
+    count: 5
+    target: numpy
+- alias: Soup
+  count: 5
+  imports:
+  - alias: Soup
+    count: 5
+    target: bs4.BeautifulSoup
+- alias: al
+  count: 5
+  imports:
+  - alias: al
+    count: 5
+    target: alphalens
+- alias: ans
+  count: 5
+  imports:
+  - alias: ans
+    count: 5
+    target: analyzeSN
+- alias: cmap
+  count: 5
+  imports:
+  - alias: cmap
+    count: 5
+    target: matplotlib.cm
+- alias: com
+  count: 5
+  imports:
+  - alias: com
+    count: 5
+    target: pandas.rpy.common
+- alias: ct
+  count: 5
+  imports:
+  - alias: ct
+    count: 5
+    target: cantera
+- alias: disp
+  count: 5
+  imports:
+  - alias: disp
+    count: 5
+    target: IPython.display
+- alias: func
+  count: 5
+  imports:
+  - alias: func
+    count: 5
+    target: pyspark.sql.functions
+- alias: gbp
+  count: 5
+  imports:
+  - alias: gbp
+    count: 5
+    target: gurobipy
+- alias: gc
+  count: 5
+  imports:
+  - alias: gc
+    count: 5
+    target: gary.coordinates
+- alias: html
+  count: 5
+  imports:
+  - alias: html
+    count: 5
+    target: dash_html_components
+- alias: kt
+  count: 5
+  imports:
+  - alias: kt
+    count: 5
+    target: kerastuner
+- alias: nla
+  count: 5
+  imports:
+  - alias: nla
+    count: 5
+    target: numpy.linalg
+- alias: opj
+  count: 5
+  imports:
+  - alias: opj
+    count: 5
+    target: os.path.join
+- alias: p9
+  count: 5
+  imports:
+  - alias: p9
+    count: 5
+    target: plotnine
+- alias: pm3
+  count: 5
+  imports:
+  - alias: pm3
+    count: 5
+    target: pymc3
+- alias: po
+  count: 5
+  imports:
+  - alias: po
+    count: 5
+    target: plotly.offline
+- alias: ppl
+  count: 5
+  imports:
+  - alias: ppl
+    count: 5
+    target: prettyplotlib
+- alias: pyk
+  count: 5
+  imports:
+  - alias: pyk
+    count: 5
+    target: pykalman
+- alias: qt
+  count: 5
+  imports:
+  - alias: qt
+    count: 5
+    target: qutip
+- alias: rf
+  count: 5
+  imports:
+  - alias: rf
+    count: 5
+    target: skrf
+- alias: rp
+  count: 5
+  imports:
+  - alias: rp
+    count: 5
+    target: radical.pilot
+- alias: ski
+  count: 5
+  imports:
+  - alias: ski
+    count: 5
+    target: skimage
+- alias: sop
+  count: 5
+  imports:
+  - alias: sop
+    count: 5
+    target: scipy.optimize
+- alias: sqla
+  count: 5
+  imports:
+  - alias: sqla
+    count: 5
+    target: sqlalchemy
+- alias: sts
+  count: 5
+  imports:
+  - alias: sts
+    count: 5
+    target: scipy.stats
+- alias: tfd
+  count: 5
+  imports:
+  - alias: tfd
+    count: 5
+    target: tensorflow_probability.distributions
+- alias: tsa
+  count: 5
+  imports:
+  - alias: tsa
+    count: 5
+    target: statsmodels.tsa.api
+- alias: ut
+  count: 5
+  imports:
+  - alias: ut
+    count: 5
+    target: utils
+- alias: vis
+  count: 5
+  imports:
+  - alias: vis
+    count: 5
+    target: openpathsampling.visualize
+- alias: w2v
+  count: 5
+  imports:
+  - alias: w2v
+    count: 5
+    target: gensim.models.word2vec
+- alias: CV
+  count: 4
+  imports:
+  - alias: CV
+    count: 4
+    target: libs.celeb_vaegan
+- alias: GBC
+  count: 4
+  imports:
+  - alias: GBC
+    count: 4
+    target: sklearn.ensemble.GradientBoostingClassifier
+- alias: GMM
+  count: 4
+  imports:
+  - alias: GMM
+    count: 4
+    target: sklearn.mixture.GaussianMixture
+- alias: IPd
+  count: 4
+  imports:
+  - alias: IPd
+    count: 4
+    target: IPython.display
+- alias: NCOG
+  count: 4
+  imports:
+  - alias: NCOG
+    count: 4
+    target: mystic.termination.NormalizedChangeOverGeneration
+- alias: NP
+  count: 4
+  imports:
+  - alias: NP
+    count: 4
+    target: numpy
+- alias: PD
+  count: 4
+  imports:
+  - alias: PD
+    count: 4
+    target: pandas
+- alias: acc
+  count: 4
+  imports:
+  - alias: acc
+    count: 4
+    target: sklearn.metrics.accuracy_score
+- alias: anim
+  count: 4
+  imports:
+  - alias: anim
+    count: 4
+    target: matplotlib.animation
+- alias: bs4
+  count: 4
+  imports:
+  - alias: bs4
+    count: 4
+    target: bs4.BeautifulSoup
+- alias: ca
+  count: 4
+  imports:
+  - alias: ca
+    count: 4
+    target: casadi
+- alias: coor
+  count: 4
+  imports:
+  - alias: coor
+    count: 4
+    target: pyemma.coordinates
+- alias: corr
+  count: 4
+  imports:
+  - alias: corr
+    count: 4
+    target: skbeam.core.correlation
+- alias: cqt
+  count: 4
+  imports:
+  - alias: cqt
+    count: 4
+    target: eqcat.catalogue_query_tools
+- alias: csv
+  count: 4
+  imports:
+  - alias: csv
+    count: 4
+    target: unicodecsv
+- alias: ctx
+  count: 4
+  imports:
+  - alias: ctx
+    count: 4
+    target: contextily
+- alias: d
+  count: 4
+  imports:
+  - alias: d
+    count: 4
+    target: IPython.display
+- alias: dcc
+  count: 4
+  imports:
+  - alias: dcc
+    count: 4
+    target: dash_core_components
+- alias: dcrf
+  count: 4
+  imports:
+  - alias: dcrf
+    count: 4
+    target: pydensecrf.densecrf
+- alias: em
+  count: 4
+  imports:
+  - alias: em
+    count: 4
+    target: py_entitymatching
+- alias: ep
+  count: 4
+  imports:
+  - alias: ep
+    count: 4
+    target: epitopepredict
+- alias: etl
+  count: 4
+  imports:
+  - alias: etl
+    count: 4
+    target: petl
+- alias: f
+  count: 4
+  imports:
+  - alias: f
+    count: 4
+    target: functions
+- alias: fu
+  count: 4
+  imports:
+  - alias: fu
+    count: 4
+    target: flopy.utils
+- alias: gplt
+  count: 4
+  imports:
+  - alias: gplt
+    count: 4
+    target: geoplot
+- alias: ipyl
+  count: 4
+  imports:
+  - alias: ipyl
+    count: 4
+    target: ipyleaflet
+- alias: kl
+  count: 4
+  imports:
+  - alias: kl
+    count: 4
+    target: keras.layers
+- alias: ltu
+  count: 4
+  imports:
+  - alias: ltu
+    count: 4
+    target: linetools.utils
+- alias: met
+  count: 4
+  imports:
+  - alias: met
+    count: 4
+    target: sklearn.metrics
+- alias: mf
+  count: 4
+  imports:
+  - alias: mf
+    count: 4
+    target: flopy.modflow
+- alias: mg
+  count: 4
+  imports:
+  - alias: mg
+    count: 4
+    target: pymatgen
+- alias: mlmd
+  count: 4
+  imports:
+  - alias: mlmd
+    count: 4
+    target: ml_metadata
+- alias: mpf
+  count: 4
+  imports:
+  - alias: mpf
+    count: 4
+    target: matplotlib.finance
+- alias: mpg
+  count: 4
+  imports:
+  - alias: mpg
+    count: 4
+    target: bokeh.sampledata.autompg2.autompg2
+- alias: mplc
+  count: 4
+  imports:
+  - alias: mplc
+    count: 4
+    target: matplotlib
+- alias: n
+  count: 4
+  imports:
+  - alias: n
+    count: 4
+    target: numpy
+- alias: nc4
+  count: 4
+  imports:
+  - alias: nc4
+    count: 4
+    target: netCDF4
+- alias: nm
+  count: 4
+  imports:
+  - alias: nm
+    count: 4
+    target: neurom
+- alias: nsl
+  count: 4
+  imports:
+  - alias: nsl
+    count: 4
+    target: neural_structured_learning
+- alias: oss
+  count: 4
+  imports:
+  - alias: oss
+    count: 4
+    target: opsimsummary
+- alias: p1
+  count: 4
+  imports:
+  - alias: p1
+    count: 4
+    target: fit_pendulum_data
+- alias: pan
+  count: 4
+  imports:
+  - alias: pan
+    count: 4
+    target: pandas
+- alias: pe
+  count: 4
+  imports:
+  - alias: pe
+    count: 4
+    target: matplotlib.patheffects
+- alias: plt1
+  count: 4
+  imports:
+  - alias: plt1
+    count: 4
+    target: matplotlib.pyplot
+- alias: pmd
+  count: 4
+  imports:
+  - alias: pmd
+    count: 4
+    target: parmed
+- alias: pmg
+  count: 4
+  imports:
+  - alias: pmg
+    count: 4
+    target: pymatgen
+- alias: pnd
+  count: 4
+  imports:
+  - alias: pnd
+    count: 4
+    target: pandas
+- alias: pre
+  count: 4
+  imports:
+  - alias: pre
+    count: 4
+    target: sklearn.preprocessing
+- alias: pv
+  count: 4
+  imports:
+  - alias: pv
+    count: 4
+    target: pyvista
+- alias: rc
+  count: 4
+  imports:
+  - alias: rc
+    count: 4
+    target: registration_callbacks
+- alias: rdm
+  count: 4
+  imports:
+  - alias: rdm
+    count: 4
+    target: random
+- alias: sd
+  count: 4
+  imports:
+  - alias: sd
+    count: 4
+    target: sounddevice
+- alias: skd
+  count: 4
+  imports:
+  - alias: skd
+    count: 4
+    target: sklearn.datasets
+- alias: slim
+  count: 4
+  imports:
+  - alias: slim
+    count: 4
+    target: tf_slim
+- alias: smm
+  count: 4
+  imports:
+  - alias: smm
+    count: 4
+    target: statsmodels.stats.multitest
+- alias: spec
+  count: 4
+  imports:
+  - alias: spec
+    count: 4
+    target: pyspec.spectrum
+- alias: tfl
+  count: 4
+  imports:
+  - alias: tfl
+    count: 4
+    target: tensorflow_lattice
+- alias: ti
+  count: 4
+  imports:
+  - alias: ti
+    count: 4
+    target: treeinterpreter.treeinterpreter
+- alias: tick
+  count: 4
+  imports:
+  - alias: tick
+    count: 4
+    target: matplotlib.ticker
+- alias: tl
+  count: 4
+  imports:
+  - alias: tl
+    count: 4
+    target: tensorlayer
+- alias: tmdb
+  count: 4
+  imports:
+  - alias: tmdb
+    count: 4
+    target: tmdbsimple
+- alias: tp
+  count: 4
+  imports:
+  - alias: tp
+    count: 4
+    target: trackpy
+- alias: wg
+  count: 4
+  imports:
+  - alias: wg
+    count: 4
+    target: ipywidgets
+- alias: zf
+  count: 4
+  imports:
+  - alias: zf
+    count: 4
+    target: zipfile
+- alias: D
+  count: 3
+  imports:
+  - alias: D
+    count: 3
+    target: decimal.Decimal
+- alias: FT
+  count: 3
+  imports:
+  - alias: FT
+    count: 3
+    target: torch.FloatTensor
+- alias: GPU
+  count: 3
+  imports:
+  - alias: GPU
+    count: 3
+    target: GPUtil
+- alias: KTF
+  count: 3
+  imports:
+  - alias: KTF
+    count: 3
+    target: keras.backend.tensorflow_backend
+- alias: L2
+  count: 3
+  imports:
+  - alias: L2
+    count: 3
+    target: keras.regularizers.l2
+- alias: PI
+  count: 3
+  imports:
+  - alias: PI
+    count: 3
+    target: math.pi
+- alias: PLT
+  count: 3
+  imports:
+  - alias: PLT
+    count: 3
+    target: matplotlib.pyplot
+- alias: RFC
+  count: 3
+  imports:
+  - alias: RFC
+    count: 3
+    target: sklearn.ensemble.RandomForestClassifier
+- alias: Rat
+  count: 3
+  imports:
+  - alias: Rat
+    count: 3
+    target: sympy.Rational
+- alias: S
+  count: 3
+  imports:
+  - alias: S
+    count: 3
+    target: pysynphot
+- alias: SP
+  count: 3
+  imports:
+  - alias: SP
+    count: 3
+    target: scipy
+- alias: _np
+  count: 3
+  imports:
+  - alias: _np
+    count: 3
+    target: numpy
+- alias: ag
+  count: 3
+  imports:
+  - alias: ag
+    count: 3
+    target: tensorflow.contrib.autograph
+- alias: amp
+  count: 3
+  imports:
+  - alias: amp
+    count: 3
+    target: adaptivemd.util
+- alias: ap
+  count: 3
+  imports:
+  - alias: ap
+    count: 3
+    target: astropy
+- alias: api
+  count: 3
+  imports:
+  - alias: api
+    count: 3
+    target: gensim.downloader
+- alias: au
+  count: 3
+  imports:
+  - alias: au
+    count: 3
+    target: astropy.units
+- alias: auc
+  count: 3
+  imports:
+  - alias: auc
+    count: 3
+    target: sklearn.metrics.roc_auc_score
+- alias: axl
+  count: 3
+  imports:
+  - alias: axl
+    count: 3
+    target: axelrod
+- alias: bcm
+  count: 3
+  imports:
+  - alias: bcm
+    count: 3
+    target: lsst.sims.catUtils.baseCatalogModels
+- alias: bl
+  count: 3
+  imports:
+  - alias: bl
+    count: 3
+    target: bayes_logistic
+- alias: bm
+  count: 3
+  imports:
+  - alias: bm
+    count: 3
+    target: bokeh.models
+- alias: bpl
+  count: 3
+  imports:
+  - alias: bpl
+    count: 3
+    target: bokeh.plotting
+- alias: bqp
+  count: 3
+  imports:
+  - alias: bqp
+    count: 3
+    target: bqplot.pyplot
+- alias: br
+  count: 3
+  imports:
+  - alias: br
+    count: 3
+    target: pybroom
+- alias: caf
+  count: 3
+  imports:
+  - alias: caf
+    count: 3
+    target: browser.timer.cancel_animation_frame
+- alias: cart
+  count: 3
+  imports:
+  - alias: cart
+    count: 3
+    target: cartopy
+- alias: cem
+  count: 3
+  imports:
+  - alias: cem
+    count: 3
+    target: concise.eval_metrics
+- alias: ci
+  count: 3
+  imports:
+  - alias: ci
+    count: 3
+    target: concise.initializers
+- alias: ck
+  count: 3
+  imports:
+  - alias: ck
+    count: 3
+    target: ck.kernel
+- alias: cmo
+  count: 3
+  imports:
+  - alias: cmo
+    count: 3
+    target: cmocean
+- alias: cpk
+  count: 3
+  imports:
+  - alias: cpk
+    count: 3
+    target: cPickle
+- alias: cr
+  count: 3
+  imports:
+  - alias: cr
+    count: 3
+    target: concise.regularizers
+- alias: cy
+  count: 3
+  imports:
+  - alias: cy
+    count: 3
+    target: py2cytoscape.util
+- alias: dcv
+  count: 3
+  imports:
+  - alias: dcv
+    count: 3
+    target: dask_searchcv
+- alias: dp
+  count: 3
+  imports:
+  - alias: dp
+    count: 3
+    target: dendropy
+- alias: dsa
+  count: 3
+  imports:
+  - alias: dsa
+    count: 3
+    target: dsa_mongo_common_functions
+- alias: dy
+  count: 3
+  imports:
+  - alias: dy
+    count: 3
+    target: dynet
+- alias: e
+  count: 3
+  imports:
+  - alias: e
+    count: 3
+    target: SchemDraw.elements
+- alias: es
+  count: 3
+  imports:
+  - alias: es
+    count: 3
+    target: essentia.standard
+- alias: fact
+  count: 3
+  imports:
+  - alias: fact
+    count: 3
+    target: math.factorial
+- alias: fft
+  count: 3
+  imports:
+  - alias: fft
+    count: 3
+    target: scipy.fftpack
+- alias: fn
+  count: 3
+  imports:
+  - alias: fn
+    count: 3
+    target: pyspark.sql.functions
+- alias: fp
+  count: 3
+  imports:
+  - alias: fp
+    count: 3
+    target: funcy
+- alias: gcrs
+  count: 3
+  imports:
+  - alias: gcrs
+    count: 3
+    target: geoplot.crs
+- alias: ge
+  count: 3
+  imports:
+  - alias: ge
+    count: 3
+    target: great_expectations
+- alias: h
+  count: 3
+  imports:
+  - alias: h
+    count: 3
+    target: helpers
+- alias: h5q
+  count: 3
+  imports:
+  - alias: h5q
+    count: 3
+    target: h5_query
+- alias: hc
+  count: 3
+  imports:
+  - alias: hc
+    count: 3
+    target: scipy.cluster.hierarchy
+- alias: hf
+  count: 3
+  imports:
+  - alias: hf
+    count: 3
+    target: helper_functions
+- alias: hkl
+  count: 3
+  imports:
+  - alias: hkl
+    count: 3
+    target: hickle
+- alias: hyp
+  count: 3
+  imports:
+  - alias: hyp
+    count: 3
+    target: hypertools
+- alias: ia
+  count: 3
+  imports:
+  - alias: ia
+    count: 3
+    target: imgaug
+- alias: im
+  count: 3
+  imports:
+  - alias: im
+    count: 3
+    target: pycqed.instrument_drivers.virtual_instruments.instrument_monitor
+- alias: ims
+  count: 3
+  imports:
+  - alias: ims
+    count: 3
+    target: scipy.misc.imread
+- alias: ipa
+  count: 3
+  imports:
+  - alias: ipa
+    count: 3
+    target: ipyrad.analysis
+- alias: itr
+  count: 3
+  imports:
+  - alias: itr
+    count: 3
+    target: itertools
+- alias: k8s
+  count: 3
+  imports:
+  - alias: k8s
+    count: 3
+    target: kubernetes
+- alias: ld
+  count: 3
+  imports:
+  - alias: ld
+    count: 3
+    target: load_data
+- alias: lh
+  count: 3
+  imports:
+  - alias: lh
+    count: 3
+    target: lxml.html
+- alias: lsio
+  count: 3
+  imports:
+  - alias: lsio
+    count: 3
+    target: linetools.spectra.io
+- alias: mat
+  count: 3
+  imports:
+  - alias: mat
+    count: 3
+    target: matplotlib
+- alias: mech
+  count: 3
+  imports:
+  - alias: mech
+    count: 3
+    target: sympy.physics.mechanics
+- alias: ml
+  count: 3
+  imports:
+  - alias: ml
+    count: 3
+    target: numpy.matlib
+- alias: mlp
+  count: 3
+  imports:
+  - alias: mlp
+    count: 3
+    target: matplotlib
+- alias: mpd
+  count: 3
+  imports:
+  - alias: mpd
+    count: 3
+    target: matplotlib.dates
+- alias: mpe
+  count: 3
+  imports:
+  - alias: mpe
+    count: 3
+    target: moviepy.editor
+- alias: mwp
+  count: 3
+  imports:
+  - alias: mwp
+    count: 3
+    target: mwparserfromhell
+- alias: myKM
+  count: 3
+  imports:
+  - alias: myKM
+    count: 3
+    target: MyML.cluster.K_Means3
+- alias: ndp
+  count: 3
+  imports:
+  - alias: ndp
+    count: 3
+    target: ndparse
+- alias: nl
+  count: 3
+  imports:
+  - alias: nl
+    count: 3
+    target: neurolab
+- alias: npl
+  count: 3
+  imports:
+  - alias: npl
+    count: 3
+    target: numpy.linalg
+- alias: nr
+  count: 3
+  imports:
+  - alias: nr
+    count: 3
+    target: numpy.random
+- alias: num
+  count: 3
+  imports:
+  - alias: num
+    count: 3
+    target: numpy
+- alias: omm
+  count: 3
+  imports:
+  - alias: omm
+    count: 3
+    target: simtk.openmm
+- alias: omt
+  count: 3
+  imports:
+  - alias: omt
+    count: 3
+    target: openmmtools
+- alias: opap
+  count: 3
+  imports:
+  - alias: opap
+    count: 3
+    target: os.path.abspath
+- alias: opts
+  count: 3
+  imports:
+  - alias: opts
+    count: 3
+    target: pyecharts.options
+- alias: pcc
+  count: 3
+  imports:
+  - alias: pcc
+    count: 3
+    target: lxmls.readers.pos_corpus
+- alias: pds
+  count: 3
+  imports:
+  - alias: pds
+    count: 3
+    target: pandas
+- alias: ph
+  count: 3
+  imports:
+  - alias: ph
+    count: 3
+    target: pyphysio
+- alias: pio
+  count: 3
+  imports:
+  - alias: pio
+    count: 3
+    target: plotly.io
+- alias: pj
+  count: 3
+  imports:
+  - alias: pj
+    count: 3
+    target: os.path.join
+- alias: pyl
+  count: 3
+  imports:
+  - alias: pyl
+    count: 3
+    target: pylab
+- alias: pysh
+  count: 3
+  imports:
+  - alias: pysh
+    count: 3
+    target: pyshtools
+- alias: qi
+  count: 3
+  imports:
+  - alias: qi
+    count: 3
+    target: qinfer
+- alias: ql
+  count: 3
+  imports:
+  - alias: ql
+    count: 3
+    target: QuantLib
+- alias: ra
+  count: 3
+  imports:
+  - alias: ra
+    count: 3
+    target: random
+- alias: raf
+  count: 3
+  imports:
+  - alias: raf
+    count: 3
+    target: browser.timer.request_animation_frame
+- alias: rfc
+  count: 3
+  imports:
+  - alias: rfc
+    count: 3
+    target: sklearn.ensemble.RandomForestClassifier
+- alias: rt
+  count: 3
+  imports:
+  - alias: rt
+    count: 3
+    target: ROOT
+- alias: s
+  count: 3
+  imports:
+  - alias: s
+    count: 3
+    target: sympy
+- alias: sbs
+  count: 3
+  imports:
+  - alias: sbs
+    count: 3
+    target: seaborn
+- alias: shpg
+  count: 3
+  imports:
+  - alias: shpg
+    count: 3
+    target: shapely.geometry
+- alias: skms
+  count: 3
+  imports:
+  - alias: skms
+    count: 3
+    target: sklearn.model_selection
+- alias: skpp
+  count: 3
+  imports:
+  - alias: skpp
+    count: 3
+    target: sklearn.preprocessing
+- alias: sl
+  count: 3
+  imports:
+  - alias: sl
+    count: 3
+    target: scipy.linalg
+- alias: snb
+  count: 3
+  imports:
+  - alias: snb
+    count: 3
+    target: seaborn
+- alias: sopt
+  count: 3
+  imports:
+  - alias: sopt
+    count: 3
+    target: scipy.optimize
+- alias: spa
+  count: 3
+  imports:
+  - alias: spa
+    count: 3
+    target: nengo_spa
+- alias: spl
+  count: 3
+  imports:
+  - alias: spl
+    count: 3
+    target: scipy.linalg
+- alias: spm
+  count: 3
+  imports:
+  - alias: spm
+    count: 3
+    target: sentencepiece
+- alias: spt
+  count: 3
+  imports:
+  - alias: spt
+    count: 3
+    target: spacepy.time
+- alias: ssp
+  count: 3
+  imports:
+  - alias: ssp
+    count: 3
+    target: scipy.sparse
+- alias: tea
+  count: 3
+  imports:
+  - alias: tea
+    count: 3
+    target: tissue_enrichment_analysis
+- alias: tfco
+  count: 3
+  imports:
+  - alias: tfco
+    count: 3
+    target: tensorflow_constrained_optimization
+- alias: tfio
+  count: 3
+  imports:
+  - alias: tfio
+    count: 3
+    target: tensorflow_io
+- alias: tif
+  count: 3
+  imports:
+  - alias: tif
+    count: 3
+    target: skimage.external.tifffile
+- alias: toys
+  count: 3
+  imports:
+  - alias: toys
+    count: 3
+    target: openpathsampling.engines.toy
+- alias: up
+  count: 3
+  imports:
+  - alias: up
+    count: 3
+    target: universal
+- alias: util
+  count: 3
+  imports:
+  - alias: util
+    count: 3
+    target: py2cytoscape.data.util_network.NetworkUtil
+- alias: vp
+  count: 3
+  imports:
+  - alias: vp
+    count: 3
+    target: vpython
+- alias: w
+  count: 3
+  imports:
+  - alias: w
+    count: 3
+    target: ipywidgets
+- alias: wa
+  count: 3
+  imports:
+  - alias: wa
+    count: 3
+    target: wellapplication
+- alias: wd
+  count: 3
+  imports:
+  - alias: wd
+    count: 3
+    target: ipywidgets
+- alias: wiki
+  count: 3
+  imports:
+  - alias: wiki
+    count: 3
+    target: wikipedia
+- alias: xg
+  count: 3
+  imports:
+  - alias: xg
+    count: 3
+    target: xgboost
+- alias: xray
+  count: 3
+  imports:
+  - alias: xray
+    count: 3
+    target: xarray
