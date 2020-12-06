@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<h1>Package {{ page.target }}</h1>
-<h2>Imported {{ page.count }} times</h2>
+<h2>{{ page.target }}</h2>
+<h3>Imported {{ page.count }} times</h3>
 <ol class="badge-list">
 {% for import in page.imports %}
   <li><span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.import }}</code></li>

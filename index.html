@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+title: import as
 ---
 
 <ol class="main-list">
@@ -12,7 +13,7 @@ layout: home
     <ul class="badge-list">
     {% for import in group.imports %}
       <li>
-	<a href="{{ import.target | datapage_url: "package" }}">
+	<a href="{{ import.target | datapage_url: "import" }}">
           <span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.target }}</code>
         </a>
       </li>
