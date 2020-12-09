@@ -13,7 +13,7 @@ title: Top Python Import Shorthands
     <ul class="badge-list">
     {% for import in group.imports %}
       <li>
-	<a href="{{ import.target | datapage_url: "import" }}">
+	<a href="{{ import.target | prepend: "/import/" | append: ".html" | relative_url }}">
           <span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.target }}</code>
         </a>
       </li>

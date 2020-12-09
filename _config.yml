@@ -29,16 +29,12 @@ header_text: >-
 # Build settings
 theme: minima
 
-plugins:
-  - jekyll-datapage-generator
-  - jekyll-sitemap
+collections:
+  import:
+    output: true
 
-page_gen:
-  - data: 'by_target'
-    template: 'target'
-    name: 'target'
-    title_expr: "record['imports'][0]['import']"
-    dir: 'import'
+plugins:
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -60,6 +56,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - deploy.sh
+
+include:
+  - _*.md
 
 keep_files:
   - .git
