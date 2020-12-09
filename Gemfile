@@ -16,6 +16,7 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-datapage-generator", "~> 1.3"
+  gem "jekyll-sitemap", "~> 1.4"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

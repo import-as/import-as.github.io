@@ -31,6 +31,7 @@ theme: minima
 
 plugins:
   - jekyll-datapage-generator
+  - jekyll-sitemap
 
 page_gen:
   - data: 'by_target'
