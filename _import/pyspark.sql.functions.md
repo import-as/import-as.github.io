@@ -4,14 +4,14 @@ title: from pyspark.sql import functions as F
 
 data:
   alias: F
-  count: 48
+  count: 50
   imports:
   - alias: F
-    count: 21
+    count: 22
     import: from pyspark.sql import functions as F
     target: pyspark.sql.functions
   - alias: F
-    count: 15
+    count: 16
     import: import pyspark.sql.functions as F
     target: pyspark.sql.functions
   - alias: func

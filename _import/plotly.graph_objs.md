@@ -4,10 +4,10 @@ title: import plotly.graph_objs as go
 
 data:
   alias: go
-  count: 258
+  count: 259
   imports:
   - alias: go
-    count: 250
+    count: 251
     import: import plotly.graph_objs as go
     target: plotly.graph_objs
   - alias: go

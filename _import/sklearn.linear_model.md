@@ -4,10 +4,10 @@ title: import sklearn.linear_model as lm
 
 data:
   alias: lm
-  count: 25
+  count: 26
   imports:
   - alias: lm
-    count: 17
+    count: 18
     import: import sklearn.linear_model as lm
     target: sklearn.linear_model
   - alias: lm

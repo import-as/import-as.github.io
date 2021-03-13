@@ -4,10 +4,10 @@ title: import scipy.stats as st
 
 data:
   alias: st
-  count: 190
+  count: 191
   imports:
   - alias: st
-    count: 77
+    count: 78
     import: import scipy.stats as st
     target: scipy.stats
   - alias: ss

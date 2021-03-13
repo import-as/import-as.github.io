@@ -4,10 +4,10 @@ title: import numpy.random as rnd
 
 data:
   alias: rnd
-  count: 93
+  count: 94
   imports:
   - alias: rnd
-    count: 30
+    count: 31
     import: import numpy.random as rnd
     target: numpy.random
   - alias: npr
@@ -22,13 +22,13 @@ data:
     count: 10
     import: import numpy.random as rng
     target: numpy.random
-  - alias: rng
-    count: 6
-    import: from numpy import random as rng
-    target: numpy.random
   - alias: rand
     count: 6
     import: import numpy.random as rand
+    target: numpy.random
+  - alias: rng
+    count: 6
+    import: from numpy import random as rng
     target: numpy.random
   - alias: np
     count: 4

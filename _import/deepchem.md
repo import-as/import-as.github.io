@@ -4,10 +4,10 @@ title: import deepchem as dc
 
 data:
   alias: dc
-  count: 10
+  count: 11
   imports:
   - alias: dc
-    count: 10
+    count: 11
     import: import deepchem as dc
     target: deepchem
   target: deepchem

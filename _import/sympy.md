@@ -4,14 +4,14 @@ title: import sympy as sp
 
 data:
   alias: sp
-  count: 177
+  count: 182
   imports:
   - alias: sp
-    count: 106
+    count: 109
     import: import sympy as sp
     target: sympy
   - alias: sym
-    count: 52
+    count: 54
     import: import sympy as sym
     target: sympy
   - alias: sy

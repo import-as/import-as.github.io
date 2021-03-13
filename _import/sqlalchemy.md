@@ -4,10 +4,10 @@ title: import sqlalchemy as sa
 
 data:
   alias: sa
-  count: 21
+  count: 22
   imports:
   - alias: sa
-    count: 11
+    count: 12
     import: import sqlalchemy as sa
     target: sqlalchemy
   - alias: sql

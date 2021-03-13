@@ -4,10 +4,10 @@ title: import kfp.components as comp
 
 data:
   alias: comp
-  count: 13
+  count: 14
   imports:
   - alias: comp
-    count: 13
+    count: 14
     import: import kfp.components as comp
     target: kfp.components
   target: kfp.components

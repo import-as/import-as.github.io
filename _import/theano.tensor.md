@@ -4,18 +4,18 @@ title: import theano.tensor as T
 
 data:
   alias: T
-  count: 274
+  count: 278
   imports:
   - alias: T
-    count: 170
+    count: 172
     import: import theano.tensor as T
     target: theano.tensor
   - alias: T
-    count: 46
+    count: 47
     import: from theano import tensor as T
     target: theano.tensor
   - alias: tt
-    count: 43
+    count: 44
     import: import theano.tensor as tt
     target: theano.tensor
   - alias: tt

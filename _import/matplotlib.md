@@ -4,10 +4,10 @@ title: import matplotlib as mpl
 
 data:
   alias: mpl
-  count: 1140
+  count: 1158
   imports:
   - alias: mpl
-    count: 1029
+    count: 1044
     import: import matplotlib as mpl
     target: matplotlib
   - alias: plt
@@ -21,6 +21,10 @@ data:
   - alias: mplc
     count: 4
     import: import matplotlib as mplc
+    target: matplotlib
+  - alias: pl
+    count: 3
+    import: import matplotlib as pl
     target: matplotlib
   - alias: mat
     count: 3

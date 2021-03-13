@@ -1,18 +1,18 @@
 ---
 layout: target
-title: import sqlite3 as lite
+title: import sqlite3 as sql
 
 data:
-  alias: lite
+  alias: sql
   count: 20
   imports:
-  - alias: lite
-    count: 8
-    import: import sqlite3 as lite
-    target: sqlite3
   - alias: sql
     count: 8
     import: import sqlite3 as sql
+    target: sqlite3
+  - alias: lite
+    count: 8
+    import: import sqlite3 as lite
     target: sqlite3
   - alias: db
     count: 4

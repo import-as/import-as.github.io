@@ -1,8 +1,8 @@
 - alias: np
-  count: 12769
+  count: 12922
   imports:
   - alias: np
-    count: 12740
+    count: 12891
     import: import numpy as np
     target: numpy
   - alias: onp
@@ -10,39 +10,39 @@
     import: import numpy as onp
     target: numpy
   - alias: N
-    count: 5
+    count: 6
     import: import numpy as N
     target: numpy
-  - alias: py
-    count: 4
-    import: import numpy as py
-    target: numpy
   - alias: NP
-    count: 4
+    count: 5
     import: import numpy as NP
     target: numpy
   - alias: n
     count: 4
     import: import numpy as n
     target: numpy
-  - alias: _np
-    count: 3
-    import: import numpy as _np
+  - alias: py
+    count: 4
+    import: import numpy as py
     target: numpy
   - alias: num
     count: 3
     import: import numpy as num
     target: numpy
+  - alias: _np
+    count: 3
+    import: import numpy as _np
+    target: numpy
   target: numpy
 - alias: plt
-  count: 12171
+  count: 12330
   imports:
   - alias: plt
-    count: 10492
+    count: 10610
     import: import matplotlib.pyplot as plt
     target: matplotlib.pyplot
   - alias: plt
-    count: 1458
+    count: 1496
     import: from matplotlib import pyplot as plt
     target: matplotlib.pyplot
   - alias: pl
@@ -70,7 +70,7 @@
     import: import matplotlib.pyplot as mp
     target: matplotlib.pyplot
   - alias: mplt
-    count: 6
+    count: 8
     import: import matplotlib.pyplot as mplt
     target: matplotlib.pyplot
   - alias: pt
@@ -81,24 +81,24 @@
     count: 5
     import: from matplotlib import pyplot as plot
     target: matplotlib.pyplot
-  - alias: plt1
-    count: 4
-    import: import matplotlib.pyplot as plt1
-    target: matplotlib.pyplot
   - alias: p
     count: 4
     import: import matplotlib.pyplot as p
     target: matplotlib.pyplot
+  - alias: plt1
+    count: 4
+    import: import matplotlib.pyplot as plt1
+    target: matplotlib.pyplot
   - alias: PLT
-    count: 3
+    count: 4
     import: import matplotlib.pyplot as PLT
     target: matplotlib.pyplot
   target: matplotlib.pyplot
 - alias: pd
-  count: 7761
+  count: 7868
   imports:
   - alias: pd
-    count: 7726
+    count: 7833
     import: import pandas as pd
     target: pandas
   - alias: pa
@@ -109,14 +109,6 @@
     count: 5
     import: import pandas as p
     target: pandas
-  - alias: pn
-    count: 4
-    import: import pandas as pn
-    target: pandas
-  - alias: pnd
-    count: 4
-    import: import pandas as pnd
-    target: pandas
   - alias: pan
     count: 4
     import: import pandas as pan
@@ -124,6 +116,14 @@
   - alias: PD
     count: 4
     import: import pandas as PD
+    target: pandas
+  - alias: pn
+    count: 4
+    import: import pandas as pn
+    target: pandas
+  - alias: pnd
+    count: 4
+    import: import pandas as pnd
     target: pandas
   - alias: pds
     count: 3
@@ -135,14 +135,14 @@
     target: pandas
   target: pandas
 - alias: sns
-  count: 2994
+  count: 3033
   imports:
   - alias: sns
-    count: 2832
+    count: 2869
     import: import seaborn as sns
     target: seaborn
   - alias: sb
-    count: 90
+    count: 91
     import: import seaborn as sb
     target: seaborn
   - alias: sn
@@ -150,7 +150,7 @@
     import: import seaborn as sn
     target: seaborn
   - alias: sbn
-    count: 18
+    count: 19
     import: import seaborn as sbn
     target: seaborn
   - alias: sea
@@ -167,18 +167,18 @@
     target: seaborn
   target: seaborn
 - alias: tf
-  count: 1928
+  count: 1972
   imports:
   - alias: tf
-    count: 1928
+    count: 1972
     import: import tensorflow as tf
     target: tensorflow
   target: tensorflow
 - alias: mpl
-  count: 1140
+  count: 1158
   imports:
   - alias: mpl
-    count: 1029
+    count: 1044
     import: import matplotlib as mpl
     target: matplotlib
   - alias: plt
@@ -193,6 +193,10 @@
     count: 4
     import: import matplotlib as mplc
     target: matplotlib
+  - alias: pl
+    count: 3
+    import: import matplotlib as pl
+    target: matplotlib
   - alias: mat
     count: 3
     import: import matplotlib as mat
@@ -203,18 +207,18 @@
     target: matplotlib
   target: matplotlib
 - alias: nx
-  count: 605
+  count: 614
   imports:
   - alias: nx
-    count: 605
+    count: 614
     import: import networkx as nx
     target: networkx
   target: networkx
 - alias: sp
-  count: 543
+  count: 552
   imports:
   - alias: sp
-    count: 486
+    count: 494
     import: import scipy as sp
     target: scipy
   - alias: sc
@@ -222,7 +226,7 @@
     import: import scipy as sc
     target: scipy
   - alias: sci
-    count: 9
+    count: 10
     import: import scipy as sci
     target: scipy
   - alias: scp
@@ -235,22 +239,22 @@
     target: scipy
   target: scipy
 - alias: sm
-  count: 452
+  count: 454
   imports:
   - alias: sm
-    count: 452
+    count: 454
     import: import statsmodels.api as sm
     target: statsmodels.api
   target: statsmodels.api
 - alias: pl
-  count: 410
+  count: 415
   imports:
   - alias: pl
-    count: 221
+    count: 222
     import: import pylab as pl
     target: pylab
   - alias: plt
-    count: 157
+    count: 161
     import: import pylab as plt
     target: pylab
   - alias: P
@@ -265,24 +269,24 @@
     count: 5
     import: import pylab as py
     target: pylab
-  - alias: pb
-    count: 3
-    import: import pylab as pb
-    target: pylab
   - alias: pyl
     count: 3
     import: import pylab as pyl
     target: pylab
+  - alias: pb
+    count: 3
+    import: import pylab as pb
+    target: pylab
   target: pylab
 - alias: plt
-  count: 388
+  count: 395
   imports:
   - alias: plt
-    count: 325
+    count: 329
     import: import matplotlib.pylab as plt
     target: matplotlib.pylab
   - alias: plt
-    count: 39
+    count: 42
     import: from matplotlib import pylab as plt
     target: matplotlib.pylab
   - alias: pl
@@ -295,14 +299,14 @@
     target: matplotlib.pylab
   target: matplotlib.pylab
 - alias: K
-  count: 384
+  count: 388
   imports:
   - alias: K
-    count: 280
+    count: 282
     import: from keras import backend as K
     target: keras.backend
   - alias: K
-    count: 101
+    count: 103
     import: import keras.backend as K
     target: keras.backend
   - alias: k
@@ -310,27 +314,19 @@
     import: from keras import backend as k
     target: keras.backend
   target: keras.backend
-- alias: dt
-  count: 274
-  imports:
-  - alias: dt
-    count: 274
-    import: import datetime as dt
-    target: datetime
-  target: datetime
 - alias: T
-  count: 274
+  count: 278
   imports:
   - alias: T
-    count: 170
+    count: 172
     import: import theano.tensor as T
     target: theano.tensor
   - alias: T
-    count: 46
+    count: 47
     import: from theano import tensor as T
     target: theano.tensor
   - alias: tt
-    count: 43
+    count: 44
     import: import theano.tensor as tt
     target: theano.tensor
   - alias: tt
@@ -342,15 +338,23 @@
     import: import theano.tensor as t
     target: theano.tensor
   target: theano.tensor
+- alias: dt
+  count: 277
+  imports:
+  - alias: dt
+    count: 277
+    import: import datetime as dt
+    target: datetime
+  target: datetime
 - alias: u
-  count: 273
+  count: 275
   imports:
   - alias: u
-    count: 149
+    count: 150
     import: import astropy.units as u
     target: astropy.units
   - alias: u
-    count: 121
+    count: 122
     import: from astropy import units as u
     target: astropy.units
   - alias: au
@@ -359,10 +363,10 @@
     target: astropy.units
   target: astropy.units
 - alias: go
-  count: 258
+  count: 259
   imports:
   - alias: go
-    count: 250
+    count: 251
     import: import plotly.graph_objs as go
     target: plotly.graph_objs
   - alias: go
@@ -370,31 +374,31 @@
     import: from plotly import graph_objs as go
     target: plotly.graph_objs
   target: plotly.graph_objs
-- alias: py
+- alias: smf
   count: 223
   imports:
-  - alias: py
-    count: 223
-    import: import plotly.plotly as py
-    target: plotly.plotly
-  target: plotly.plotly
-- alias: smf
-  count: 220
-  imports:
   - alias: smf
-    count: 178
+    count: 179
     import: import statsmodels.formula.api as smf
     target: statsmodels.formula.api
   - alias: sm
-    count: 42
+    count: 44
     import: import statsmodels.formula.api as sm
     target: statsmodels.formula.api
   target: statsmodels.formula.api
+- alias: py
+  count: 220
+  imports:
+  - alias: py
+    count: 220
+    import: import plotly.plotly as py
+    target: plotly.plotly
+  target: plotly.plotly
 - alias: st
-  count: 190
+  count: 191
   imports:
   - alias: st
-    count: 77
+    count: 78
     import: import scipy.stats as st
     target: scipy.stats
   - alias: ss
@@ -431,10 +435,10 @@
     target: scipy.stats
   target: scipy.stats
 - alias: xgb
-  count: 188
+  count: 191
   imports:
   - alias: xgb
-    count: 185
+    count: 188
     import: import xgboost as xgb
     target: xgboost
   - alias: xg
@@ -443,14 +447,14 @@
     target: xgboost
   target: xgboost
 - alias: sp
-  count: 177
+  count: 182
   imports:
   - alias: sp
-    count: 106
+    count: 109
     import: import sympy as sp
     target: sympy
   - alias: sym
-    count: 52
+    count: 54
     import: import sympy as sym
     target: sympy
   - alias: sy
@@ -467,10 +471,10 @@
     target: sympy
   target: sympy
 - alias: gpd
-  count: 167
+  count: 172
   imports:
   - alias: gpd
-    count: 148
+    count: 153
     import: import geopandas as gpd
     target: geopandas
   - alias: gp
@@ -479,14 +483,14 @@
     target: geopandas
   target: geopandas
 - alias: pkl
-  count: 160
+  count: 163
   imports:
   - alias: pkl
-    count: 146
+    count: 148
     import: import pickle as pkl
     target: pickle
   - alias: pk
-    count: 10
+    count: 11
     import: import pickle as pk
     target: pickle
   - alias: p
@@ -495,23 +499,23 @@
     target: pickle
   target: pickle
 - alias: opt
-  count: 155
+  count: 158
   imports:
   - alias: opt
-    count: 78
+    count: 79
     import: import scipy.optimize as opt
     target: scipy.optimize
   - alias: op
     count: 23
     import: import scipy.optimize as op
     target: scipy.optimize
+  - alias: so
+    count: 17
+    import: import scipy.optimize as so
+    target: scipy.optimize
   - alias: opt
     count: 16
     import: from scipy import optimize as opt
-    target: scipy.optimize
-  - alias: so
-    count: 15
-    import: import scipy.optimize as so
     target: scipy.optimize
   - alias: spo
     count: 9
@@ -530,23 +534,23 @@
     import: import scipy.optimize as sopt
     target: scipy.optimize
   target: scipy.optimize
-- alias: ccrs
-  count: 125
+- alias: F
+  count: 130
   imports:
-  - alias: ccrs
-    count: 117
-    import: import cartopy.crs as ccrs
-    target: cartopy.crs
-  - alias: ccrs
-    count: 8
-    import: from cartopy import crs as ccrs
-    target: cartopy.crs
-  target: cartopy.crs
+  - alias: F
+    count: 119
+    import: import torch.nn.functional as F
+    target: torch.nn.functional
+  - alias: F
+    count: 11
+    import: from torch.nn import functional as F
+    target: torch.nn.functional
+  target: torch.nn.functional
 - alias: xr
-  count: 124
+  count: 129
   imports:
   - alias: xr
-    count: 121
+    count: 126
     import: import xarray as xr
     target: xarray
   - alias: xray
@@ -554,23 +558,23 @@
     import: import xarray as xray
     target: xarray
   target: xarray
-- alias: F
-  count: 118
+- alias: ccrs
+  count: 123
   imports:
-  - alias: F
-    count: 108
-    import: import torch.nn.functional as F
-    target: torch.nn.functional
-  - alias: F
-    count: 10
-    import: from torch.nn import functional as F
-    target: torch.nn.functional
-  target: torch.nn.functional
+  - alias: ccrs
+    count: 116
+    import: import cartopy.crs as ccrs
+    target: cartopy.crs
+  - alias: ccrs
+    count: 7
+    import: from cartopy import crs as ccrs
+    target: cartopy.crs
+  target: cartopy.crs
 - alias: pm
-  count: 109
+  count: 113
   imports:
   - alias: pm
-    count: 104
+    count: 108
     import: import pymc3 as pm
     target: pymc3
   - alias: pm3
@@ -579,7 +583,7 @@
     target: pymc3
   target: pymc3
 - alias: LA
-  count: 102
+  count: 103
   imports:
   - alias: LA
     count: 39
@@ -590,7 +594,7 @@
     import: import numpy.linalg as la
     target: numpy.linalg
   - alias: LA
-    count: 12
+    count: 13
     import: import numpy.linalg as LA
     target: numpy.linalg
   - alias: la
@@ -601,17 +605,17 @@
     count: 5
     import: import numpy.linalg as nla
     target: numpy.linalg
-  - alias: lin
-    count: 3
-    import: import numpy.linalg as lin
-    target: numpy.linalg
   - alias: npl
     count: 3
     import: import numpy.linalg as npl
     target: numpy.linalg
+  - alias: lin
+    count: 3
+    import: import numpy.linalg as lin
+    target: numpy.linalg
   target: numpy.linalg
 - alias: ET
-  count: 99
+  count: 98
   imports:
   - alias: ET
     count: 82
@@ -622,15 +626,15 @@
     import: from xml.etree import ElementTree as ET
     target: xml.etree.ElementTree
   - alias: et
-    count: 7
+    count: 6
     import: import xml.etree.ElementTree as et
     target: xml.etree.ElementTree
   target: xml.etree.ElementTree
 - alias: rnd
-  count: 93
+  count: 94
   imports:
   - alias: rnd
-    count: 30
+    count: 31
     import: import numpy.random as rnd
     target: numpy.random
   - alias: npr
@@ -645,13 +649,13 @@
     count: 10
     import: import numpy.random as rng
     target: numpy.random
-  - alias: rng
-    count: 6
-    import: from numpy import random as rng
-    target: numpy.random
   - alias: rand
     count: 6
     import: import numpy.random as rand
+    target: numpy.random
+  - alias: rng
+    count: 6
+    import: from numpy import random as rng
     target: numpy.random
   - alias: np
     count: 4
@@ -667,10 +671,10 @@
     target: numpy.random
   target: numpy.random
 - alias: sk
-  count: 93
+  count: 94
   imports:
   - alias: sk
-    count: 70
+    count: 71
     import: import sklearn as sk
     target: sklearn
   - alias: skl
@@ -690,6 +694,18 @@
     import: import os.path as osp
     target: os.path
   target: os.path
+- alias: nib
+  count: 87
+  imports:
+  - alias: nib
+    count: 60
+    import: import nibabel as nib
+    target: nibabel
+  - alias: nb
+    count: 27
+    import: import nibabel as nb
+    target: nibabel
+  target: nibabel
 - alias: sio
   count: 87
   imports:
@@ -706,20 +722,8 @@
     import: import scipy.io as spio
     target: scipy.io
   target: scipy.io
-- alias: nib
-  count: 85
-  imports:
-  - alias: nib
-    count: 59
-    import: import nibabel as nib
-    target: nibabel
-  - alias: nb
-    count: 26
-    import: import nibabel as nb
-    target: nibabel
-  target: nibabel
 - alias: rnd
-  count: 82
+  count: 83
   imports:
   - alias: rnd
     count: 31
@@ -734,7 +738,7 @@
     import: import random as rand
     target: random
   - alias: r
-    count: 10
+    count: 11
     import: import random as r
     target: random
   - alias: rn
@@ -751,10 +755,10 @@
     target: random
   target: random
 - alias: it
-  count: 76
+  count: 78
   imports:
   - alias: it
-    count: 63
+    count: 65
     import: import itertools as it
     target: itertools
   - alias: itt
@@ -767,10 +771,10 @@
     target: itertools
   target: itertools
 - alias: m
-  count: 75
+  count: 77
   imports:
   - alias: m
-    count: 49
+    count: 51
     import: import math as m
     target: math
   - alias: mt
@@ -782,6 +786,30 @@
     import: import math as ma
     target: math
   target: math
+- alias: sp
+  count: 72
+  imports:
+  - alias: sp
+    count: 49
+    import: import scipy.sparse as sp
+    target: scipy.sparse
+  - alias: sps
+    count: 11
+    import: import scipy.sparse as sps
+    target: scipy.sparse
+  - alias: ss
+    count: 5
+    import: import scipy.sparse as ss
+    target: scipy.sparse
+  - alias: sp
+    count: 4
+    import: from scipy import sparse as sp
+    target: scipy.sparse
+  - alias: ssp
+    count: 3
+    import: import scipy.sparse as ssp
+    target: scipy.sparse
+  target: scipy.sparse
 - alias: bp
   count: 71
   imports:
@@ -811,37 +839,13 @@
     target: bokeh.plotting
   target: bokeh.plotting
 - alias: mp
-  count: 69
+  count: 71
   imports:
   - alias: mp
-    count: 69
+    count: 71
     import: import multiprocessing as mp
     target: multiprocessing
   target: multiprocessing
-- alias: sp
-  count: 69
-  imports:
-  - alias: sp
-    count: 48
-    import: import scipy.sparse as sp
-    target: scipy.sparse
-  - alias: sps
-    count: 10
-    import: import scipy.sparse as sps
-    target: scipy.sparse
-  - alias: ss
-    count: 5
-    import: import scipy.sparse as ss
-    target: scipy.sparse
-  - alias: ssp
-    count: 3
-    import: import scipy.sparse as ssp
-    target: scipy.sparse
-  - alias: sp
-    count: 3
-    import: from scipy import sparse as sp
-    target: scipy.sparse
-  target: scipy.sparse
 - alias: py
   count: 67
   imports:
@@ -879,10 +883,10 @@
     target: pandas_datareader.data
   target: pandas_datareader.data
 - alias: ndi
-  count: 62
+  count: 63
   imports:
   - alias: ndi
-    count: 29
+    count: 30
     import: from scipy import ndimage as ndi
     target: scipy.ndimage
   - alias: ndi
@@ -906,6 +910,54 @@
     import: from datetime import datetime as dt
     target: datetime.datetime
   target: datetime.datetime
+- alias: hv
+  count: 61
+  imports:
+  - alias: hv
+    count: 61
+    import: import holoviews as hv
+    target: holoviews
+  target: holoviews
+- alias: la
+  count: 61
+  imports:
+  - alias: la
+    count: 24
+    import: import scipy.linalg as la
+    target: scipy.linalg
+  - alias: la
+    count: 11
+    import: from scipy import linalg as la
+    target: scipy.linalg
+  - alias: LA
+    count: 7
+    import: import scipy.linalg as LA
+    target: scipy.linalg
+  - alias: lin
+    count: 4
+    import: import scipy.linalg as lin
+    target: scipy.linalg
+  - alias: LA
+    count: 3
+    import: from scipy import linalg as LA
+    target: scipy.linalg
+  - alias: spl
+    count: 3
+    import: import scipy.linalg as spl
+    target: scipy.linalg
+  - alias: sp
+    count: 3
+    import: import scipy.linalg as sp
+    target: scipy.linalg
+  - alias: sla
+    count: 3
+    import: import scipy.linalg as sla
+    target: scipy.linalg
+  - alias: sl
+    count: 3
+    import: import scipy.linalg as sl
+    target: scipy.linalg
+  target: scipy.linalg
 - alias: tls
   count: 60
   imports:
@@ -918,62 +970,14 @@
     import: from plotly import tools as tls
     target: plotly.tools
   target: plotly.tools
-- alias: la
+- alias: tfds
   count: 60
   imports:
-  - alias: la
-    count: 24
-    import: import scipy.linalg as la
-    target: scipy.linalg
-  - alias: la
-    count: 11
-    import: from scipy import linalg as la
-    target: scipy.linalg
-  - alias: LA
-    count: 6
-    import: import scipy.linalg as LA
-    target: scipy.linalg
-  - alias: lin
-    count: 4
-    import: import scipy.linalg as lin
-    target: scipy.linalg
-  - alias: spl
-    count: 3
-    import: import scipy.linalg as spl
-    target: scipy.linalg
-  - alias: sla
-    count: 3
-    import: import scipy.linalg as sla
-    target: scipy.linalg
-  - alias: sp
-    count: 3
-    import: import scipy.linalg as sp
-    target: scipy.linalg
-  - alias: sl
-    count: 3
-    import: import scipy.linalg as sl
-    target: scipy.linalg
-  - alias: LA
-    count: 3
-    import: from scipy import linalg as LA
-    target: scipy.linalg
-  target: scipy.linalg
-- alias: hv
-  count: 56
-  imports:
-  - alias: hv
-    count: 56
-    import: import holoviews as hv
-    target: holoviews
-  target: holoviews
-- alias: cf
-  count: 52
-  imports:
-  - alias: cf
-    count: 52
-    import: import cufflinks as cf
-    target: cufflinks
-  target: cufflinks
+  - alias: tfds
+    count: 60
+    import: import tensorflow_datasets as tfds
+    target: tensorflow_datasets
+  target: tensorflow_datasets
 - alias: alt
   count: 51
   imports:
@@ -982,15 +986,23 @@
     import: import altair as alt
     target: altair
   target: altair
+- alias: cf
+  count: 51
+  imports:
+  - alias: cf
+    count: 51
+    import: import cufflinks as cf
+    target: cufflinks
+  target: cufflinks
 - alias: F
-  count: 48
+  count: 50
   imports:
   - alias: F
-    count: 21
+    count: 22
     import: from pyspark.sql import functions as F
     target: pyspark.sql.functions
   - alias: F
-    count: 15
+    count: 16
     import: import pyspark.sql.functions as F
     target: pyspark.sql.functions
   - alias: func
@@ -1006,27 +1018,27 @@
     import: import pyspark.sql.functions as fn
     target: pyspark.sql.functions
   target: pyspark.sql.functions
-- alias: tfds
-  count: 48
-  imports:
-  - alias: tfds
-    count: 48
-    import: import tensorflow_datasets as tfds
-    target: tensorflow_datasets
-  target: tensorflow_datasets
 - alias: hp
-  count: 47
+  count: 49
   imports:
   - alias: hp
-    count: 47
+    count: 49
     import: import healpy as hp
     target: healpy
   target: healpy
+- alias: wn
+  count: 48
+  imports:
+  - alias: wn
+    count: 48
+    import: from nltk.corpus import wordnet as wn
+    target: nltk.corpus.wordnet
+  target: nltk.corpus.wordnet
 - alias: cmx
-  count: 46
+  count: 47
   imports:
   - alias: cmx
-    count: 41
+    count: 42
     import: import matplotlib.cm as cmx
     target: matplotlib.cm
   - alias: cmap
@@ -1034,14 +1046,26 @@
     import: import matplotlib.cm as cmap
     target: matplotlib.cm
   target: matplotlib.cm
-- alias: wn
-  count: 46
+- alias: hub
+  count: 47
   imports:
-  - alias: wn
-    count: 46
-    import: from nltk.corpus import wordnet as wn
-    target: nltk.corpus.wordnet
-  target: nltk.corpus.wordnet
+  - alias: hub
+    count: 47
+    import: import tensorflow_hub as hub
+    target: tensorflow_hub
+  target: tensorflow_hub
+- alias: dd
+  count: 45
+  imports:
+  - alias: dd
+    count: 42
+    import: import dask.dataframe as dd
+    target: dask.dataframe
+  - alias: dd
+    count: 3
+    import: from dask import dataframe as dd
+    target: dask.dataframe
+  target: dask.dataframe
 - alias: va
   count: 45
   imports:
@@ -1054,6 +1078,14 @@
     import: from github.ellisonbg.misc import vizarray as va
     target: github.ellisonbg.misc.vizarray
   target: github.ellisonbg.misc.vizarray
+- alias: tqdm
+  count: 45
+  imports:
+  - alias: tqdm
+    count: 45
+    import: from tqdm import tqdm_notebook as tqdm
+    target: tqdm.tqdm_notebook
+  target: tqdm.tqdm_notebook
 - alias: md
   count: 44
   imports:
@@ -1062,14 +1094,14 @@
     import: import mdtraj as md
     target: mdtraj
   target: mdtraj
-- alias: web
+- alias: mx
   count: 44
   imports:
-  - alias: web
+  - alias: mx
     count: 44
-    import: import pandas.io.data as web
-    target: pandas.io.data
-  target: pandas.io.data
+    import: import mxnet as mx
+    target: mxnet
+  target: mxnet
 - alias: pm
   count: 44
   imports:
@@ -1082,26 +1114,46 @@
     import: import pymc as mc
     target: pymc
   target: pymc
-- alias: dd
+- alias: da
   count: 43
   imports:
-  - alias: dd
-    count: 40
-    import: import dask.dataframe as dd
-    target: dask.dataframe
-  - alias: dd
-    count: 3
-    import: from dask import dataframe as dd
-    target: dask.dataframe
-  target: dask.dataframe
-- alias: mx
-  count: 43
-  imports:
-  - alias: mx
+  - alias: da
     count: 43
-    import: import mxnet as mx
-    target: mxnet
-  target: mxnet
+    import: import dask.array as da
+    target: dask.array
+  target: dask.array
+- alias: web
+  count: 43
+  imports:
+  - alias: web
+    count: 43
+    import: import pandas.io.data as web
+    target: pandas.io.data
+  target: pandas.io.data
+- alias: sig
+  count: 43
+  imports:
+  - alias: sig
+    count: 24
+    import: import scipy.signal as sig
+    target: scipy.signal
+  - alias: ss
+    count: 7
+    import: import scipy.signal as ss
+    target: scipy.signal
+  - alias: sig
+    count: 5
+    import: from scipy import signal as sig
+    target: scipy.signal
+  - alias: sps
+    count: 4
+    import: import scipy.signal as sps
+    target: scipy.signal
+  - alias: sg
+    count: 3
+    import: from scipy import signal as sg
+    target: scipy.signal
+  target: scipy.signal
 - alias: ipyd
   count: 42
   imports:
@@ -1126,46 +1178,6 @@
     import: from IPython import display as d
     target: IPython.display
   target: IPython.display
-- alias: sig
-  count: 42
-  imports:
-  - alias: sig
-    count: 23
-    import: import scipy.signal as sig
-    target: scipy.signal
-  - alias: ss
-    count: 7
-    import: import scipy.signal as ss
-    target: scipy.signal
-  - alias: sig
-    count: 5
-    import: from scipy import signal as sig
-    target: scipy.signal
-  - alias: sps
-    count: 4
-    import: import scipy.signal as sps
-    target: scipy.signal
-  - alias: sg
-    count: 3
-    import: from scipy import signal as sg
-    target: scipy.signal
-  target: scipy.signal
-- alias: tqdm
-  count: 42
-  imports:
-  - alias: tqdm
-    count: 42
-    import: from tqdm import tqdm_notebook as tqdm
-    target: tqdm.tqdm_notebook
-  target: tqdm.tqdm_notebook
-- alias: da
-  count: 41
-  imports:
-  - alias: da
-    count: 41
-    import: import dask.array as da
-    target: dask.array
-  target: dask.array
 - alias: gl
   count: 41
   imports:
@@ -1174,14 +1186,6 @@
     import: import graphlab as gl
     target: graphlab
   target: graphlab
-- alias: hub
-  count: 41
-  imports:
-  - alias: hub
-    count: 41
-    import: import tensorflow_hub as hub
-    target: tensorflow_hub
-  target: tensorflow_hub
 - alias: bs
   count: 40
   imports:
@@ -1199,14 +1203,14 @@
     target: bs4.BeautifulSoup
   target: bs4.BeautifulSoup
 - alias: ff
-  count: 37
+  count: 39
   imports:
   - alias: ff
-    count: 31
+    count: 32
     import: import plotly.figure_factory as ff
     target: plotly.figure_factory
   - alias: FF
-    count: 3
+    count: 4
     import: from plotly import figure_factory as FF
     target: plotly.figure_factory
   - alias: FF
@@ -1214,6 +1218,18 @@
     import: import plotly.figure_factory as FF
     target: plotly.figure_factory
   target: plotly.figure_factory
+- alias: np
+  count: 37
+  imports:
+  - alias: np
+    count: 34
+    import: import autograd.numpy as np
+    target: autograd.numpy
+  - alias: np
+    count: 3
+    import: from autograd import numpy as np
+    target: autograd.numpy
+  target: autograd.numpy
 - alias: sch
   count: 37
   imports:
@@ -1234,18 +1250,6 @@
     import: from scipy.cluster import hierarchy as hc
     target: scipy.cluster.hierarchy
   target: scipy.cluster.hierarchy
-- alias: np
-  count: 36
-  imports:
-  - alias: np
-    count: 33
-    import: import autograd.numpy as np
-    target: autograd.numpy
-  - alias: np
-    count: 3
-    import: from autograd import numpy as np
-    target: autograd.numpy
-  target: autograd.numpy
 - alias: cv
   count: 36
   imports:
@@ -1259,13 +1263,45 @@
     target: sklearn.cross_validation
   target: sklearn.cross_validation
 - alias: tf
-  count: 33
+  count: 36
   imports:
   - alias: tf
-    count: 33
+    count: 36
     import: import tensorflow.compat.v1 as tf
     target: tensorflow.compat.v1
   target: tensorflow.compat.v1
+- alias: jnp
+  count: 33
+  imports:
+  - alias: jnp
+    count: 21
+    import: import jax.numpy as jnp
+    target: jax.numpy
+  - alias: np
+    count: 8
+    import: import jax.numpy as np
+    target: jax.numpy
+  - alias: jnp
+    count: 4
+    import: from jax import numpy as jnp
+    target: jax.numpy
+  target: jax.numpy
+- alias: beam
+  count: 32
+  imports:
+  - alias: beam
+    count: 32
+    import: import apache_beam as beam
+    target: apache_beam
+  target: apache_beam
+- alias: lgb
+  count: 32
+  imports:
+  - alias: lgb
+    count: 32
+    import: import lightgbm as lgb
+    target: lightgbm
+  target: lightgbm
 - alias: ps
   count: 32
   imports:
@@ -1274,6 +1310,22 @@
     import: import pysal as ps
     target: pysal
   target: pysal
+- alias: req
+  count: 32
+  imports:
+  - alias: req
+    count: 13
+    import: import requests as req
+    target: requests
+  - alias: rq
+    count: 11
+    import: import requests as rq
+    target: requests
+  - alias: r
+    count: 8
+    import: import requests as r
+    target: requests
+  target: requests
 - alias: LDA
   count: 32
   imports:
@@ -1283,43 +1335,11 @@
       LDA
     target: sklearn.discriminant_analysis.LinearDiscriminantAnalysis
   target: sklearn.discriminant_analysis.LinearDiscriminantAnalysis
-- alias: beam
-  count: 31
-  imports:
-  - alias: beam
-    count: 31
-    import: import apache_beam as beam
-    target: apache_beam
-  target: apache_beam
-- alias: lgb
-  count: 31
-  imports:
-  - alias: lgb
-    count: 31
-    import: import lightgbm as lgb
-    target: lightgbm
-  target: lightgbm
-- alias: req
-  count: 31
-  imports:
-  - alias: req
-    count: 13
-    import: import requests as req
-    target: requests
-  - alias: rq
-    count: 10
-    import: import requests as rq
-    target: requests
-  - alias: r
-    count: 8
-    import: import requests as r
-    target: requests
-  target: requests
 - alias: plt
-  count: 29
+  count: 31
   imports:
   - alias: plt
-    count: 16
+    count: 18
     import: import bqplot.pyplot as plt
     target: bqplot.pyplot
   - alias: plt
@@ -1331,6 +1351,22 @@
     import: import bqplot.pyplot as bqp
     target: bqplot.pyplot
   target: bqplot.pyplot
+- alias: tfp
+  count: 29
+  imports:
+  - alias: tfp
+    count: 29
+    import: import tensorflow_probability as tfp
+    target: tensorflow_probability
+  target: tensorflow_probability
+- alias: go
+  count: 28
+  imports:
+  - alias: go
+    count: 28
+    import: import plotly.graph_objects as go
+    target: plotly.graph_objects
+  target: plotly.graph_objects
 - alias: ig
   count: 26
   imports:
@@ -1340,10 +1376,10 @@
     target: igraph
   target: igraph
 - alias: lm
-  count: 25
+  count: 26
   imports:
   - alias: lm
-    count: 17
+    count: 18
     import: import sklearn.linear_model as lm
     target: sklearn.linear_model
   - alias: lm
@@ -1386,13 +1422,13 @@
     count: 4
     import: import ipywidgets as wg
     target: ipywidgets
-  - alias: w
-    count: 3
-    import: import ipywidgets as w
-    target: ipywidgets
   - alias: wd
     count: 3
     import: import ipywidgets as wd
+    target: ipywidgets
+  - alias: w
+    count: 3
+    import: import ipywidgets as w
     target: ipywidgets
   target: ipywidgets
 - alias: clr
@@ -1415,22 +1451,22 @@
     import: import matplotlib.colors as mc
     target: matplotlib.colors
   target: matplotlib.colors
-- alias: pf
+- alias: tf
+  count: 24
+  imports:
+  - alias: tf
+    count: 24
+    import: import tensorflow.compat.v2 as tf
+    target: tensorflow.compat.v2
+  target: tensorflow.compat.v2
+- alias: px
   count: 23
   imports:
-  - alias: pf
+  - alias: px
     count: 23
-    import: import pyfolio as pf
-    target: pyfolio
-  target: pyfolio
-- alias: sns
-  count: 23
-  imports:
-  - alias: sns
-    count: 23
-    import: import seaborn.apionly as sns
-    target: seaborn.apionly
-  target: seaborn.apionly
+    import: import plotly.express as px
+    target: plotly.express
+  target: plotly.express
 - alias: skm
   count: 23
   imports:
@@ -1447,6 +1483,14 @@
     import: import sklearn.metrics as sm
     target: sklearn.metrics
   target: sklearn.metrics
+- alias: mse
+  count: 23
+  imports:
+  - alias: mse
+    count: 23
+    import: from sklearn.metrics import mean_squared_error as mse
+    target: sklearn.metrics.mean_squared_error
+  target: sklearn.metrics.mean_squared_error
 - alias: sm
   count: 23
   imports:
@@ -1455,14 +1499,6 @@
     import: import statsmodels as sm
     target: statsmodels
   target: statsmodels
-- alias: tfp
-  count: 23
-  imports:
-  - alias: tfp
-    count: 23
-    import: import tensorflow_probability as tfp
-    target: tensorflow_probability
-  target: tensorflow_probability
 - alias: json
   count: 23
   imports:
@@ -1471,6 +1507,14 @@
     import: import ujson as json
     target: ujson
   target: ujson
+- alias: az
+  count: 22
+  imports:
+  - alias: az
+    count: 22
+    import: import arviz as az
+    target: arviz
+  target: arviz
 - alias: mpy
   count: 22
   imports:
@@ -1491,34 +1535,38 @@
     import: from pprint import pprint as pp
     target: pprint.pprint
   target: pprint.pprint
-- alias: mse
+- alias: pf
   count: 22
   imports:
-  - alias: mse
+  - alias: pf
     count: 22
-    import: from sklearn.metrics import mean_squared_error as mse
-    target: sklearn.metrics.mean_squared_error
-  target: sklearn.metrics.mean_squared_error
-- alias: tf
+    import: import pyfolio as pf
+    target: pyfolio
+  target: pyfolio
+- alias: sns
   count: 22
   imports:
-  - alias: tf
+  - alias: sns
     count: 22
-    import: import tensorflow.compat.v2 as tf
-    target: tensorflow.compat.v2
-  target: tensorflow.compat.v2
-- alias: jnp
-  count: 21
+    import: import seaborn.apionly as sns
+    target: seaborn.apionly
+  target: seaborn.apionly
+- alias: sa
+  count: 22
   imports:
-  - alias: jnp
-    count: 15
-    import: import jax.numpy as jnp
-    target: jax.numpy
-  - alias: np
-    count: 6
-    import: import jax.numpy as np
-    target: jax.numpy
-  target: jax.numpy
+  - alias: sa
+    count: 12
+    import: import sqlalchemy as sa
+    target: sqlalchemy
+  - alias: sql
+    count: 5
+    import: import sqlalchemy as sql
+    target: sqlalchemy
+  - alias: sqla
+    count: 5
+    import: import sqlalchemy as sqla
+    target: sqlalchemy
+  target: sqlalchemy
 - alias: sp
   count: 21
   imports:
@@ -1535,30 +1583,6 @@
     import: import scipy.special as sps
     target: scipy.special
   target: scipy.special
-- alias: sa
-  count: 21
-  imports:
-  - alias: sa
-    count: 11
-    import: import sqlalchemy as sa
-    target: sqlalchemy
-  - alias: sql
-    count: 5
-    import: import sqlalchemy as sql
-    target: sqlalchemy
-  - alias: sqla
-    count: 5
-    import: import sqlalchemy as sqla
-    target: sqlalchemy
-  target: sqlalchemy
-- alias: sitk
-  count: 20
-  imports:
-  - alias: sitk
-    count: 20
-    import: import SimpleITK as sitk
-    target: SimpleITK
-  target: SimpleITK
 - alias: df
   count: 20
   imports:
@@ -1567,6 +1591,26 @@
     import: from bokeh.sampledata.autompg import autompg as df
     target: bokeh.sampledata.autompg.autompg
   target: bokeh.sampledata.autompg.autompg
+- alias: cvx
+  count: 20
+  imports:
+  - alias: cvx
+    count: 13
+    import: import cvxpy as cvx
+    target: cvxpy
+  - alias: cp
+    count: 7
+    import: import cvxpy as cp
+    target: cvxpy
+  target: cvxpy
+- alias: ipp
+  count: 20
+  imports:
+  - alias: ipp
+    count: 20
+    import: import ipyparallel as ipp
+    target: ipyparallel
+  target: ipyparallel
 - alias: web
   count: 20
   imports:
@@ -1583,90 +1627,54 @@
     import: import pandas_datareader as data
     target: pandas_datareader
   target: pandas_datareader
-- alias: lite
+- alias: pp
   count: 20
   imports:
-  - alias: lite
-    count: 8
-    import: import sqlite3 as lite
-    target: sqlite3
-  - alias: sql
-    count: 8
-    import: import sqlite3 as sql
-    target: sqlite3
-  - alias: db
-    count: 4
-    import: import sqlite3 as db
-    target: sqlite3
-  target: sqlite3
-- alias: az
-  count: 19
-  imports:
-  - alias: az
-    count: 19
-    import: import arviz as az
-    target: arviz
-  target: arviz
-- alias: cvx
-  count: 19
-  imports:
-  - alias: cvx
-    count: 13
-    import: import cvxpy as cvx
-    target: cvxpy
-  - alias: cp
-    count: 6
-    import: import cvxpy as cp
-    target: cvxpy
-  target: cvxpy
-- alias: ipp
-  count: 19
-  imports:
-  - alias: ipp
-    count: 19
-    import: import ipyparallel as ipp
-    target: ipyparallel
-  target: ipyparallel
-- alias: nc
-  count: 19
-  imports:
-  - alias: nc
-    count: 15
-    import: import netCDF4 as nc
-    target: netCDF4
-  - alias: nc4
-    count: 4
-    import: import netCDF4 as nc4
-    target: netCDF4
-  target: netCDF4
-- alias: go
-  count: 19
-  imports:
-  - alias: go
-    count: 19
-    import: import plotly.graph_objects as go
-    target: plotly.graph_objects
-  target: plotly.graph_objects
-- alias: pp
-  count: 19
-  imports:
   - alias: pp
-    count: 19
+    count: 20
     import: import pprint as pp
     target: pprint
   target: pprint
 - alias: mm
-  count: 19
+  count: 20
   imports:
   - alias: mm
     count: 16
     import: import simtk.openmm as mm
     target: simtk.openmm
   - alias: omm
-    count: 3
+    count: 4
     import: import simtk.openmm as omm
     target: simtk.openmm
   target: simtk.openmm
+- alias: sql
+  count: 20
+  imports:
+  - alias: sql
+    count: 8
+    import: import sqlite3 as sql
+    target: sqlite3
+  - alias: lite
+    count: 8
+    import: import sqlite3 as lite
+    target: sqlite3
+  - alias: db
+    count: 4
+    import: import sqlite3 as db
+    target: sqlite3
+  target: sqlite3
+- alias: K
+  count: 20
+  imports:
+  - alias: K
+    count: 11
+    import: from tensorflow.keras import backend as K
+    target: tensorflow.keras.backend
+  - alias: K
+    count: 9
+    import: import tensorflow.keras.backend as K
+    target: tensorflow.keras.backend
+  target: tensorflow.keras.backend
 - alias: th
   count: 19
   imports:
@@ -1699,6 +1707,14 @@
     import: import xml.etree.cElementTree as ET
     target: xml.etree.cElementTree
   target: xml.etree.cElementTree
+- alias: sitk
+  count: 18
+  imports:
+  - alias: sitk
+    count: 18
+    import: import SimpleITK as sitk
+    target: SimpleITK
+  target: SimpleITK
 - alias: tf
   count: 18
   imports:
@@ -1711,6 +1727,18 @@
     import: from datashader import transfer_functions as tf
     target: datashader.transfer_functions
   target: datashader.transfer_functions
+- alias: nc
+  count: 18
+  imports:
+  - alias: nc
+    count: 15
+    import: import netCDF4 as nc
+    target: netCDF4
+  - alias: nc4
+    count: 3
+    import: import netCDF4 as nc4
+    target: netCDF4
+  target: netCDF4
 - alias: ne
   count: 18
   imports:
@@ -1727,6 +1755,14 @@
     import: import statsmodels.stats.api as sms
     target: statsmodels.stats.api
   target: statsmodels.stats.api
+- alias: ipv
+  count: 17
+  imports:
+  - alias: ipv
+    count: 17
+    import: import ipyvolume as ipv
+    target: ipyvolume
+  target: ipyvolume
 - alias: msno
   count: 17
   imports:
@@ -1743,14 +1779,6 @@
     import: import numba as nb
     target: numba
   target: numba
-- alias: px
-  count: 17
-  imports:
-  - alias: px
-    count: 17
-    import: import plotly.express as px
-    target: plotly.express
-  target: plotly.express
 - alias: data
   count: 17
   imports:
@@ -1774,13 +1802,13 @@
     count: 11
     import: from sklearn.ensemble import RandomForestClassifier as RF
     target: sklearn.ensemble.RandomForestClassifier
-  - alias: RFC
-    count: 3
-    import: from sklearn.ensemble import RandomForestClassifier as RFC
-    target: sklearn.ensemble.RandomForestClassifier
   - alias: rfc
     count: 3
     import: from sklearn.ensemble import RandomForestClassifier as rfc
+    target: sklearn.ensemble.RandomForestClassifier
+  - alias: RFC
+    count: 3
+    import: from sklearn.ensemble import RandomForestClassifier as RFC
     target: sklearn.ensemble.RandomForestClassifier
   target: sklearn.ensemble.RandomForestClassifier
 - alias: c
@@ -1788,11 +1816,11 @@
   imports:
   - alias: c
     count: 8
-    import: import astropy.constants as c
+    import: from astropy import constants as c
     target: astropy.constants
   - alias: c
     count: 8
-    import: from astropy import constants as c
+    import: import astropy.constants as c
     target: astropy.constants
   target: astropy.constants
 - alias: cl
@@ -1811,14 +1839,6 @@
     import: import edward as ed
     target: edward
   target: edward
-- alias: ipv
-  count: 16
-  imports:
-  - alias: ipv
-    count: 16
-    import: import ipyvolume as ipv
-    target: ipyvolume
-  target: ipyvolume
 - alias: md
   count: 16
   imports:
@@ -1867,6 +1887,14 @@
     import: import sklearn.preprocessing as skpp
     target: sklearn.preprocessing
   target: sklearn.preprocessing
+- alias: snt
+  count: 16
+  imports:
+  - alias: snt
+    count: 16
+    import: import sonnet as snt
+    target: sonnet
+  target: sonnet
 - alias: F
   count: 15
   imports:
@@ -1875,14 +1903,6 @@
     import: import chainer.functions as F
     target: chainer.functions
   target: chainer.functions
-- alias: qplt
-  count: 15
-  imports:
-  - alias: qplt
-    count: 15
-    import: import iris.quickplot as qplt
-    target: iris.quickplot
-  target: iris.quickplot
 - alias: AA
   count: 15
   imports:
@@ -1903,18 +1923,6 @@
     import: import subprocess as sb
     target: subprocess
   target: subprocess
-- alias: K
-  count: 15
-  imports:
-  - alias: K
-    count: 8
-    import: from tensorflow.keras import backend as K
-    target: tensorflow.keras.backend
-  - alias: K
-    count: 7
-    import: import tensorflow.keras.backend as K
-    target: tensorflow.keras.backend
-  target: tensorflow.keras.backend
 - alias: gv
   count: 14
   imports:
@@ -1923,6 +1931,22 @@
     import: import geoviews as gv
     target: geoviews
   target: geoviews
+- alias: qplt
+  count: 14
+  imports:
+  - alias: qplt
+    count: 14
+    import: import iris.quickplot as qplt
+    target: iris.quickplot
+  target: iris.quickplot
+- alias: comp
+  count: 14
+  imports:
+  - alias: comp
+    count: 14
+    import: import kfp.components as comp
+    target: kfp.components
+  target: kfp.components
 - alias: mh
   count: 14
   imports:
@@ -1951,22 +1975,14 @@
     import: import rpy2.robjects as ro
     target: rpy2.robjects
   target: rpy2.robjects
-- alias: snt
+- alias: tfa
   count: 14
   imports:
-  - alias: snt
+  - alias: tfa
     count: 14
-    import: import sonnet as snt
-    target: sonnet
-  target: sonnet
-- alias: tfma
-  count: 14
-  imports:
-  - alias: tfma
-    count: 14
-    import: import tensorflow_model_analysis as tfma
-    target: tensorflow_model_analysis
-  target: tensorflow_model_analysis
+    import: import tensorflow_addons as tfa
+    target: tensorflow_addons
+  target: tensorflow_addons
 - alias: viz
   count: 13
   imports:
@@ -1975,6 +1991,14 @@
     import: import astropy.visualization as viz
     target: astropy.visualization
   target: astropy.visualization
+- alias: cv
+  count: 13
+  imports:
+  - alias: cv
+    count: 13
+    import: import cv2 as cv
+    target: cv2
+  target: cv2
 - alias: opt
   count: 13
   imports:
@@ -1995,22 +2019,6 @@
     import: import google.datalab.bigquery as bq
     target: google.datalab.bigquery
   target: google.datalab.bigquery
-- alias: h5
-  count: 13
-  imports:
-  - alias: h5
-    count: 13
-    import: import h5py as h5
-    target: h5py
-  target: h5py
-- alias: comp
-  count: 13
-  imports:
-  - alias: comp
-    count: 13
-    import: import kfp.components as comp
-    target: kfp.components
-  target: kfp.components
 - alias: mtri
   count: 13
   imports:
@@ -2035,6 +2043,14 @@
     import: import quantecon as qe
     target: quantecon
   target: quantecon
+- alias: KNN
+  count: 13
+  imports:
+  - alias: KNN
+    count: 13
+    import: from sklearn.neighbors import KNeighborsClassifier as KNN
+    target: sklearn.neighbors.KNeighborsClassifier
+  target: sklearn.neighbors.KNeighborsClassifier
 - alias: smt
   count: 13
   imports:
@@ -2047,6 +2063,22 @@
     import: import statsmodels.tsa.api as tsa
     target: statsmodels.tsa.api
   target: statsmodels.tsa.api
+- alias: tfe
+  count: 13
+  imports:
+  - alias: tfe
+    count: 13
+    import: import tensorflow.contrib.eager as tfe
+    target: tensorflow.contrib.eager
+  target: tensorflow.contrib.eager
+- alias: tfma
+  count: 13
+  imports:
+  - alias: tfma
+    count: 13
+    import: import tensorflow_model_analysis as tfma
+    target: tensorflow_model_analysis
+  target: tensorflow_model_analysis
 - alias: tk
   count: 13
   imports:
@@ -2059,14 +2091,6 @@
     import: import tkinter as Tk
     target: tkinter
   target: tkinter
-- alias: cv
-  count: 12
-  imports:
-  - alias: cv
-    count: 12
-    import: import cv2 as cv
-    target: cv2
-  target: cv2
 - alias: db
   count: 12
   imports:
@@ -2075,6 +2099,14 @@
     import: import dask.bag as db
     target: dask.bag
   target: dask.bag
+- alias: h5
+  count: 12
+  imports:
+  - alias: h5
+    count: 12
+    import: import h5py as h5
+    target: h5py
+  target: h5py
 - alias: iplt
   count: 12
   imports:
@@ -2119,38 +2151,14 @@
     import: from plotly.tools import FigureFactory as FF
     target: plotly.tools.FigureFactory
   target: plotly.tools.FigureFactory
-- alias: sw
+- alias: pq
   count: 12
   imports:
-  - alias: sw
+  - alias: pq
     count: 12
-    import: import seawater as sw
-    target: seawater
-  target: seawater
-- alias: KNN
-  count: 12
-  imports:
-  - alias: KNN
-    count: 12
-    import: from sklearn.neighbors import KNeighborsClassifier as KNN
-    target: sklearn.neighbors.KNeighborsClassifier
-  target: sklearn.neighbors.KNeighborsClassifier
-- alias: tfe
-  count: 12
-  imports:
-  - alias: tfe
-    count: 12
-    import: import tensorflow.contrib.eager as tfe
-    target: tensorflow.contrib.eager
-  target: tensorflow.contrib.eager
-- alias: tfdv
-  count: 12
-  imports:
-  - alias: tfdv
-    count: 12
-    import: import tensorflow_data_validation as tfdv
-    target: tensorflow_data_validation
-  target: tensorflow_data_validation
+    import: import quantities as pq
+    target: quantities
+  target: quantities
 - alias: tft
   count: 12
   imports:
@@ -2175,6 +2183,14 @@
     import: import IPython.core.display as di
     target: IPython.core.display
   target: IPython.core.display
+- alias: dc
+  count: 11
+  imports:
+  - alias: dc
+    count: 11
+    import: import deepchem as dc
+    target: deepchem
+  target: deepchem
 - alias: gt
   count: 11
   imports:
@@ -2211,14 +2227,6 @@
     import: import matplotlib.ticker as tick
     target: matplotlib.ticker
   target: matplotlib.ticker
-- alias: mb
-  count: 11
-  imports:
-  - alias: mb
-    count: 11
-    import: import mbuild as mb
-    target: mbuild
-  target: mbuild
 - alias: mio
   count: 11
   imports:
@@ -2267,6 +2275,14 @@
     import: import renders as rs
     target: renders
   target: renders
+- alias: sw
+  count: 11
+  imports:
+  - alias: sw
+    count: 11
+    import: import seawater as sw
+    target: seawater
+  target: seawater
 - alias: EC
   count: 11
   imports:
@@ -2275,6 +2291,18 @@
     import: from selenium.webdriver.support import expected_conditions as EC
     target: selenium.webdriver.support.expected_conditions
   target: selenium.webdriver.support.expected_conditions
+- alias: ski
+  count: 11
+  imports:
+  - alias: ski
+    count: 6
+    import: import skimage as ski
+    target: skimage
+  - alias: sk
+    count: 5
+    import: import skimage as sk
+    target: skimage
+  target: skimage
 - alias: tts
   count: 11
   imports:
@@ -2283,6 +2311,22 @@
     import: from sklearn.model_selection import train_test_split as tts
     target: sklearn.model_selection.train_test_split
   target: sklearn.model_selection.train_test_split
+- alias: tfdv
+  count: 11
+  imports:
+  - alias: tfdv
+    count: 11
+    import: import tensorflow_data_validation as tfdv
+    target: tensorflow_data_validation
+  target: tensorflow_data_validation
+- alias: dset
+  count: 11
+  imports:
+  - alias: dset
+    count: 11
+    import: import torchvision.datasets as dset
+    target: torchvision.datasets
+  target: torchvision.datasets
 - alias: yb
   count: 11
   imports:
@@ -2291,6 +2335,14 @@
     import: import yellowbrick as yb
     target: yellowbrick
   target: yellowbrick
+- alias: bq
+  count: 10
+  imports:
+  - alias: bq
+    count: 10
+    import: import bqplot as bq
+    target: bqplot
+  target: bqplot
 - alias: L
   count: 10
   imports:
@@ -2307,14 +2359,6 @@
     import: from caffe import params as P
     target: caffe.params
   target: caffe.params
-- alias: dc
-  count: 10
-  imports:
-  - alias: dc
-    count: 10
-    import: import deepchem as dc
-    target: deepchem
-  target: deepchem
 - alias: pseg
   count: 10
   imports:
@@ -2323,6 +2367,18 @@
     import: import jieba.posseg as pseg
     target: jieba.posseg
   target: jieba.posseg
+- alias: p9
+  count: 10
+  imports:
+  - alias: p9
+    count: 6
+    import: import plotnine as p9
+    target: plotnine
+  - alias: gg
+    count: 4
+    import: import plotnine as gg
+    target: plotnine
+  target: plotnine
 - alias: cl
   count: 10
   imports:
@@ -2343,6 +2399,14 @@
     import: import scipy.sparse.linalg as sla
     target: scipy.sparse.linalg
   target: scipy.sparse.linalg
+- alias: json
+  count: 10
+  imports:
+  - alias: json
+    count: 10
+    import: import simplejson as json
+    target: simplejson
+  target: simplejson
 - alias: me
   count: 10
   imports:
@@ -2355,14 +2419,6 @@
     import: import sympy.physics.mechanics as mech
     target: sympy.physics.mechanics
   target: sympy.physics.mechanics
-- alias: dset
-  count: 10
-  imports:
-  - alias: dset
-    count: 10
-    import: import torchvision.datasets as dset
-    target: torchvision.datasets
-  target: torchvision.datasets
 - alias: T
   count: 10
   imports:
@@ -2371,22 +2427,6 @@
     import: import torchvision.transforms as T
     target: torchvision.transforms
   target: torchvision.transforms
-- alias: bq
-  count: 9
-  imports:
-  - alias: bq
-    count: 9
-    import: import bqplot as bq
-    target: bqplot
-  target: bqplot
-- alias: cm
-  count: 9
-  imports:
-  - alias: cm
-    count: 9
-    import: import branca.colormap as cm
-    target: branca.colormap
-  target: branca.colormap
 - alias: L
   count: 9
   imports:
@@ -2403,6 +2443,14 @@
     import: import cntk as C
     target: cntk
   target: cntk
+- alias: api
+  count: 9
+  imports:
+  - alias: api
+    count: 9
+    import: import gensim.downloader as api
+    target: gensim.downloader
+  target: gensim.downloader
 - alias: ms
   count: 9
   imports:
@@ -2411,26 +2459,14 @@
     import: import matplotlib.style as ms
     target: matplotlib.style
   target: matplotlib.style
-- alias: nv
+- alias: mb
   count: 9
   imports:
-  - alias: nv
+  - alias: mb
     count: 9
-    import: import nglview as nv
-    target: nglview
-  target: nglview
-- alias: p9
-  count: 9
-  imports:
-  - alias: p9
-    count: 5
-    import: import plotnine as p9
-    target: plotnine
-  - alias: gg
-    count: 4
-    import: import plotnine as gg
-    target: plotnine
-  target: plotnine
+    import: import mbuild as mb
+    target: mbuild
+  target: mbuild
 - alias: v
   count: 9
   imports:
@@ -2451,14 +2487,18 @@
     import: import pyqtgraph as pg
     target: pyqtgraph
   target: pyqtgraph
-- alias: pq
+- alias: si
   count: 9
   imports:
-  - alias: pq
-    count: 9
-    import: import quantities as pq
-    target: quantities
-  target: quantities
+  - alias: si
+    count: 6
+    import: import scipy.interpolate as si
+    target: scipy.interpolate
+  - alias: spi
+    count: 3
+    import: import scipy.interpolate as spi
+    target: scipy.interpolate
+  target: scipy.interpolate
 - alias: wav
   count: 9
   imports:
@@ -2467,26 +2507,6 @@
     import: import scipy.io.wavfile as wav
     target: scipy.io.wavfile
   target: scipy.io.wavfile
-- alias: json
-  count: 9
-  imports:
-  - alias: json
-    count: 9
-    import: import simplejson as json
-    target: simplejson
-  target: simplejson
-- alias: ski
-  count: 9
-  imports:
-  - alias: ski
-    count: 5
-    import: import skimage as ski
-    target: skimage
-  - alias: sk
-    count: 4
-    import: import skimage as sk
-    target: skimage
-  target: skimage
 - alias: tts
   count: 9
   imports:
@@ -2507,6 +2527,22 @@
     import: import sklearn.ensemble as sk
     target: sklearn.ensemble
   target: sklearn.ensemble
+- alias: bn
+  count: 8
+  imports:
+  - alias: bn
+    count: 8
+    import: import bottleneck as bn
+    target: bottleneck
+  target: bottleneck
+- alias: cm
+  count: 8
+  imports:
+  - alias: cm
+    count: 8
+    import: import branca.colormap as cm
+    target: branca.colormap
+  target: branca.colormap
 - alias: gf
   count: 8
   imports:
@@ -2539,6 +2575,30 @@
     import: import ipyvolume.pylab as p3
     target: ipyvolume.pylab
   target: ipyvolume.pylab
+- alias: img
+  count: 8
+  imports:
+  - alias: img
+    count: 8
+    import: import matplotlib.image as img
+    target: matplotlib.image
+  target: matplotlib.image
+- alias: nv
+  count: 8
+  imports:
+  - alias: nv
+    count: 8
+    import: import nglview as nv
+    target: nglview
+  target: nglview
+- alias: swn
+  count: 8
+  imports:
+  - alias: swn
+    count: 8
+    import: from nltk.corpus import sentiwordnet as swn
+    target: nltk.corpus.sentiwordnet
+  target: nltk.corpus.sentiwordnet
 - alias: opj
   count: 8
   imports:
@@ -2563,6 +2623,14 @@
     import: import pymatgen as pmg
     target: pymatgen
   target: pymatgen
+- alias: rio
+  count: 8
+  imports:
+  - alias: rio
+    count: 8
+    import: import rasterio as rio
+    target: rasterio
+  target: rasterio
 - alias: dist
   count: 8
   imports:
@@ -2571,6 +2639,14 @@
     import: import scipy.spatial.distance as dist
     target: scipy.spatial.distance
   target: scipy.spatial.distance
+- alias: mvn
+  count: 8
+  imports:
+  - alias: mvn
+    count: 8
+    import: from scipy.stats import multivariate_normal as mvn
+    target: scipy.stats.multivariate_normal
+  target: scipy.stats.multivariate_normal
 - alias: DV
   count: 8
   imports:
@@ -2591,6 +2667,14 @@
     import: import sklearn.model_selection as skms
     target: sklearn.model_selection
   target: sklearn.model_selection
+- alias: sf
+  count: 8
+  imports:
+  - alias: sf
+    count: 8
+    import: import soundfile as sf
+    target: soundfile
+  target: soundfile
 - alias: st
   count: 8
   imports:
@@ -2619,6 +2703,14 @@
     import: import tellurium as te
     target: tellurium
   target: tellurium
+- alias: tnp
+  count: 8
+  imports:
+  - alias: tnp
+    count: 8
+    import: import tensorflow.experimental.numpy as tnp
+    target: tensorflow.experimental.numpy
+  target: tensorflow.experimental.numpy
 - alias: fc
   count: 8
   imports:
@@ -2639,14 +2731,6 @@
     import: from tensorflow.python.keras import backend as K
     target: tensorflow.python.keras.backend
   target: tensorflow.python.keras.backend
-- alias: tfa
-  count: 8
-  imports:
-  - alias: tfa
-    count: 8
-    import: import tensorflow_addons as tfa
-    target: tensorflow_addons
-  target: tensorflow_addons
 - alias: ut
   count: 8
   imports:
@@ -2691,14 +2775,6 @@
     import: from bokeh.sampledata.autompg import autompg_clean as df
     target: bokeh.sampledata.autompg.autompg_clean
   target: bokeh.sampledata.autompg.autompg_clean
-- alias: bn
-  count: 7
-  imports:
-  - alias: bn
-    count: 7
-    import: import bottleneck as bn
-    target: bottleneck
-  target: bottleneck
 - alias: c
   count: 7
   imports:
@@ -2735,14 +2811,6 @@
     import: import graphlab.aggregate as agg
     target: graphlab.aggregate
   target: graphlab.aggregate
-- alias: img
-  count: 7
-  imports:
-  - alias: img
-    count: 7
-    import: import matplotlib.image as img
-    target: matplotlib.image
-  target: matplotlib.image
 - alias: SFS
   count: 7
   imports:
@@ -2759,14 +2827,18 @@
     import: import mpl_toolkits.mplot3d.axes3d as p3
     target: mpl_toolkits.mplot3d.axes3d
   target: mpl_toolkits.mplot3d.axes3d
-- alias: swn
+- alias: eng
   count: 7
   imports:
-  - alias: swn
-    count: 7
-    import: from nltk.corpus import sentiwordnet as swn
-    target: nltk.corpus.sentiwordnet
-  target: nltk.corpus.sentiwordnet
+  - alias: eng
+    count: 4
+    import: import openpathsampling.engines.openmm as eng
+    target: openpathsampling.engines.openmm
+  - alias: peng
+    count: 3
+    import: import openpathsampling.engines.openmm as peng
+    target: openpathsampling.engines.openmm
+  target: openpathsampling.engines.openmm
 - alias: pn
   count: 7
   imports:
@@ -2783,22 +2855,14 @@
     import: import psycopg2 as pg
     target: psycopg2
   target: psycopg2
-- alias: rio
+- alias: re
   count: 7
   imports:
-  - alias: rio
+  - alias: re
     count: 7
-    import: import rasterio as rio
-    target: rasterio
-  target: rasterio
-- alias: mvn
-  count: 7
-  imports:
-  - alias: mvn
-    count: 7
-    import: from scipy.stats import multivariate_normal as mvn
-    target: scipy.stats.multivariate_normal
-  target: scipy.stats.multivariate_normal
+    import: import regex as re
+    target: regex
+  target: regex
 - alias: sg
   count: 7
   imports:
@@ -2820,22 +2884,6 @@
       as QDA
     target: sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis
   target: sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis
-- alias: sf
-  count: 7
-  imports:
-  - alias: sf
-    count: 7
-    import: import soundfile as sf
-    target: soundfile
-  target: soundfile
-- alias: tnp
-  count: 7
-  imports:
-  - alias: tnp
-    count: 7
-    import: import tensorflow.experimental.numpy as tnp
-    target: tensorflow.experimental.numpy
-  target: tensorflow.experimental.numpy
 - alias: ysq
   count: 7
   imports:
@@ -2849,11 +2897,11 @@
   imports:
   - alias: pf
     count: 3
-    import: import astropy.io.fits as pf
+    import: from astropy.io import fits as pf
     target: astropy.io.fits
   - alias: pf
     count: 3
-    import: from astropy.io import fits as pf
+    import: import astropy.io.fits as pf
     target: astropy.io.fits
   target: astropy.io.fits
 - alias: at
@@ -2888,14 +2936,14 @@
     import: import copy as cp
     target: copy
   target: copy
-- alias: hl
+- alias: gplt
   count: 6
   imports:
-  - alias: hl
+  - alias: gplt
     count: 6
-    import: import hail as hl
-    target: hail
-  target: hail
+    import: import geoplot as gplt
+    target: geoplot
+  target: geoplot
 - alias: iaa
   count: 6
   imports:
@@ -2904,14 +2952,6 @@
     import: from imgaug import augmenters as iaa
     target: imgaug.augmenters
   target: imgaug.augmenters
-- alias: log
-  count: 6
-  imports:
-  - alias: log
-    count: 6
-    import: import logging as log
-    target: logging
-  target: logging
 - alias: ET
   count: 6
   imports:
@@ -2952,6 +2992,14 @@
     import: import pandas.io.sql as psql
     target: pandas.io.sql
   target: pandas.io.sql
+- alias: px
+  count: 6
+  imports:
+  - alias: px
+    count: 6
+    import: import plotly_express as px
+    target: plotly_express
+  target: plotly_express
 - alias: cyjs
   count: 6
   imports:
@@ -2976,6 +3024,14 @@
     import: import pyflux as pf
     target: pyflux
   target: pyflux
+- alias: dist
+  count: 6
+  imports:
+  - alias: dist
+    count: 6
+    import: import pyro.distributions as dist
+    target: pyro.distributions
+  target: pyro.distributions
 - alias: maps
   count: 6
   imports:
@@ -2984,14 +3040,6 @@
     import: from pysal.contrib.viz import mapping as maps
     target: pysal.contrib.viz.mapping
   target: pysal.contrib.viz.mapping
-- alias: re
-  count: 6
-  imports:
-  - alias: re
-    count: 6
-    import: import regex as re
-    target: regex
-  target: regex
 - alias: r
   count: 6
   imports:
@@ -3013,9 +3061,9 @@
   imports:
   - alias: si
     count: 6
-    import: import scipy.interpolate as si
-    target: scipy.interpolate
-  target: scipy.interpolate
+    import: import scipy.integrate as si
+    target: scipy.integrate
+  target: scipy.integrate
 - alias: shp
   count: 6
   imports:
@@ -3096,6 +3144,18 @@
     import: from textblob import TextBlob as tb
     target: textblob.TextBlob
   target: textblob.TextBlob
+- alias: T
+  count: 6
+  imports:
+  - alias: T
+    count: 3
+    import: import torch as T
+    target: torch
+  - alias: t
+    count: 3
+    import: import torch as t
+    target: torch
+  target: torch
 - alias: mdb
   count: 5
   imports:
@@ -3144,6 +3204,14 @@
     import: import colorcet as cc
     target: colorcet
   target: colorcet
+- alias: ctx
+  count: 5
+  imports:
+  - alias: ctx
+    count: 5
+    import: import contextily as ctx
+    target: contextily
+  target: contextily
 - alias: html
   count: 5
   imports:
@@ -3192,6 +3260,14 @@
     import: import gurobipy as gbp
     target: gurobipy
   target: gurobipy
+- alias: kl
+  count: 5
+  imports:
+  - alias: kl
+    count: 5
+    import: import keras.layers as kl
+    target: keras.layers
+  target: keras.layers
 - alias: kt
   count: 5
   imports:
@@ -3200,6 +3276,30 @@
     import: import kerastuner as kt
     target: kerastuner
   target: kerastuner
+- alias: ps
+  count: 5
+  imports:
+  - alias: ps
+    count: 5
+    import: import libpysal as ps
+    target: libpysal
+  target: libpysal
+- alias: log
+  count: 5
+  imports:
+  - alias: log
+    count: 5
+    import: import logging as log
+    target: logging
+  target: logging
+- alias: mc
+  count: 5
+  imports:
+  - alias: mc
+    count: 5
+    import: import mapclassify as mc
+    target: mapclassify
+  target: mapclassify
 - alias: mp
   count: 5
   imports:
@@ -3216,6 +3316,22 @@
     import: import numdifftools as nd
     target: numdifftools
   target: numdifftools
+- alias: omt
+  count: 5
+  imports:
+  - alias: omt
+    count: 5
+    import: import openmmtools as omt
+    target: openmmtools
+  target: openmmtools
+- alias: toys
+  count: 5
+  imports:
+  - alias: toys
+    count: 5
+    import: import openpathsampling.engines.toy as toys
+    target: openpathsampling.engines.toy
+  target: openpathsampling.engines.toy
 - alias: vis
   count: 5
   imports:
@@ -3248,14 +3364,6 @@
     import: from pathos.multiprocessing import ProcessingPool as Pool
     target: pathos.multiprocessing.ProcessingPool
   target: pathos.multiprocessing.ProcessingPool
-- alias: px
-  count: 5
-  imports:
-  - alias: px
-    count: 5
-    import: import plotly_express as px
-    target: plotly_express
-  target: plotly_express
 - alias: ppl
   count: 5
   imports:
@@ -3272,6 +3380,14 @@
     import: from py2cytoscape.cytoscapejs import viewer as cyjs
     target: py2cytoscape.cytoscapejs.viewer
   target: py2cytoscape.cytoscapejs.viewer
+- alias: coor
+  count: 5
+  imports:
+  - alias: coor
+    count: 5
+    import: import pyemma.coordinates as coor
+    target: pyemma.coordinates
+  target: pyemma.coordinates
 - alias: pyk
   count: 5
   imports:
@@ -3296,14 +3412,14 @@
     import: from pyquery import PyQuery as pq
     target: pyquery.PyQuery
   target: pyquery.PyQuery
-- alias: dist
+- alias: pv
   count: 5
   imports:
-  - alias: dist
+  - alias: pv
     count: 5
-    import: import pyro.distributions as dist
-    target: pyro.distributions
-  target: pyro.distributions
+    import: import pyvista as pv
+    target: pyvista
+  target: pyvista
 - alias: qt
   count: 5
   imports:
@@ -3328,14 +3444,14 @@
     import: import radical.utils as ru
     target: radical.utils
   target: radical.utils
-- alias: si
+- alias: u
   count: 5
   imports:
-  - alias: si
+  - alias: u
     count: 5
-    import: import scipy.integrate as si
-    target: scipy.integrate
-  target: scipy.integrate
+    import: import simtk.unit as u
+    target: simtk.unit
+  target: simtk.unit
 - alias: gp
   count: 5
   imports:
@@ -3352,14 +3468,6 @@
     import: import skrf as rf
     target: skrf
   target: skrf
-- alias: tb
-  count: 5
-  imports:
-  - alias: tb
-    count: 5
-    import: import tensorboard as tb
-    target: tensorboard
-  target: tensorboard
 - alias: tfd
   count: 5
   imports:
@@ -3376,6 +3484,22 @@
     import: import torch.utils.data as Data
     target: torch.utils.data
   target: torch.utils.data
+- alias: zf
+  count: 5
+  imports:
+  - alias: zf
+    count: 5
+    import: import zipfile as zf
+    target: zipfile
+  target: zipfile
+- alias: GPU
+  count: 4
+  imports:
+  - alias: GPU
+    count: 4
+    import: import GPUtil as GPU
+    target: GPUtil
+  target: GPUtil
 - alias: p3
   count: 4
   imports:
@@ -3440,6 +3564,14 @@
     import: import casadi as ca
     target: casadi
   target: casadi
+- alias: py
+  count: 4
+  imports:
+  - alias: py
+    count: 4
+    import: import chart_studio.plotly as py
+    target: chart_studio.plotly
+  target: chart_studio.plotly
 - alias: dd
   count: 4
   imports:
@@ -3448,14 +3580,14 @@
     import: from collections import defaultdict as dd
     target: collections.defaultdict
   target: collections.defaultdict
-- alias: ctx
+- alias: ct
   count: 4
   imports:
-  - alias: ctx
+  - alias: ct
     count: 4
-    import: import contextily as ctx
-    target: contextily
-  target: contextily
+    import: import control as ct
+    target: control
+  target: control
 - alias: cf
   count: 4
   imports:
@@ -3536,14 +3668,14 @@
     import: import gcp.bigquery as bq
     target: gcp.bigquery
   target: gcp.bigquery
-- alias: gplt
+- alias: gcrs
   count: 4
   imports:
-  - alias: gplt
+  - alias: gcrs
     count: 4
-    import: import geoplot as gplt
-    target: geoplot
-  target: geoplot
+    import: import geoplot.crs as gcrs
+    target: geoplot.crs
+  target: geoplot.crs
 - alias: gt
   count: 4
   imports:
@@ -3552,6 +3684,14 @@
     import: import graph_tool as gt
     target: graph_tool
   target: graph_tool
+- alias: hk
+  count: 4
+  imports:
+  - alias: hk
+    count: 4
+    import: import haiku as hk
+    target: haiku
+  target: haiku
 - alias: hp
   count: 4
   imports:
@@ -3568,22 +3708,6 @@
     import: import ipyleaflet as ipyl
     target: ipyleaflet
   target: ipyleaflet
-- alias: kl
-  count: 4
-  imports:
-  - alias: kl
-    count: 4
-    import: import keras.layers as kl
-    target: keras.layers
-  target: keras.layers
-- alias: ps
-  count: 4
-  imports:
-  - alias: ps
-    count: 4
-    import: import libpysal as ps
-    target: libpysal
-  target: libpysal
 - alias: CV
   count: 4
   imports:
@@ -3600,14 +3724,6 @@
     import: from linetools import utils as ltu
     target: linetools.utils
   target: linetools.utils
-- alias: mc
-  count: 4
-  imports:
-  - alias: mc
-    count: 4
-    import: import mapclassify as mc
-    target: mapclassify
-  target: mapclassify
 - alias: anim
   count: 4
   imports:
@@ -3640,6 +3756,14 @@
     import: import matplotlib.patheffects as pe
     target: matplotlib.patheffects
   target: matplotlib.patheffects
+- alias: mk
+  count: 4
+  imports:
+  - alias: mk
+    count: 4
+    import: import metaknowledge as mk
+    target: metaknowledge
+  target: metaknowledge
 - alias: p2
   count: 4
   imports:
@@ -3696,14 +3820,6 @@
     import: import opsimsummary as oss
     target: opsimsummary
   target: opsimsummary
-- alias: tm
-  count: 4
-  imports:
-  - alias: tm
-    count: 4
-    import: import pandas.util.testing as tm
-    target: pandas.util.testing
-  target: pandas.util.testing
 - alias: pm
   count: 4
   imports:
@@ -3728,6 +3844,14 @@
     import: import petl as etl
     target: petl
   target: petl
+- alias: pio
+  count: 4
+  imports:
+  - alias: pio
+    count: 4
+    import: import plotly.io as pio
+    target: plotly.io
+  target: plotly.io
 - alias: mp
   count: 4
   imports:
@@ -3776,14 +3900,14 @@
     import: import pydensecrf.densecrf as dcrf
     target: pydensecrf.densecrf
   target: pydensecrf.densecrf
-- alias: coor
+- alias: opts
   count: 4
   imports:
-  - alias: coor
+  - alias: opts
     count: 4
-    import: import pyemma.coordinates as coor
-    target: pyemma.coordinates
-  target: pyemma.coordinates
+    import: from pyecharts import options as opts
+    target: pyecharts.options
+  target: pyecharts.options
 - alias: pg
   count: 4
   imports:
@@ -3808,38 +3932,14 @@
     import: from pyspec import spectrum as spec
     target: pyspec.spectrum
   target: pyspec.spectrum
-- alias: pv
+- alias: fft
   count: 4
   imports:
-  - alias: pv
+  - alias: fft
     count: 4
-    import: import pyvista as pv
-    target: pyvista
-  target: pyvista
-- alias: rc
-  count: 4
-  imports:
-  - alias: rc
-    count: 4
-    import: import registration_callbacks as rc
-    target: registration_callbacks
-  target: registration_callbacks
-- alias: ru
-  count: 4
-  imports:
-  - alias: ru
-    count: 4
-    import: import registration_utilities as ru
-    target: registration_utilities
-  target: registration_utilities
-- alias: u
-  count: 4
-  imports:
-  - alias: u
-    count: 4
-    import: import simtk.unit as u
-    target: simtk.unit
-  target: simtk.unit
+    import: import scipy.fftpack as fft
+    target: scipy.fftpack
+  target: scipy.fftpack
 - alias: corr
   count: 4
   imports:
@@ -3904,6 +4004,22 @@
     import: import statsmodels.stats.multitest as smm
     target: statsmodels.stats.multitest
   target: statsmodels.stats.multitest
+- alias: tb
+  count: 4
+  imports:
+  - alias: tb
+    count: 4
+    import: import tensorboard as tb
+    target: tensorboard
+  target: tensorboard
+- alias: tfio
+  count: 4
+  imports:
+  - alias: tfio
+    count: 4
+    import: import tensorflow_io as tfio
+    target: tensorflow_io
+  target: tensorflow_io
 - alias: tfl
   count: 4
   imports:
@@ -3968,22 +4084,6 @@
     import: import unicodecsv as csv
     target: unicodecsv
   target: unicodecsv
-- alias: zf
-  count: 4
-  imports:
-  - alias: zf
-    count: 4
-    import: import zipfile as zf
-    target: zipfile
-  target: zipfile
-- alias: GPU
-  count: 3
-  imports:
-  - alias: GPU
-    count: 3
-    import: import GPUtil as GPU
-    target: GPUtil
-  target: GPUtil
 - alias: myKM
   count: 3
   imports:
@@ -4072,6 +4172,14 @@
     import: import backtrader as bt
     target: backtrader
   target: backtrader
+- alias: pu
+  count: 3
+  imports:
+  - alias: pu
+    count: 3
+    import: from baselines.common import plot_util as pu
+    target: baselines.common.plot_util
+  target: baselines.common.plot_util
 - alias: bl
   count: 3
   imports:
@@ -4120,14 +4228,6 @@
     import: import caiman as cm
     target: caiman
   target: caiman
-- alias: cart
-  count: 3
-  imports:
-  - alias: cart
-    count: 3
-    import: import cartopy as cart
-    target: cartopy
-  target: cartopy
 - alias: p3
   count: 3
   imports:
@@ -4144,14 +4244,6 @@
     import: import chaospy as cp
     target: chaospy
   target: chaospy
-- alias: py
-  count: 3
-  imports:
-  - alias: py
-    count: 3
-    import: import chart_studio.plotly as py
-    target: chart_studio.plotly
-  target: chart_studio.plotly
 - alias: u
   count: 3
   imports:
@@ -4256,6 +4348,22 @@
     import: import dynet as dy
     target: dynet
   target: dynet
+- alias: ed
+  count: 3
+  imports:
+  - alias: ed
+    count: 3
+    import: import edward2 as ed
+    target: edward2
+  target: edward2
+- alias: ue
+  count: 3
+  imports:
+  - alias: ue
+    count: 3
+    import: import elephant.unitary_event_analysis as ue
+    target: elephant.unitary_event_analysis
+  target: elephant.unitary_event_analysis
 - alias: mc
   count: 3
   imports:
@@ -4288,6 +4396,14 @@
     import: import find_primes as p4
     target: find_primes
   target: find_primes
+- alias: nn
+  count: 3
+  imports:
+  - alias: nn
+    count: 3
+    import: from flax import linen as nn
+    target: flax.linen
+  target: flax.linen
 - alias: fp
   count: 3
   imports:
@@ -4320,22 +4436,6 @@
     import: import gary.dynamics as gd
     target: gary.dynamics
   target: gary.dynamics
-- alias: api
-  count: 3
-  imports:
-  - alias: api
-    count: 3
-    import: import gensim.downloader as api
-    target: gensim.downloader
-  target: gensim.downloader
-- alias: gcrs
-  count: 3
-  imports:
-  - alias: gcrs
-    count: 3
-    import: import geoplot.crs as gcrs
-    target: geoplot.crs
-  target: geoplot.crs
 - alias: gp
   count: 3
   imports:
@@ -4376,6 +4476,22 @@
     import: import h5_query as h5q
     target: h5_query
   target: h5_query
+- alias: hl
+  count: 3
+  imports:
+  - alias: hl
+    count: 3
+    import: import hail as hl
+    target: hail
+  target: hail
+- alias: hq
+  count: 3
+  imports:
+  - alias: hq
+    count: 3
+    import: import heapq as hq
+    target: heapq
+  target: heapq
 - alias: hp
   count: 3
   imports:
@@ -4416,6 +4532,22 @@
     import: import hypertools as hyp
     target: hypertools
   target: hypertools
+- alias: dt
+  count: 3
+  imports:
+  - alias: dt
+    count: 3
+    import: import ibis.expr.datatypes as dt
+    target: ibis.expr.datatypes
+  target: ibis.expr.datatypes
+- alias: rlz
+  count: 3
+  imports:
+  - alias: rlz
+    count: 3
+    import: import ibis.expr.rules as rlz
+    target: ibis.expr.rules
+  target: ibis.expr.rules
 - alias: ia
   count: 3
   imports:
@@ -4464,6 +4596,14 @@
     import: import kubernetes as k8s
     target: kubernetes
   target: kubernetes
+- alias: LP
+  count: 3
+  imports:
+  - alias: LP
+    count: 3
+    import: import libstempo.plot as LP
+    target: libstempo.plot
+  target: libstempo.plot
 - alias: lsio
   count: 3
   imports:
@@ -4528,6 +4668,14 @@
     import: import medleydb as mdb
     target: medleydb
   target: medleydb
+- alias: mkv
+  count: 3
+  imports:
+  - alias: mkv
+    count: 3
+    import: import metaknowledge.contour.plotting as mkv
+    target: metaknowledge.contour.plotting
+  target: metaknowledge.contour.plotting
 - alias: mp
   count: 3
   imports:
@@ -4584,6 +4732,14 @@
     import: import neurolab as nl
     target: neurolab
   target: neurolab
+- alias: tsa
+  count: 3
+  imports:
+  - alias: tsa
+    count: 3
+    import: import nitime.algorithms as tsa
+    target: nitime.algorithms
+  target: nitime.algorithms
 - alias: ml
   count: 3
   imports:
@@ -4592,6 +4748,14 @@
     import: import numpy.matlib as ml
     target: numpy.matlib
   target: numpy.matlib
+- alias: dist
+  count: 3
+  imports:
+  - alias: dist
+    count: 3
+    import: import numpyro.distributions as dist
+    target: numpyro.distributions
+  target: numpyro.distributions
 - alias: nv
   count: 3
   imports:
@@ -4600,22 +4764,22 @@
     import: import nxviz as nv
     target: nxviz
   target: nxviz
-- alias: omt
+- alias: op
   count: 3
   imports:
-  - alias: omt
+  - alias: op
     count: 3
-    import: import openmmtools as omt
-    target: openmmtools
-  target: openmmtools
-- alias: toys
+    import: import openpnm as op
+    target: openpnm
+  target: openpnm
+- alias: gm
   count: 3
   imports:
-  - alias: toys
+  - alias: gm
     count: 3
-    import: import openpathsampling.engines.toy as toys
-    target: openpathsampling.engines.toy
-  target: openpathsampling.engines.toy
+    import: import openpnm.models.geometry as gm
+    target: openpnm.models.geometry
+  target: openpnm.models.geometry
 - alias: op
   count: 3
   imports:
@@ -4640,6 +4804,14 @@
     import: import palettable.colorbrewer as cb
     target: palettable.colorbrewer
   target: palettable.colorbrewer
+- alias: tm
+  count: 3
+  imports:
+  - alias: tm
+    count: 3
+    import: import pandas.util.testing as tm
+    target: pandas.util.testing
+  target: pandas.util.testing
 - alias: ps
   count: 3
   imports:
@@ -4664,14 +4836,14 @@
     import: import patsy as pt
     target: patsy
   target: patsy
-- alias: pio
+- alias: pg
   count: 3
   imports:
-  - alias: pio
+  - alias: pg
     count: 3
-    import: import plotly.io as pio
-    target: plotly.io
-  target: plotly.io
+    import: import phidl.geometry as pg
+    target: phidl.geometry
+  target: phidl.geometry
 - alias: cb
   count: 3
   imports:
@@ -4737,14 +4909,6 @@
       as im
     target: pycqed.instrument_drivers.virtual_instruments.instrument_monitor
   target: pycqed.instrument_drivers.virtual_instruments.instrument_monitor
-- alias: opts
-  count: 3
-  imports:
-  - alias: opts
-    count: 3
-    import: from pyecharts import options as opts
-    target: pyecharts.options
-  target: pyecharts.options
 - alias: pk
   count: 3
   imports:
@@ -4777,14 +4941,6 @@
     import: from pysal.esda.mapclassify import Natural_Breaks as nb
     target: pysal.esda.mapclassify.Natural_Breaks
   target: pysal.esda.mapclassify.Natural_Breaks
-- alias: pysh
-  count: 3
-  imports:
-  - alias: pysh
-    count: 3
-    import: import pyshtools as pysh
-    target: pyshtools
-  target: pyshtools
 - alias: T
   count: 3
   imports:
@@ -4801,6 +4957,14 @@
     import: import pysynphot as S
     target: pysynphot
   target: pysynphot
+- alias: pl
+  count: 3
+  imports:
+  - alias: pl
+    count: 3
+    import: import pytorch_lightning as pl
+    target: pytorch_lightning
+  target: pytorch_lightning
 - alias: pt
   count: 3
   imports:
@@ -4825,14 +4989,14 @@
     import: import quantecon.game_theory as gt
     target: quantecon.game_theory
   target: quantecon.game_theory
-- alias: fft
+- alias: sc
   count: 3
   imports:
-  - alias: fft
+  - alias: sc
     count: 3
-    import: import scipy.fftpack as fft
-    target: scipy.fftpack
-  target: scipy.fftpack
+    import: import scanpy as sc
+    target: scanpy
+  target: scanpy
 - alias: sm
   count: 3
   imports:
@@ -4945,14 +5109,6 @@
     import: from sympy import Rational as Rat
     target: sympy.Rational
   target: sympy.Rational
-- alias: hp
-  count: 3
-  imports:
-  - alias: hp
-    count: 3
-    import: from tensorboard.plugins.hparams import api as hp
-    target: tensorboard.plugins.hparams.api
-  target: tensorboard.plugins.hparams.api
 - alias: ag
   count: 3
   imports:
@@ -4961,6 +5117,14 @@
     import: from tensorflow.contrib import autograph as ag
     target: tensorflow.contrib.autograph
   target: tensorflow.contrib.autograph
+- alias: tfc
+  count: 3
+  imports:
+  - alias: tfc
+    count: 3
+    import: import tensorflow_cloud as tfc
+    target: tensorflow_cloud
+  target: tensorflow_cloud
 - alias: tfco
   count: 3
   imports:
@@ -4969,14 +5133,6 @@
     import: import tensorflow_constrained_optimization as tfco
     target: tensorflow_constrained_optimization
   target: tensorflow_constrained_optimization
-- alias: tfio
-  count: 3
-  imports:
-  - alias: tfio
-    count: 3
-    import: import tensorflow_io as tfio
-    target: tensorflow_io
-  target: tensorflow_io
 - alias: tf
   count: 3
   imports:
@@ -4993,14 +5149,6 @@
     import: import tissue_enrichment_analysis as tea
     target: tissue_enrichment_analysis
   target: tissue_enrichment_analysis
-- alias: T
-  count: 3
-  imports:
-  - alias: T
-    count: 3
-    import: import torch as T
-    target: torch
-  target: torch
 - alias: FT
   count: 3
   imports:
@@ -5017,6 +5165,14 @@
     import: import universal as up
     target: universal
   target: universal
+- alias: rt
+  count: 3
+  imports:
+  - alias: rt
+    count: 3
+    import: from utils import riemann_tools as rt
+    target: utils.riemann_tools
+  target: utils.riemann_tools
 - alias: vp
   count: 3
   imports:
@@ -5041,3 +5197,11 @@
     import: import wikipedia as wiki
     target: wikipedia
   target: wikipedia
+- alias: xp
+  count: 3
+  imports:
+  - alias: xp
+    count: 3
+    import: import xanespy as xp
+    target: xanespy
+  target: xanespy

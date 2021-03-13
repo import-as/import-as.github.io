@@ -4,10 +4,10 @@ title: from scipy import ndimage as ndi
 
 data:
   alias: ndi
-  count: 62
+  count: 63
   imports:
   - alias: ndi
-    count: 29
+    count: 30
     import: from scipy import ndimage as ndi
     target: scipy.ndimage
   - alias: ndi

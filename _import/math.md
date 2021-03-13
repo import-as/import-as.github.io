@@ -4,10 +4,10 @@ title: import math as m
 
 data:
   alias: m
-  count: 75
+  count: 77
   imports:
   - alias: m
-    count: 49
+    count: 51
     import: import math as m
     target: math
   - alias: mt

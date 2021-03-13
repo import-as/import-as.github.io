@@ -4,7 +4,7 @@ title: from numpy import linalg as LA
 
 data:
   alias: LA
-  count: 102
+  count: 103
   imports:
   - alias: LA
     count: 39
@@ -15,7 +15,7 @@ data:
     import: import numpy.linalg as la
     target: numpy.linalg
   - alias: LA
-    count: 12
+    count: 13
     import: import numpy.linalg as LA
     target: numpy.linalg
   - alias: la
@@ -26,13 +26,13 @@ data:
     count: 5
     import: import numpy.linalg as nla
     target: numpy.linalg
-  - alias: lin
-    count: 3
-    import: import numpy.linalg as lin
-    target: numpy.linalg
   - alias: npl
     count: 3
     import: import numpy.linalg as npl
+    target: numpy.linalg
+  - alias: lin
+    count: 3
+    import: import numpy.linalg as lin
     target: numpy.linalg
   target: numpy.linalg
 ---

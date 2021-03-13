@@ -4,10 +4,10 @@ title: import pymc3 as pm
 
 data:
   alias: pm
-  count: 109
+  count: 113
   imports:
   - alias: pm
-    count: 104
+    count: 108
     import: import pymc3 as pm
     target: pymc3
   - alias: pm3

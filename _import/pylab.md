@@ -4,14 +4,14 @@ title: import pylab as pl
 
 data:
   alias: pl
-  count: 410
+  count: 415
   imports:
   - alias: pl
-    count: 221
+    count: 222
     import: import pylab as pl
     target: pylab
   - alias: plt
-    count: 157
+    count: 161
     import: import pylab as plt
     target: pylab
   - alias: P
@@ -26,13 +26,13 @@ data:
     count: 5
     import: import pylab as py
     target: pylab
-  - alias: pb
-    count: 3
-    import: import pylab as pb
-    target: pylab
   - alias: pyl
     count: 3
     import: import pylab as pyl
+    target: pylab
+  - alias: pb
+    count: 3
+    import: import pylab as pb
     target: pylab
   target: pylab
 ---

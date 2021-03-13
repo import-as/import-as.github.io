@@ -4,7 +4,7 @@ title: import xml.etree.ElementTree as ET
 
 data:
   alias: ET
-  count: 99
+  count: 98
   imports:
   - alias: ET
     count: 82
@@ -15,7 +15,7 @@ data:
     import: from xml.etree import ElementTree as ET
     target: xml.etree.ElementTree
   - alias: et
-    count: 7
+    count: 6
     import: import xml.etree.ElementTree as et
     target: xml.etree.ElementTree
   target: xml.etree.ElementTree

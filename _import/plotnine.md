@@ -4,10 +4,10 @@ title: import plotnine as p9
 
 data:
   alias: p9
-  count: 9
+  count: 10
   imports:
   - alias: p9
-    count: 5
+    count: 6
     import: import plotnine as p9
     target: plotnine
   - alias: gg

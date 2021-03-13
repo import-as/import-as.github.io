@@ -18,13 +18,13 @@ data:
     count: 4
     import: import ipywidgets as wg
     target: ipywidgets
-  - alias: w
-    count: 3
-    import: import ipywidgets as w
-    target: ipywidgets
   - alias: wd
     count: 3
     import: import ipywidgets as wd
+    target: ipywidgets
+  - alias: w
+    count: 3
+    import: import ipywidgets as w
     target: ipywidgets
   target: ipywidgets
 ---
