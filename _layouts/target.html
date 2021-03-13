@@ -5,6 +5,10 @@ layout: default
 <h3>Imported {{ page.data.count }} times</h3>
 <ol class="badge-list">
 {% for import in page.data.imports %}
-  <li><span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.import }}</code></li>
+  <li>
+    <a href="https://github.com/search?l=Jupyter+Notebook&type=Code&q=%22{{ import.import | url_encode }}%22">
+      <span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.import }}</code>
+    </a>
+  </li>
 {% endfor %}
 </ol>
