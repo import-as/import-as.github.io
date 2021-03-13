@@ -3,10 +3,6 @@
 
 @import "minima";
 
-.page-content {
-  overflow-x: auto;
-}
-
 .main-list {
   list-style-type: none;
   margin-left: 0;
@@ -23,16 +19,17 @@
 .badge-list {
   $v-gap: 0.3rem;
   list-style-type: none;
-  margin-left: 0;
+  margin-left: 0.5rem;
   margin-bottom: -$v-gap;
+  padding: 0;
 
   display: flex;
   align-content: space-between;
   align-self: stretch;
   flex-wrap: wrap;
   flex: 1;
+  overflow-x: auto;
 
-  padding: 0 0.5rem;
   font-size: 1.1rem;
 
   & > li {
