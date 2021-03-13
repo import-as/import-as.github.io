@@ -6,7 +6,7 @@ layout: default
 <ol class="badge-list">
 {% for import in page.data.imports %}
   <li>
-    <a href="https://github.com/search?l=Jupyter+Notebook&type=Code&q=%22{{ import.import | url_encode }}%22">
+    <a href="https://github.com/search?type=Code&q=%22{{ import.import | url_encode }}%22+extension:py+extension:ipynb" target="_blank">
       <span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.import }}</code>
     </a>
   </li>
