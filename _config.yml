@@ -29,6 +29,9 @@ header_text: >-
 
 twitter_username: cifkao
 github_username: cifkao
+author: Ondřej Cífka
+author_website_text: ondrej.cifka.com
+author_website_link: https://ondrej.cifka.com
 
 # Build settings
 theme: minima
