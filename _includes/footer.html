@@ -13,6 +13,9 @@
               {{ site.author | escape }}
             {%- endif -%}
             </li>
+            {%- if site.author_website_link -%}
+            <li><a class="u-website" href="{{ site.author_website_link }}">{{ site.author_website_text }}</a></li>
+            {%- endif -%}
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
