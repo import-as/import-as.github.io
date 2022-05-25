@@ -27,11 +27,11 @@ url: "https://import-as.github.io" # the base hostname & protocol for your site,
 header_text: >-
   python import shorthands
 
-# Build settings
-theme: minima
-
 twitter_username: cifkao
 github_username: cifkao
+
+# Build settings
+theme: minima
 
 collections:
   import:
