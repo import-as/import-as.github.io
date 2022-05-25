@@ -21,6 +21,7 @@
 title: import as…
 description: >-
   Import statistics collected from public Jupyter notebooks on GitHub.
+  Each repository and each unique file (across repositories) contributes at most once to the overall counts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://import-as.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
