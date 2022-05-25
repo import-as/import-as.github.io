@@ -19,7 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: import as…
-description: ""
+description: >-
+  Import statistics collected from public Jupyter notebooks on GitHub.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://import-as.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -29,10 +30,8 @@ header_text: >-
 # Build settings
 theme: minima
 
-minima:
-  social_links:
-    twitter: cifkao
-    github: cifkao
+twitter_username: cifkao
+github_username: cifkao
 
 collections:
   import:
