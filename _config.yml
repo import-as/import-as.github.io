@@ -29,6 +29,11 @@ header_text: >-
 # Build settings
 theme: minima
 
+minima:
+  social_links:
+    twitter: cifkao
+    github: cifkao
+
 collections:
   import:
     output: true
