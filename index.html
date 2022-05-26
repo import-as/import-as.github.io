@@ -3,9 +3,38 @@ layout: default
 title: Top Python Import Shorthands
 ---
 
+<script>
+  const showMoreCounts = [50, 25, 10, 0];
+  var showMoreIdx = 1;
+
+  document.addEventListener("DOMContentLoaded", function () {
+    for (var i = 1; i < showMoreCounts[0]; i++) {
+      document.querySelectorAll('.import-group[data-count="' + String(i) + '"]').forEach(function (e) {
+        e.classList.add("hidden");
+      });
+    }
+    document.querySelector("#showMore").classList.remove("hidden");
+    document.querySelector(".main-list").classList.add("incomplete");
+
+    document.querySelector("#showMore").addEventListener("click", function () {
+      for (var i = showMoreCounts[showMoreIdx]; i < showMoreCounts[showMoreIdx - 1]; i++) {
+        document.querySelectorAll('.import-group[data-count="' + String(i) + '"]').forEach(function (e) {
+          e.classList.remove("hidden");
+        });
+      }
+      
+      showMoreIdx++;
+      if (showMoreIdx >= showMoreCounts.length) {
+        this.remove();
+        document.querySelector(".main-list").classList.remove("incomplete");
+      }
+    });
+  });
+</script>
+
 <ol class="main-list">
 {% for group in site.data.by_alias %}
-  <li>
+  <li class="import-group" data-count="{{ group.count }}">
     <span class="item-box">
       <code class="alias">{{ group.alias }}</code>
       <span class="count">{{ group.count }}</span>
@@ -13,7 +42,7 @@ title: Top Python Import Shorthands
     <ul class="badge-list">
     {% for import in group.imports %}
       <li>
-	<a href="{{ import.target | prepend: "/import/" | append: ".html" | relative_url }}">
+	      <a href="{{ import.target | prepend: "/import/" | append: ".html" | relative_url }}">
           <span class="count">{{ import.count }}&nbsp;&times;&nbsp;</span><code>{{ import.target }}</code>
         </a>
       </li>
@@ -22,3 +51,7 @@ title: Top Python Import Shorthands
   </li>
 {% endfor %}
 </ol>
+
+<div class="center">
+  <button type="button" id="showMore" class="hidden">Show more</button>
+</div>
