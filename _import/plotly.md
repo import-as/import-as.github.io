@@ -4,14 +4,14 @@ title: import plotly as py
 
 data:
   alias: py
-  count: 14
+  count: 12
   imports:
   - alias: py
-    count: 10
+    count: 9
     import: import plotly as py
     target: plotly
   - alias: pl
-    count: 4
+    count: 3
     import: import plotly as pl
     target: plotly
   target: plotly

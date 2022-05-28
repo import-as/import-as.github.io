@@ -4,26 +4,26 @@ title: import numpy.random as rnd
 
 data:
   alias: rnd
-  count: 94
+  count: 99
   imports:
   - alias: rnd
-    count: 31
+    count: 32
     import: import numpy.random as rnd
     target: numpy.random
   - alias: npr
-    count: 21
+    count: 24
     import: import numpy.random as npr
-    target: numpy.random
-  - alias: rd
-    count: 10
-    import: import numpy.random as rd
     target: numpy.random
   - alias: rng
     count: 10
     import: import numpy.random as rng
     target: numpy.random
+  - alias: rd
+    count: 10
+    import: import numpy.random as rd
+    target: numpy.random
   - alias: rand
-    count: 6
+    count: 7
     import: import numpy.random as rand
     target: numpy.random
   - alias: rng

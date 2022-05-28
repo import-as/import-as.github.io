@@ -4,10 +4,10 @@ title: import panel as pn
 
 data:
   alias: pn
-  count: 7
+  count: 8
   imports:
   - alias: pn
-    count: 7
+    count: 8
     import: import panel as pn
     target: panel
   target: panel

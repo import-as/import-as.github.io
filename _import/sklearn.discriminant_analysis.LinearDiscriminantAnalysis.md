@@ -4,10 +4,10 @@ title: from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as L
 
 data:
   alias: LDA
-  count: 32
+  count: 34
   imports:
   - alias: LDA
-    count: 32
+    count: 34
     import: from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as
       LDA
     target: sklearn.discriminant_analysis.LinearDiscriminantAnalysis

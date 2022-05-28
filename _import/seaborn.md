@@ -4,22 +4,22 @@ title: import seaborn as sns
 
 data:
   alias: sns
-  count: 3033
+  count: 3080
   imports:
   - alias: sns
-    count: 2869
+    count: 2912
     import: import seaborn as sns
     target: seaborn
   - alias: sb
-    count: 91
+    count: 93
     import: import seaborn as sb
     target: seaborn
   - alias: sn
-    count: 42
+    count: 45
     import: import seaborn as sn
     target: seaborn
   - alias: sbn
-    count: 19
+    count: 21
     import: import seaborn as sbn
     target: seaborn
   - alias: sea
@@ -29,10 +29,6 @@ data:
   - alias: snb
     count: 3
     import: import seaborn as snb
-    target: seaborn
-  - alias: sbs
-    count: 3
-    import: import seaborn as sbs
     target: seaborn
   target: seaborn
 ---

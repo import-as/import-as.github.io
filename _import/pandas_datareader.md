@@ -1,18 +1,18 @@
 ---
 layout: target
-title: import pandas_datareader as web
+title: import pandas_datareader as pdr
 
 data:
-  alias: web
-  count: 20
+  alias: pdr
+  count: 22
   imports:
+  - alias: pdr
+    count: 10
+    import: import pandas_datareader as pdr
+    target: pandas_datareader
   - alias: web
     count: 9
     import: import pandas_datareader as web
-    target: pandas_datareader
-  - alias: pdr
-    count: 8
-    import: import pandas_datareader as pdr
     target: pandas_datareader
   - alias: data
     count: 3

@@ -4,18 +4,18 @@ title: import matplotlib.pylab as plt
 
 data:
   alias: plt
-  count: 395
+  count: 407
   imports:
   - alias: plt
-    count: 329
+    count: 340
     import: import matplotlib.pylab as plt
     target: matplotlib.pylab
   - alias: plt
-    count: 42
+    count: 44
     import: from matplotlib import pylab as plt
     target: matplotlib.pylab
   - alias: pl
-    count: 16
+    count: 15
     import: import matplotlib.pylab as pl
     target: matplotlib.pylab
   - alias: mpl

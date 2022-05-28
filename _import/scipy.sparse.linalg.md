@@ -4,10 +4,10 @@ title: import scipy.sparse.linalg as spla
 
 data:
   alias: spla
-  count: 10
+  count: 11
   imports:
   - alias: spla
-    count: 6
+    count: 7
     import: import scipy.sparse.linalg as spla
     target: scipy.sparse.linalg
   - alias: sla

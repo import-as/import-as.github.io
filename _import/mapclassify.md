@@ -4,10 +4,10 @@ title: import mapclassify as mc
 
 data:
   alias: mc
-  count: 5
+  count: 4
   imports:
   - alias: mc
-    count: 5
+    count: 4
     import: import mapclassify as mc
     target: mapclassify
   target: mapclassify

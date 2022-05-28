@@ -4,14 +4,14 @@ title: import pycuda.driver as cuda
 
 data:
   alias: cuda
-  count: 16
+  count: 13
   imports:
   - alias: cuda
-    count: 10
+    count: 8
     import: import pycuda.driver as cuda
     target: pycuda.driver
   - alias: drv
-    count: 6
+    count: 5
     import: import pycuda.driver as drv
     target: pycuda.driver
   target: pycuda.driver

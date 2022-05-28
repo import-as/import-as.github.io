@@ -4,10 +4,10 @@ title: import pandas_datareader.data as web
 
 data:
   alias: web
-  count: 63
+  count: 65
   imports:
   - alias: web
-    count: 52
+    count: 54
     import: import pandas_datareader.data as web
     target: pandas_datareader.data
   - alias: web

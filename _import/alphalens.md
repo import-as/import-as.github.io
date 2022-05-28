@@ -4,10 +4,10 @@ title: import alphalens as al
 
 data:
   alias: al
-  count: 5
+  count: 3
   imports:
   - alias: al
-    count: 5
+    count: 3
     import: import alphalens as al
     target: alphalens
   target: alphalens

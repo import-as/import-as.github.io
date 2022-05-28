@@ -4,14 +4,14 @@ title: import pickle as pkl
 
 data:
   alias: pkl
-  count: 163
+  count: 165
   imports:
   - alias: pkl
-    count: 148
+    count: 151
     import: import pickle as pkl
     target: pickle
   - alias: pk
-    count: 11
+    count: 10
     import: import pickle as pk
     target: pickle
   - alias: p

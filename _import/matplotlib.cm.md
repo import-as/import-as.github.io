@@ -4,14 +4,14 @@ title: import matplotlib.cm as cmx
 
 data:
   alias: cmx
-  count: 47
+  count: 42
   imports:
   - alias: cmx
-    count: 42
+    count: 39
     import: import matplotlib.cm as cmx
     target: matplotlib.cm
   - alias: cmap
-    count: 5
+    count: 3
     import: import matplotlib.cm as cmap
     target: matplotlib.cm
   target: matplotlib.cm

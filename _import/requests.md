@@ -4,18 +4,18 @@ title: import requests as req
 
 data:
   alias: req
-  count: 32
+  count: 33
   imports:
   - alias: req
-    count: 13
+    count: 12
     import: import requests as req
     target: requests
   - alias: rq
-    count: 11
+    count: 12
     import: import requests as rq
     target: requests
   - alias: r
-    count: 8
+    count: 9
     import: import requests as r
     target: requests
   target: requests

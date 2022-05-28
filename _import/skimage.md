@@ -1,18 +1,18 @@
 ---
 layout: target
-title: import skimage as ski
+title: import skimage as sk
 
 data:
-  alias: ski
-  count: 11
+  alias: sk
+  count: 10
   imports:
-  - alias: ski
-    count: 6
-    import: import skimage as ski
-    target: skimage
   - alias: sk
     count: 5
     import: import skimage as sk
+    target: skimage
+  - alias: ski
+    count: 5
+    import: import skimage as ski
     target: skimage
   target: skimage
 ---

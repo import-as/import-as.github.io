@@ -4,10 +4,10 @@ title: import simtk.openmm as mm
 
 data:
   alias: mm
-  count: 20
+  count: 19
   imports:
   - alias: mm
-    count: 16
+    count: 15
     import: import simtk.openmm as mm
     target: simtk.openmm
   - alias: omm

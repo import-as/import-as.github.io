@@ -4,27 +4,27 @@ title: import scipy.stats as st
 
 data:
   alias: st
-  count: 191
+  count: 194
   imports:
   - alias: st
-    count: 78
+    count: 82
     import: import scipy.stats as st
     target: scipy.stats
   - alias: ss
-    count: 45
+    count: 42
     import: import scipy.stats as ss
     target: scipy.stats
   - alias: stat
-    count: 17
+    count: 18
     import: import scipy.stats as stat
+    target: scipy.stats
+  - alias: sp
+    count: 15
+    import: import scipy.stats as sp
     target: scipy.stats
   - alias: sps
     count: 15
     import: import scipy.stats as sps
-    target: scipy.stats
-  - alias: sp
-    count: 14
-    import: import scipy.stats as sp
     target: scipy.stats
   - alias: scs
     count: 7

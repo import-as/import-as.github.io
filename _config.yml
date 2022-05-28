@@ -25,6 +25,8 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://import-as.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+last_updated: 2022-05-28
+
 header_text: >-
   python import shorthands
 

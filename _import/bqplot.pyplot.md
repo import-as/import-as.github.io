@@ -4,18 +4,18 @@ title: import bqplot.pyplot as plt
 
 data:
   alias: plt
-  count: 31
+  count: 26
   imports:
   - alias: plt
-    count: 18
+    count: 13
     import: import bqplot.pyplot as plt
     target: bqplot.pyplot
   - alias: plt
-    count: 10
+    count: 9
     import: from bqplot import pyplot as plt
     target: bqplot.pyplot
   - alias: bqp
-    count: 3
+    count: 4
     import: import bqplot.pyplot as bqp
     target: bqplot.pyplot
   target: bqplot.pyplot

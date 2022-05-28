@@ -1,21 +1,21 @@
 ---
 layout: target
-title: import IPython.display as ipyd
+title: import IPython.display as ipd
 
 data:
-  alias: ipyd
-  count: 42
+  alias: ipd
+  count: 45
   imports:
-  - alias: ipyd
-    count: 15
-    import: import IPython.display as ipyd
-    target: IPython.display
   - alias: ipd
-    count: 14
+    count: 18
     import: import IPython.display as ipd
     target: IPython.display
+  - alias: ipyd
+    count: 13
+    import: import IPython.display as ipyd
+    target: IPython.display
   - alias: disp
-    count: 5
+    count: 6
     import: import IPython.display as disp
     target: IPython.display
   - alias: IPd

@@ -7,32 +7,32 @@ data:
   count: 158
   imports:
   - alias: opt
-    count: 79
+    count: 78
     import: import scipy.optimize as opt
     target: scipy.optimize
   - alias: op
-    count: 23
+    count: 22
     import: import scipy.optimize as op
     target: scipy.optimize
   - alias: so
-    count: 17
+    count: 19
     import: import scipy.optimize as so
     target: scipy.optimize
   - alias: opt
-    count: 16
+    count: 15
     import: from scipy import optimize as opt
     target: scipy.optimize
   - alias: spo
-    count: 9
+    count: 8
     import: import scipy.optimize as spo
+    target: scipy.optimize
+  - alias: sop
+    count: 7
+    import: import scipy.optimize as sop
     target: scipy.optimize
   - alias: sco
     count: 6
     import: import scipy.optimize as sco
-    target: scipy.optimize
-  - alias: sop
-    count: 5
-    import: import scipy.optimize as sop
     target: scipy.optimize
   - alias: sopt
     count: 3

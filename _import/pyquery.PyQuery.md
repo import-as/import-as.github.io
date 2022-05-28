@@ -4,10 +4,10 @@ title: from pyquery import PyQuery as pq
 
 data:
   alias: pq
-  count: 5
+  count: 4
   imports:
   - alias: pq
-    count: 5
+    count: 4
     import: from pyquery import PyQuery as pq
     target: pyquery.PyQuery
   target: pyquery.PyQuery

@@ -4,10 +4,10 @@ title: import scipy.special as sp
 
 data:
   alias: sp
-  count: 21
+  count: 23
   imports:
   - alias: sp
-    count: 11
+    count: 13
     import: import scipy.special as sp
     target: scipy.special
   - alias: ss

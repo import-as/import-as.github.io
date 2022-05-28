@@ -4,10 +4,10 @@ title: import sklearn as sk
 
 data:
   alias: sk
-  count: 94
+  count: 92
   imports:
   - alias: sk
-    count: 71
+    count: 69
     import: import sklearn as sk
     target: sklearn
   - alias: skl

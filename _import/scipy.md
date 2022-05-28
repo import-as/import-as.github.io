@@ -4,14 +4,14 @@ title: import scipy as sp
 
 data:
   alias: sp
-  count: 552
+  count: 550
   imports:
   - alias: sp
-    count: 494
+    count: 490
     import: import scipy as sp
     target: scipy
   - alias: sc
-    count: 39
+    count: 41
     import: import scipy as sc
     target: scipy
   - alias: sci

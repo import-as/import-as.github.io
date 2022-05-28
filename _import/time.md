@@ -4,14 +4,14 @@ title: import time as tm
 
 data:
   alias: tm
-  count: 19
+  count: 23
   imports:
   - alias: tm
-    count: 11
+    count: 14
     import: import time as tm
     target: time
   - alias: t
-    count: 8
+    count: 9
     import: import time as t
     target: time
   target: time

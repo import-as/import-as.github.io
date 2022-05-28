@@ -4,10 +4,10 @@ title: import pandas as pd
 
 data:
   alias: pd
-  count: 7868
+  count: 7927
   imports:
   - alias: pd
-    count: 7833
+    count: 7891
     import: import pandas as pd
     target: pandas
   - alias: pa
@@ -15,8 +15,16 @@ data:
     import: import pandas as pa
     target: pandas
   - alias: p
-    count: 5
+    count: 6
     import: import pandas as p
+    target: pandas
+  - alias: pnd
+    count: 4
+    import: import pandas as pnd
+    target: pandas
+  - alias: pn
+    count: 4
+    import: import pandas as pn
     target: pandas
   - alias: pan
     count: 4
@@ -26,21 +34,13 @@ data:
     count: 4
     import: import pandas as PD
     target: pandas
-  - alias: pn
-    count: 4
-    import: import pandas as pn
-    target: pandas
-  - alias: pnd
-    count: 4
-    import: import pandas as pnd
+  - alias: ps
+    count: 3
+    import: import pandas as ps
     target: pandas
   - alias: pds
     count: 3
     import: import pandas as pds
-    target: pandas
-  - alias: ps
-    count: 3
-    import: import pandas as ps
     target: pandas
   target: pandas
 ---

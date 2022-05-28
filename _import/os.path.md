@@ -7,11 +7,11 @@ data:
   count: 90
   imports:
   - alias: op
-    count: 59
+    count: 58
     import: import os.path as op
     target: os.path
   - alias: osp
-    count: 31
+    count: 32
     import: import os.path as osp
     target: os.path
   target: os.path

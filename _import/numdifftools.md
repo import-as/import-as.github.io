@@ -4,10 +4,10 @@ title: import numdifftools as nd
 
 data:
   alias: nd
-  count: 5
+  count: 6
   imports:
   - alias: nd
-    count: 5
+    count: 6
     import: import numdifftools as nd
     target: numdifftools
   target: numdifftools

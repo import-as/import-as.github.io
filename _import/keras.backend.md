@@ -4,14 +4,14 @@ title: from keras import backend as K
 
 data:
   alias: K
-  count: 388
+  count: 379
   imports:
   - alias: K
-    count: 282
+    count: 275
     import: from keras import backend as K
     target: keras.backend
   - alias: K
-    count: 103
+    count: 101
     import: import keras.backend as K
     target: keras.backend
   - alias: k

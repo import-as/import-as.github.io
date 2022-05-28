@@ -4,10 +4,10 @@ title: import matplotlib.colors as clr
 
 data:
   alias: clr
-  count: 24
+  count: 22
   imports:
   - alias: clr
-    count: 8
+    count: 7
     import: import matplotlib.colors as clr
     target: matplotlib.colors
   - alias: col
@@ -15,7 +15,7 @@ data:
     import: import matplotlib.colors as col
     target: matplotlib.colors
   - alias: clrs
-    count: 6
+    count: 5
     import: import matplotlib.colors as clrs
     target: matplotlib.colors
   - alias: mc

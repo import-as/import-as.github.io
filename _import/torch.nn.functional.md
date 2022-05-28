@@ -4,14 +4,14 @@ title: import torch.nn.functional as F
 
 data:
   alias: F
-  count: 130
+  count: 157
   imports:
   - alias: F
-    count: 119
+    count: 138
     import: import torch.nn.functional as F
     target: torch.nn.functional
   - alias: F
-    count: 11
+    count: 19
     import: from torch.nn import functional as F
     target: torch.nn.functional
   target: torch.nn.functional

@@ -1,18 +1,18 @@
 ---
 layout: target
-title: import plotnine as p9
+title: import plotnine as gg
 
 data:
-  alias: p9
-  count: 10
+  alias: gg
+  count: 13
   imports:
-  - alias: p9
-    count: 6
-    import: import plotnine as p9
-    target: plotnine
   - alias: gg
-    count: 4
+    count: 8
     import: import plotnine as gg
+    target: plotnine
+  - alias: p9
+    count: 5
+    import: import plotnine as p9
     target: plotnine
   target: plotnine
 ---

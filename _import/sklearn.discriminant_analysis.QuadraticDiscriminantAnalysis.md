@@ -5,10 +5,10 @@ title: from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis a
 
 data:
   alias: QDA
-  count: 7
+  count: 9
   imports:
   - alias: QDA
-    count: 7
+    count: 9
     import: from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
       as QDA
     target: sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis

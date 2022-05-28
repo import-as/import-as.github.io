@@ -4,10 +4,10 @@ title: import scipy.linalg as la
 
 data:
   alias: la
-  count: 61
+  count: 64
   imports:
   - alias: la
-    count: 24
+    count: 26
     import: import scipy.linalg as la
     target: scipy.linalg
   - alias: la
@@ -15,32 +15,32 @@ data:
     import: from scipy import linalg as la
     target: scipy.linalg
   - alias: LA
-    count: 7
+    count: 6
     import: import scipy.linalg as LA
+    target: scipy.linalg
+  - alias: sla
+    count: 4
+    import: import scipy.linalg as sla
+    target: scipy.linalg
+  - alias: sl
+    count: 4
+    import: import scipy.linalg as sl
     target: scipy.linalg
   - alias: lin
     count: 4
     import: import scipy.linalg as lin
     target: scipy.linalg
+  - alias: scl
+    count: 3
+    import: import scipy.linalg as scl
+    target: scipy.linalg
   - alias: LA
     count: 3
     import: from scipy import linalg as LA
     target: scipy.linalg
-  - alias: spl
-    count: 3
-    import: import scipy.linalg as spl
-    target: scipy.linalg
   - alias: sp
     count: 3
     import: import scipy.linalg as sp
-    target: scipy.linalg
-  - alias: sla
-    count: 3
-    import: import scipy.linalg as sla
-    target: scipy.linalg
-  - alias: sl
-    count: 3
-    import: import scipy.linalg as sl
     target: scipy.linalg
   target: scipy.linalg
 ---

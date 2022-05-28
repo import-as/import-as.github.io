@@ -4,10 +4,10 @@ title: import autograd.numpy as np
 
 data:
   alias: np
-  count: 37
+  count: 38
   imports:
   - alias: np
-    count: 34
+    count: 35
     import: import autograd.numpy as np
     target: autograd.numpy
   - alias: np

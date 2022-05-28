@@ -4,10 +4,10 @@ title: import scipy.io as sio
 
 data:
   alias: sio
-  count: 87
+  count: 90
   imports:
   - alias: sio
-    count: 79
+    count: 78
     import: import scipy.io as sio
     target: scipy.io
   - alias: spio
@@ -15,8 +15,12 @@ data:
     import: from scipy import io as spio
     target: scipy.io
   - alias: spio
-    count: 3
+    count: 4
     import: import scipy.io as spio
+    target: scipy.io
+  - alias: scio
+    count: 3
+    import: import scipy.io as scio
     target: scipy.io
   target: scipy.io
 ---

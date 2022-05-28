@@ -4,10 +4,10 @@ title: import sklearn.datasets as data
 
 data:
   alias: data
-  count: 17
+  count: 18
   imports:
   - alias: data
-    count: 8
+    count: 9
     import: import sklearn.datasets as data
     target: sklearn.datasets
   - alias: ds

@@ -1,18 +1,18 @@
 ---
 layout: target
-title: from numpy.polynomial import polynomial as P
+title: import numpy.polynomial.polynomial as poly
 
 data:
-  alias: P
-  count: 12
+  alias: poly
+  count: 10
   imports:
-  - alias: P
-    count: 6
-    import: from numpy.polynomial import polynomial as P
-    target: numpy.polynomial.polynomial
   - alias: poly
-    count: 6
+    count: 5
     import: import numpy.polynomial.polynomial as poly
+    target: numpy.polynomial.polynomial
+  - alias: P
+    count: 5
+    import: from numpy.polynomial import polynomial as P
     target: numpy.polynomial.polynomial
   target: numpy.polynomial.polynomial
 ---

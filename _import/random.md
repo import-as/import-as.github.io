@@ -4,23 +4,23 @@ title: import random as rnd
 
 data:
   alias: rnd
-  count: 83
+  count: 84
   imports:
   - alias: rnd
-    count: 31
+    count: 32
     import: import random as rnd
     target: random
   - alias: rd
-    count: 14
+    count: 13
     import: import random as rd
+    target: random
+  - alias: r
+    count: 12
+    import: import random as r
     target: random
   - alias: rand
     count: 11
     import: import random as rand
-    target: random
-  - alias: r
-    count: 11
-    import: import random as r
     target: random
   - alias: rn
     count: 9

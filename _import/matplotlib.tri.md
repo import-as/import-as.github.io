@@ -4,10 +4,10 @@ title: import matplotlib.tri as mtri
 
 data:
   alias: mtri
-  count: 13
+  count: 12
   imports:
   - alias: mtri
-    count: 13
+    count: 12
     import: import matplotlib.tri as mtri
     target: matplotlib.tri
   target: matplotlib.tri

@@ -4,7 +4,7 @@ title: from bs4 import BeautifulSoup as bs
 
 data:
   alias: bs
-  count: 40
+  count: 39
   imports:
   - alias: bs
     count: 31
@@ -15,7 +15,7 @@ data:
     import: from bs4 import BeautifulSoup as Soup
     target: bs4.BeautifulSoup
   - alias: bs4
-    count: 4
+    count: 3
     import: from bs4 import BeautifulSoup as bs4
     target: bs4.BeautifulSoup
   target: bs4.BeautifulSoup

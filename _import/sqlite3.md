@@ -4,10 +4,10 @@ title: import sqlite3 as sql
 
 data:
   alias: sql
-  count: 20
+  count: 21
   imports:
   - alias: sql
-    count: 8
+    count: 9
     import: import sqlite3 as sql
     target: sqlite3
   - alias: lite
