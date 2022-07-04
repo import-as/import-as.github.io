@@ -4,14 +4,14 @@ title: import scipy.sparse as sp
 
 data:
   alias: sp
-  count: 76
+  count: 77
   imports:
   - alias: sp
     count: 52
     import: import scipy.sparse as sp
     target: scipy.sparse
   - alias: sps
-    count: 11
+    count: 12
     import: import scipy.sparse as sps
     target: scipy.sparse
   - alias: sp

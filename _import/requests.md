@@ -1,18 +1,18 @@
 ---
 layout: target
-title: import requests as req
+title: import requests as rq
 
 data:
-  alias: req
+  alias: rq
   count: 33
   imports:
-  - alias: req
-    count: 12
-    import: import requests as req
-    target: requests
   - alias: rq
     count: 12
     import: import requests as rq
+    target: requests
+  - alias: req
+    count: 12
+    import: import requests as req
     target: requests
   - alias: r
     count: 9

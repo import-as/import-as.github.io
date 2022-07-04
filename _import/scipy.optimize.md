@@ -4,10 +4,10 @@ title: import scipy.optimize as opt
 
 data:
   alias: opt
-  count: 158
+  count: 160
   imports:
   - alias: opt
-    count: 78
+    count: 79
     import: import scipy.optimize as opt
     target: scipy.optimize
   - alias: op
@@ -15,7 +15,7 @@ data:
     import: import scipy.optimize as op
     target: scipy.optimize
   - alias: so
-    count: 19
+    count: 20
     import: import scipy.optimize as so
     target: scipy.optimize
   - alias: opt

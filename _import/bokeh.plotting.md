@@ -26,13 +26,13 @@ data:
     count: 3
     import: import bokeh.plotting as bpl
     target: bokeh.plotting
-  - alias: plt
-    count: 3
-    import: import bokeh.plotting as plt
-    target: bokeh.plotting
   - alias: bplt
     count: 3
     import: import bokeh.plotting as bplt
+    target: bokeh.plotting
+  - alias: plt
+    count: 3
+    import: import bokeh.plotting as plt
     target: bokeh.plotting
   target: bokeh.plotting
 ---

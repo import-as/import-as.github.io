@@ -4,10 +4,10 @@ title: import utils as ut
 
 data:
   alias: ut
-  count: 8
+  count: 9
   imports:
   - alias: ut
-    count: 5
+    count: 6
     import: import utils as ut
     target: utils
   - alias: u

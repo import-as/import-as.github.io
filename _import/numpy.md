@@ -4,14 +4,14 @@ title: import numpy as np
 
 data:
   alias: np
-  count: 13023
+  count: 13063
   imports:
   - alias: np
-    count: 12983
+    count: 13021
     import: import numpy as np
     target: numpy
   - alias: onp
-    count: 14
+    count: 16
     import: import numpy as onp
     target: numpy
   - alias: n
@@ -30,13 +30,13 @@ data:
     count: 4
     import: import numpy as py
     target: numpy
-  - alias: _np
-    count: 3
-    import: import numpy as _np
-    target: numpy
   - alias: num
     count: 3
     import: import numpy as num
+    target: numpy
+  - alias: _np
+    count: 3
+    import: import numpy as _np
     target: numpy
   target: numpy
 ---

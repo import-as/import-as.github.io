@@ -4,10 +4,10 @@ title: import pycalphad.variables as v
 
 data:
   alias: v
-  count: 7
+  count: 8
   imports:
   - alias: v
-    count: 4
+    count: 5
     import: import pycalphad.variables as v
     target: pycalphad.variables
   - alias: v

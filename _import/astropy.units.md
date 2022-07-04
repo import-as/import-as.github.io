@@ -4,14 +4,14 @@ title: import astropy.units as u
 
 data:
   alias: u
-  count: 276
+  count: 274
   imports:
   - alias: u
-    count: 152
+    count: 151
     import: import astropy.units as u
     target: astropy.units
   - alias: u
-    count: 121
+    count: 120
     import: from astropy import units as u
     target: astropy.units
   - alias: au

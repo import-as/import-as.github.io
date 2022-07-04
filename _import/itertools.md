@@ -4,10 +4,10 @@ title: import itertools as it
 
 data:
   alias: it
-  count: 86
+  count: 87
   imports:
   - alias: it
-    count: 70
+    count: 71
     import: import itertools as it
     target: itertools
   - alias: itt

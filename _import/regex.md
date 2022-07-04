@@ -4,10 +4,10 @@ title: import regex as re
 
 data:
   alias: re
-  count: 7
+  count: 8
   imports:
   - alias: re
-    count: 7
+    count: 8
     import: import regex as re
     target: regex
   target: regex

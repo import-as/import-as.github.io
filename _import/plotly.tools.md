@@ -4,10 +4,10 @@ title: import plotly.tools as tls
 
 data:
   alias: tls
-  count: 59
+  count: 58
   imports:
   - alias: tls
-    count: 56
+    count: 55
     import: import plotly.tools as tls
     target: plotly.tools
   - alias: tls

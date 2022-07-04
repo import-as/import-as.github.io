@@ -4,10 +4,10 @@ title: import statsmodels.formula.api as smf
 
 data:
   alias: smf
-  count: 228
+  count: 229
   imports:
   - alias: smf
-    count: 184
+    count: 185
     import: import statsmodels.formula.api as smf
     target: statsmodels.formula.api
   - alias: sm

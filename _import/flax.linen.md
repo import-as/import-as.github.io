@@ -4,10 +4,10 @@ title: from flax import linen as nn
 
 data:
   alias: nn
-  count: 18
+  count: 19
   imports:
   - alias: nn
-    count: 12
+    count: 13
     import: from flax import linen as nn
     target: flax.linen
   - alias: nn

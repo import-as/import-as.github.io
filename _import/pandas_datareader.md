@@ -4,14 +4,14 @@ title: import pandas_datareader as pdr
 
 data:
   alias: pdr
-  count: 22
+  count: 23
   imports:
   - alias: pdr
     count: 10
     import: import pandas_datareader as pdr
     target: pandas_datareader
   - alias: web
-    count: 9
+    count: 10
     import: import pandas_datareader as web
     target: pandas_datareader
   - alias: data

@@ -4,10 +4,10 @@ title: import scipy.integrate as si
 
 data:
   alias: si
-  count: 10
+  count: 11
   imports:
   - alias: si
-    count: 7
+    count: 8
     import: import scipy.integrate as si
     target: scipy.integrate
   - alias: spi

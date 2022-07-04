@@ -4,7 +4,7 @@ title: import scipy.stats as st
 
 data:
   alias: st
-  count: 194
+  count: 193
   imports:
   - alias: st
     count: 82
@@ -27,7 +27,7 @@ data:
     import: import scipy.stats as sps
     target: scipy.stats
   - alias: scs
-    count: 7
+    count: 6
     import: import scipy.stats as scs
     target: scipy.stats
   - alias: st

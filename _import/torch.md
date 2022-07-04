@@ -1,15 +1,11 @@
 ---
 layout: target
-title: import torch as th
+title: import torch as t
 
 data:
-  alias: th
-  count: 6
+  alias: t
+  count: 3
   imports:
-  - alias: th
-    count: 3
-    import: import torch as th
-    target: torch
   - alias: t
     count: 3
     import: import torch as t

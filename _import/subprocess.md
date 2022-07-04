@@ -4,7 +4,7 @@ title: import subprocess as sp
 
 data:
   alias: sp
-  count: 19
+  count: 16
   imports:
   - alias: sp
     count: 13
@@ -13,10 +13,6 @@ data:
   - alias: sub
     count: 3
     import: import subprocess as sub
-    target: subprocess
-  - alias: sb
-    count: 3
-    import: import subprocess as sb
     target: subprocess
   target: subprocess
 ---

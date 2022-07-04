@@ -4,14 +4,14 @@ title: import matplotlib.pyplot as plt
 
 data:
   alias: plt
-  count: 12451
+  count: 12509
   imports:
   - alias: plt
-    count: 10687
+    count: 10735
     import: import matplotlib.pyplot as plt
     target: matplotlib.pyplot
   - alias: plt
-    count: 1539
+    count: 1547
     import: from matplotlib import pyplot as plt
     target: matplotlib.pyplot
   - alias: pl
@@ -22,13 +22,13 @@ data:
     count: 43
     import: import matplotlib.pyplot as plot
     target: matplotlib.pyplot
+  - alias: mplt
+    count: 13
+    import: import matplotlib.pyplot as mplt
+    target: matplotlib.pyplot
   - alias: mpl
     count: 12
     import: import matplotlib.pyplot as mpl
-    target: matplotlib.pyplot
-  - alias: mplt
-    count: 11
-    import: import matplotlib.pyplot as mplt
     target: matplotlib.pyplot
   - alias: pp
     count: 11
@@ -54,13 +54,13 @@ data:
     count: 4
     import: import matplotlib.pyplot as PLT
     target: matplotlib.pyplot
-  - alias: plot
-    count: 4
-    import: from matplotlib import pyplot as plot
-    target: matplotlib.pyplot
   - alias: plt1
     count: 4
     import: import matplotlib.pyplot as plt1
+    target: matplotlib.pyplot
+  - alias: plot
+    count: 4
+    import: from matplotlib import pyplot as plot
     target: matplotlib.pyplot
   target: matplotlib.pyplot
 ---

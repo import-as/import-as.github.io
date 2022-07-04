@@ -18,13 +18,13 @@ data:
     count: 5
     import: import scipy.signal as sps
     target: scipy.signal
-  - alias: sig
-    count: 4
-    import: from scipy import signal as sig
-    target: scipy.signal
   - alias: sg
     count: 4
     import: from scipy import signal as sg
+    target: scipy.signal
+  - alias: sig
+    count: 4
+    import: from scipy import signal as sig
     target: scipy.signal
   target: scipy.signal
 ---

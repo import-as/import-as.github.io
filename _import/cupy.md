@@ -4,10 +4,10 @@ title: import cupy as cp
 
 data:
   alias: cp
-  count: 3
+  count: 4
   imports:
   - alias: cp
-    count: 3
+    count: 4
     import: import cupy as cp
     target: cupy
   target: cupy

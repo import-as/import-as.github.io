@@ -4,10 +4,10 @@ title: import plotly.figure_factory as ff
 
 data:
   alias: ff
-  count: 40
+  count: 39
   imports:
   - alias: ff
-    count: 33
+    count: 32
     import: import plotly.figure_factory as ff
     target: plotly.figure_factory
   - alias: FF

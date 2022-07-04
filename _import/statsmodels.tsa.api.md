@@ -4,10 +4,10 @@ title: import statsmodels.tsa.api as smt
 
 data:
   alias: smt
-  count: 13
+  count: 12
   imports:
   - alias: smt
-    count: 8
+    count: 7
     import: import statsmodels.tsa.api as smt
     target: statsmodels.tsa.api
   - alias: tsa
